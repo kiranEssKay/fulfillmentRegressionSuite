@@ -1,0 +1,37 @@
+{
+	"request": {
+		"actionType": "newOrder",
+		"data": {
+			"items": [{
+				"price": 25.0,
+				"img": "https://thetasteoforegon.files.wordpress.com/2009/09/bowl-of-apples-21.jpg",
+				"id": 266,
+				"name": "Thums Up",
+				"qty": 1,
+				"unit": "100gm"
+			}, {
+				"price": 25.0,
+				"img": "https://thetasteoforegon.files.wordpress.com/2009/09/bowl-of-apples-21.jpg",
+				"id": 264,
+				"name": "Cadbury 5 Star Fruit And Nut",
+				"qty": 1,
+				"unit": "100gm"
+			}],
+			"scheduledTime": "2016-03-08T10:45:00",
+			"originalMerchantId": "Dhoni",
+			"stationId": 1234,
+			"fe": {
+				"phone": "9953639777",
+				"name": "Saurabh510"
+			},
+			"crm": {
+				"phone": "8732838372",
+				"name": "abhinav"
+			}
+		}
+	},
+	"response": {
+		"message": "order Auto%d is submitted!",
+		"success": true
+	}
+}

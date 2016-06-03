@@ -1,0 +1,17 @@
+{
+  "request": {
+
+    "id" : "1003",
+    "merchantType" : 1
+  },
+  "response": {
+    "message": "Merchant added successfully!",
+    "data": {
+      "cityId": "jaipur",
+      "merchantType": 1,
+      "name": "QAJaipur4",
+      "id": "1003"
+    },
+    "success": true
+  }
+}

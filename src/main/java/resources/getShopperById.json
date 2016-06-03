@@ -1,0 +1,22 @@
+{
+"response": {
+
+  "message": "shopper 4904445116678144 fetched successfully!",
+  "data": [
+    {
+      "numOrders": "--",
+      "name": "Sk",
+      "completedOrders": "--",
+      "mobileNo": "9686642940",
+      "payroll": null,
+      "cityId": "jaipur",
+      "currentOrder": "--",
+      "stationId": null,
+      "stateCode": 1,
+      "createdBy": null,
+      "id": 4904445116678144
+    }
+  ],
+  "success": true
+}
+}

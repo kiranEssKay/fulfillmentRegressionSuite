@@ -1,0 +1,23 @@
+{
+  "response": {
+
+    "message": "shoppers fetched!",
+    "data": [
+      {
+        "numOrders": "--",
+        "name": "QASaurabh2",
+        "completedOrders": "--",
+        "mobileNo": "7568031284",
+        "payroll": null,
+        "cityId": "jaipur",
+        "currentOrder": "--",
+        "stationId": null,
+        "stateCode": 1,
+        "createdBy": null,
+        "id": 5668100972216320
+      }
+    ],
+    "success": true
+  }
+}
+}
