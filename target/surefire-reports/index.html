@@ -935,7 +935,7 @@ data[23]   actual: &quot;&quot;
                   <a name="ResetMerchantThresholdTest">
                   </a> <!-- ResetMerchantThresholdTest -->
                   <span class="method-name">ResetMerchantThresholdTest</span>
-                  <div class="stack-trace">java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80
+                  <div class="stack-trace">java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:805:0:0:0:2011:80
 	at okhttp3.internal.io.RealConnection.connectSocket(RealConnection.java:142)
 	at okhttp3.internal.io.RealConnection.connect(RealConnection.java:111)
 	at okhttp3.internal.http.StreamAllocation.findConnection(StreamAllocation.java:188)
@@ -976,7 +976,7 @@ Expected: null
 expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;
 
 	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:49)
+	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:50)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1031,7 +1031,7 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/kiransk/Documents/retailauto/Shopper/testng.xml</span>
+            <span class="header-content">/Users/kiransk/Documents/retailauto/ShopperAutomationScripts/ShopperAutomation/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -1094,31 +1094,31 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ResetMerchantThresholdTest')
 data.setCell(0, 2, 'apiTests.ResetMerchantThreshold')
-data.setCell(0, 3, 10029);
+data.setCell(0, 3, 10033);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'InsertOrderTest')
-data.setCell(1, 2, 'apiTests.InsertOrder')
-data.setCell(1, 3, 1696);
+data.setCell(1, 1, 'UpdateMerchantTypeTest')
+data.setCell(1, 2, 'apiTests.UpdateMerchantType')
+data.setCell(1, 3, 2041);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GetShoppersByIdTest')
-data.setCell(2, 2, 'apiTests.GetShoppersById')
-data.setCell(2, 3, 1531);
+data.setCell(2, 1, 'FeAssignmentTest')
+data.setCell(2, 2, 'apiTests.FeAssignment')
+data.setCell(2, 3, 1724);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'GetShopperByMerchantIdTest')
-data.setCell(3, 2, 'apiTests.GetShopperByMerchantId')
-data.setCell(3, 3, 926);
+data.setCell(3, 1, 'InsertOrderTest')
+data.setCell(3, 2, 'apiTests.InsertOrder')
+data.setCell(3, 3, 1384);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'FeAssignmentTest')
-data.setCell(4, 2, 'apiTests.FeAssignment')
-data.setCell(4, 3, 823);
+data.setCell(4, 1, 'CrmAssignmentTest')
+data.setCell(4, 2, 'apiTests.CrmAssignment')
+data.setCell(4, 3, 1331);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'GetShopperBuCityIdTest')
 data.setCell(5, 2, 'apiTests.GetShopperBuCityId')
-data.setCell(5, 3, 747);
+data.setCell(5, 3, 951);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'UpdateMerchantTypeTest')
-data.setCell(6, 2, 'apiTests.UpdateMerchantType')
-data.setCell(6, 3, 614);
+data.setCell(6, 1, 'GetShopperByMerchantIdTest')
+data.setCell(6, 2, 'apiTests.GetShopperByMerchantId')
+data.setCell(6, 3, 519);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'UpdateMerchantThresholdTest')
 data.setCell(7, 2, 'apiTests.UpdateMerchantThreshold')
@@ -1126,20 +1126,20 @@ data.setCell(7, 3, 508);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'GetQueuedOrdersTest')
 data.setCell(8, 2, 'apiTests.GetQueuedOrders')
-data.setCell(8, 3, 502);
+data.setCell(8, 3, 490);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'CrmAssignmentTest')
-data.setCell(9, 2, 'apiTests.CrmAssignment')
-data.setCell(9, 3, 410);
+data.setCell(9, 1, 'GetMerchantsDetailTest')
+data.setCell(9, 2, 'apiTests.GetMerchantsDetail')
+data.setCell(9, 3, 433);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'GetMerchantsDetailTest')
-data.setCell(10, 2, 'apiTests.GetMerchantsDetail')
-data.setCell(10, 3, 356);
+data.setCell(10, 1, 'GetShoppersByIdTest')
+data.setCell(10, 2, 'apiTests.GetShoppersById')
+data.setCell(10, 3, 408);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1216,7 +1216,7 @@ return data;
               <span class="reporter-method-name">CrmAssignmentTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Verify the response of CrmAssignment Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Base U`RL is http://test-grofers-hp.appspot.com</span>
                 <span class="reporter-method-output">http response code is not 200. </span>
                 <span class="reporter-method-output">Test Status of CrmAssignment Api :  FAIL  </span>
               </div> <!-- reporter-method-output-div -->
@@ -1268,7 +1268,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">GetMerchantsDetailTest</span>
-                <span class="method-start">826 ms</span>
+                <span class="method-start">1735 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1277,7 +1277,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">GetQueuedOrdersTest</span>
-                <span class="method-start">1183 ms</span>
+                <span class="method-start">2169 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1286,14 +1286,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">ResetMerchantThresholdTest</span>
-                <span class="method-start">1686 ms</span>
+                <span class="method-start">2660 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.UpdateMerchantType</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantTypeTest</span>
-                <span class="method-start">11721 ms</span>
+                <span class="method-start">12701 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1302,14 +1302,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">GetShopperBuCityIdTest</span>
-                <span class="method-start">12336 ms</span>
+                <span class="method-start">14743 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.InsertOrder</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">InsertOrderTest</span>
-                <span class="method-start">13096 ms</span>
+                <span class="method-start">15706 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1318,7 +1318,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">GetShopperByMerchantIdTest</span>
-                <span class="method-start">14792 ms</span>
+                <span class="method-start">17091 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1327,14 +1327,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">GetShoppersByIdTest</span>
-                <span class="method-start">15721 ms</span>
+                <span class="method-start">17614 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.UpdateMerchantThreshold</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantThresholdTest</span>
-                <span class="method-start">17253 ms</span>
+                <span class="method-start">18023 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1343,7 +1343,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">CrmAssignmentTest</span>
-                <span class="method-start">17762 ms</span>
+                <span class="method-start">18531 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

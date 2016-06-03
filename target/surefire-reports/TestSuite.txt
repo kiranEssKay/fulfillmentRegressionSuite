@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 19.234 sec <<< FAILURE! - in TestSuite
-FeAssignmentTest(apiTests.FeAssignment)  Time elapsed: 0.825 sec  <<< FAILURE!
+Tests run: 11, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 20.729 sec <<< FAILURE! - in TestSuite
+FeAssignmentTest(apiTests.FeAssignment)  Time elapsed: 1.734 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: null
   Actual: FeAssignmentResponse<message="fe updated successfully for order Saurabh%d", success=true>
@@ -17,7 +17,7 @@ Expected: null
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
 	at apiTests.FeAssignment.FeAssignmentTest(FeAssignment.java:56)
 
-GetMerchantsDetailTest(apiTests.GetMerchantsDetail)  Time elapsed: 0.356 sec  <<< FAILURE!
+GetMerchantsDetailTest(apiTests.GetMerchantsDetail)  Time elapsed: 0.431 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: GetMerchantsDetailResponse<message="Merchants fetched!", merchants=[Merchant<merchantThresholdTime=900.0, name="QAJaipur4", id="1003">], success=true>
   Actual: GetMerchantsDetailResponse<message="Merchants fetched!", merchants=[Merchant<merchantThresholdTime=null, name="QAJaipur4", id="1003">], success=true>
@@ -44,7 +44,7 @@ merchants[0].merchantThresholdTime   actual: null
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
 	at apiTests.GetMerchantsDetail.GetMerchantsDetailTest(GetMerchantsDetail.java:43)
 
-GetQueuedOrdersTest(apiTests.GetQueuedOrders)  Time elapsed: 0.502 sec  <<< FAILURE!
+GetQueuedOrdersTest(apiTests.GetQueuedOrders)  Time elapsed: 0.491 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: null
   Actual: GetQueuedOrdersResponse<message="orders Task Added to Queue ", success=true>
@@ -55,10 +55,10 @@ expected: null, actual: GetQueuedOrdersResponse<message="orders Task Added to Qu
 	at junit.framework.Assert.fail(Assert.java:50)
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:136)
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
-	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:49)
+	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:50)
 
-ResetMerchantThresholdTest(apiTests.ResetMerchantThreshold)  Time elapsed: 10.034 sec  <<< FAILURE!
-java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80
+ResetMerchantThresholdTest(apiTests.ResetMerchantThreshold)  Time elapsed: 10.041 sec  <<< FAILURE!
+java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:805:0:0:0:2011:80
 	at okhttp3.internal.io.RealConnection.connectSocket(RealConnection.java:142)
 	at okhttp3.internal.io.RealConnection.connect(RealConnection.java:111)
 	at okhttp3.internal.http.StreamAllocation.findConnection(StreamAllocation.java:188)
@@ -75,7 +75,7 @@ java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404
 	at retrofit2.OkHttpCall.execute(OkHttpCall.java:174)
 	at apiTests.ResetMerchantThreshold.ResetMerchantThresholdTest(ResetMerchantThreshold.java:32)
 
-GetShopperBuCityIdTest(apiTests.GetShopperBuCityId)  Time elapsed: 0.769 sec  <<< FAILURE!
+GetShopperBuCityIdTest(apiTests.GetShopperBuCityId)  Time elapsed: 0.988 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: ShopperByCityIdResponse<message="shoppers fetched!", data=[Datum<numOrders="0", name="Sk", completedOrders="0", mobileNo="9686642941", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="4904445116678144">, Datum<numOrders="0", name="Sahil", completedOrders="0", mobileNo="8058695344", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="4905593080905728">, Datum<numOrders="0", name="saurabh Tester11", completedOrders="0", mobileNo="1234445555", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5094657339949056">, Datum<numOrders="0", name="Saurabh Tester2", completedOrders="0", mobileNo="7368031285", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5167746945908736">, Datum<numOrders="0", name="Saurabh Tester3", completedOrders="0", mobileNo="7868031285", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5172775815741440">, Datum<numOrders="0", name="Saurabh Tester5", completedOrders="0", mobileNo="7868031247", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5176692825915392">, Datum<numOrders="0", name="Saurabh Tester7", completedOrders="0", mobileNo="7868081247", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5252924737323008">, Datum<numOrders="0", name="OnCall", completedOrders="0", mobileNo="9148981148", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="5361126808223744">, Datum<numOrders="0", name="Saurabh Tester4", completedOrders="0", mobileNo="7868031245", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5491729750818816">, Datum<numOrders="0", name="QASaurabh2", completedOrders="0", mobileNo="7568031284", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="5668100972216320">, Datum<numOrders="0", name="Saurabh Tester9", completedOrders="0", mobileNo="7869981247", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5684372455817216">, Datum<numOrders="0", name="Saurabh Tester6", completedOrders="0", mobileNo="7868041247", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5688083307560960">, Datum<numOrders="0", name="Saurabh Tester100", completedOrders="0", mobileNo="1001000100", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5733307635466240">, Datum<numOrders="0", name="NavdeepAuriga", completedOrders="0", mobileNo="9108876517", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="5736044737593344">, Datum<numOrders="0", name="Saurabh Tester10", completedOrders="0", mobileNo="7869231247", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=-1, createdBy=null, id="5759482843889664">, ...], success=true>
   Actual: ShopperByCityIdResponse<message="shoppers fetched!", data=[Datum<numOrders="--", name="Sk", completedOrders="--", mobileNo="9686642940", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="4904445116678144">, Datum<numOrders="--", name="Sahil", completedOrders="--", mobileNo="8058695344", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="4905593080905728">, Datum<numOrders="--", name="saurabh Tester11", completedOrders="--", mobileNo="1234445555", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5094657339949056">, Datum<numOrders="--", name="Saurabh Tester2", completedOrders="--", mobileNo="7368031285", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5167746945908736">, Datum<numOrders="--", name="Saurabh Tester3", completedOrders="--", mobileNo="7868031285", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5172775815741440">, Datum<numOrders="--", name="Saurabh Tester5", completedOrders="--", mobileNo="7868031247", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5176692825915392">, Datum<numOrders="--", name="Saurabh Tester7", completedOrders="--", mobileNo="7868081247", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5252924737323008">, Datum<numOrders="--", name="Saurabh Tester4", completedOrders="--", mobileNo="7868031245", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5491729750818816">, Datum<numOrders="--", name="QASaurabh2", completedOrders="--", mobileNo="7568031284", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="5668100972216320">, Datum<numOrders="--", name="Saurabh Tester9", completedOrders="--", mobileNo="7869981247", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5684372455817216">, Datum<numOrders="--", name="Saurabh Tester6", completedOrders="--", mobileNo="7868041247", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5688083307560960">, Datum<numOrders="--", name="Saurabh Tester100", completedOrders="--", mobileNo="1001000100", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5733307635466240">, Datum<numOrders="--", name="NavdeepAuriga", completedOrders="--", mobileNo="9108876517", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="5736044737593344">, Datum<numOrders="--", name="Saurabh Tester10", completedOrders="--", mobileNo="7869231247", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=-1, createdBy=null, id="5759482843889664">, Datum<numOrders="--", name="QASaurabh", completedOrders="--", mobileNo="7791823335", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="5933932872728576">, ...], success=true>
@@ -603,7 +603,7 @@ data[23]   actual: ""
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
 	at apiTests.GetShopperBuCityId.GetShopperBuCityIdTest(GetShopperBuCityId.java:41)
 
-GetShopperByMerchantIdTest(apiTests.GetShopperByMerchantId)  Time elapsed: 0.929 sec  <<< FAILURE!
+GetShopperByMerchantIdTest(apiTests.GetShopperByMerchantId)  Time elapsed: 0.524 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: ShopperByMerchantIdResponse<message="shoppers fetched!", data=[Datum<numOrders="0", name="QASaurabh", completedOrders="0", mobileNo="7791823335", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="5933932872728576">], success=true>
   Actual: ShopperByMerchantIdResponse<message="shoppers fetched!", data=[Datum<numOrders="--", name="QASaurabh2", completedOrders="--", mobileNo="7568031284", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="5668100972216320">], success=true>
@@ -650,7 +650,7 @@ data[0].currentOrder   actual: "--"
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
 	at apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest(GetShopperByMerchantId.java:41)
 
-GetShoppersByIdTest(apiTests.GetShoppersById)  Time elapsed: 1.53 sec  <<< FAILURE!
+GetShoppersByIdTest(apiTests.GetShoppersById)  Time elapsed: 0.404 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: ShopperByIdResponse<message="shopper 4904445116678144 fetched successfully!", data=[Datum<numOrders="0", name="Sk", completedOrders="0", mobileNo="9686642941", payroll=null, cityId="jaipur", currentOrder="0", stationId=null, stateCode=1, createdBy=null, id="4904445116678144">], success=true>
   Actual: ShopperByIdResponse<message="shopper 4904445116678144 fetched successfully!", data=[Datum<numOrders="--", name="Sk", completedOrders="--", mobileNo="9686642940", payroll=null, cityId="jaipur", currentOrder="--", stationId=null, stateCode=1, createdBy=null, id="4904445116678144">], success=true>
@@ -689,7 +689,7 @@ data[0].currentOrder   actual: "--"
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
 	at apiTests.GetShoppersById.GetShoppersByIdTest(GetShoppersById.java:43)
 
-CrmAssignmentTest(apiTests.CrmAssignment)  Time elapsed: 0.411 sec  <<< FAILURE!
+CrmAssignmentTest(apiTests.CrmAssignment)  Time elapsed: 1.331 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: 
 Expected: null
   Actual: CrmAssignmentResponse<message="crm updated successfully for order Saurabh%d", success=true>
