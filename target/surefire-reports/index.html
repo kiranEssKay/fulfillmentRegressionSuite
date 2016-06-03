@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,56 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 8 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.CrmAssignment" hash-for-method="CrmAssignmentTest">CrmAssignmentTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.FeAssignment" hash-for-method="FeAssignmentTest">FeAssignmentTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetMerchantsDetail" hash-for-method="GetMerchantsDetailTest">GetMerchantsDetailTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetQueuedOrders" hash-for-method="GetQueuedOrdersTest">GetQueuedOrdersTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetShopperBuCityId" hash-for-method="GetShopperBuCityIdTest">GetShopperBuCityIdTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetShopperByMerchantId" hash-for-method="GetShopperByMerchantIdTest">GetShopperByMerchantIdTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetShoppersById" hash-for-method="GetShoppersByIdTest">GetShoppersByIdTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.ResetMerchantThreshold" hash-for-method="ResetMerchantThresholdTest">ResetMerchantThresholdTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -175,825 +126,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.GetShoppersById</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetShoppersByIdTest">
-                  </a> <!-- GetShoppersByIdTest -->
-                  <span class="method-name">GetShoppersByIdTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: ShopperByIdResponse&lt;message=&quot;shopper 4904445116678144 fetched successfully!&quot;, data=[Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;], success=true&gt;
-  Actual: ShopperByIdResponse&lt;message=&quot;shopper 4904445116678144 fetched successfully!&quot;, data=[Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;], success=true&gt;
-
---- Found following differences ---
-data[0].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[0].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[0].mobileNo: expected: &quot;9686642941&quot;, actual: &quot;9686642940&quot;
-data[0].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-
---- Difference detail tree ---
- expected: ShopperByIdResponse&lt;message=&quot;shopper 4904445116678144 fetched successfully!&quot;, data=[Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;], success=true&gt;
-   actual: ShopperByIdResponse&lt;message=&quot;shopper 4904445116678144 fetched successfully!&quot;, data=[Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;], success=true&gt;
-
-data expected: [Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;]
-data   actual: [Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;]
-
-data[0] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;
-data[0]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;
-
-data[0].numOrders expected: &quot;0&quot;
-data[0].numOrders   actual: &quot;--&quot;
-
-data[0].completedOrders expected: &quot;0&quot;
-data[0].completedOrders   actual: &quot;--&quot;
-
-data[0].mobileNo expected: &quot;9686642941&quot;
-data[0].mobileNo   actual: &quot;9686642940&quot;
-
-data[0].currentOrder expected: &quot;0&quot;
-data[0].currentOrder   actual: &quot;--&quot;
-
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetShoppersById.GetShoppersByIdTest(GetShoppersById.java:43)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.FeAssignment</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FeAssignmentTest">
-                  </a> <!-- FeAssignmentTest -->
-                  <span class="method-name">FeAssignmentTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: null
-  Actual: FeAssignmentResponse&lt;message=&quot;fe updated successfully for order Saurabh%d&quot;, success=true&gt;
-
---- Found following differences ---
- expected: null
-   actual: FeAssignmentResponse&lt;message=&quot;fe updated successfully for order Saurabh%d&quot;, success=true&gt;
-
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.FeAssignment.FeAssignmentTest(FeAssignment.java:56)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.GetMerchantsDetail</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetMerchantsDetailTest">
-                  </a> <!-- GetMerchantsDetailTest -->
-                  <span class="method-name">GetMerchantsDetailTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: GetMerchantsDetailResponse&lt;message=&quot;Merchants fetched!&quot;, merchants=[Merchant&lt;merchantThresholdTime=900.0, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;], success=true&gt;
-  Actual: GetMerchantsDetailResponse&lt;message=&quot;Merchants fetched!&quot;, merchants=[Merchant&lt;merchantThresholdTime=null, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;], success=true&gt;
-
---- Found following differences ---
-merchants[0].merchantThresholdTime: expected: 900.0, actual: null
-
---- Difference detail tree ---
- expected: GetMerchantsDetailResponse&lt;message=&quot;Merchants fetched!&quot;, merchants=[Merchant&lt;merchantThresholdTime=900.0, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;], success=true&gt;
-   actual: GetMerchantsDetailResponse&lt;message=&quot;Merchants fetched!&quot;, merchants=[Merchant&lt;merchantThresholdTime=null, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;], success=true&gt;
-
-merchants expected: [Merchant&lt;merchantThresholdTime=900.0, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;]
-merchants   actual: [Merchant&lt;merchantThresholdTime=null, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;]
-
-merchants[0] expected: Merchant&lt;merchantThresholdTime=900.0, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;
-merchants[0]   actual: Merchant&lt;merchantThresholdTime=null, name=&quot;QAJaipur4&quot;, id=&quot;1003&quot;&gt;
-
-merchants[0].merchantThresholdTime expected: 900.0
-merchants[0].merchantThresholdTime   actual: null
-
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetMerchantsDetail.GetMerchantsDetailTest(GetMerchantsDetail.java:43)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.GetShopperByMerchantId</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetShopperByMerchantIdTest">
-                  </a> <!-- GetShopperByMerchantIdTest -->
-                  <span class="method-name">GetShopperByMerchantIdTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: ShopperByMerchantIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;], success=true&gt;
-  Actual: ShopperByMerchantIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;], success=true&gt;
-
---- Found following differences ---
-data[0].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[0].name: expected: &quot;QASaurabh&quot;, actual: &quot;QASaurabh2&quot;
-data[0].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[0].mobileNo: expected: &quot;7791823335&quot;, actual: &quot;7568031284&quot;
-data[0].id: expected: &quot;5933932872728576&quot;, actual: &quot;5668100972216320&quot;
-data[0].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-
---- Difference detail tree ---
- expected: ShopperByMerchantIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;], success=true&gt;
-   actual: ShopperByMerchantIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;], success=true&gt;
-
-data expected: [Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;]
-data   actual: [Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;]
-
-data[0] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;
-data[0]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;
-
-data[0].numOrders expected: &quot;0&quot;
-data[0].numOrders   actual: &quot;--&quot;
-
-data[0].name expected: &quot;QASaurabh&quot;
-data[0].name   actual: &quot;QASaurabh2&quot;
-
-data[0].completedOrders expected: &quot;0&quot;
-data[0].completedOrders   actual: &quot;--&quot;
-
-data[0].mobileNo expected: &quot;7791823335&quot;
-data[0].mobileNo   actual: &quot;7568031284&quot;
-
-data[0].id expected: &quot;5933932872728576&quot;
-data[0].id   actual: &quot;5668100972216320&quot;
-
-data[0].currentOrder expected: &quot;0&quot;
-data[0].currentOrder   actual: &quot;--&quot;
-
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest(GetShopperByMerchantId.java:41)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.CrmAssignment</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CrmAssignmentTest">
-                  </a> <!-- CrmAssignmentTest -->
-                  <span class="method-name">CrmAssignmentTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: null
-  Actual: CrmAssignmentResponse&lt;message=&quot;crm updated successfully for order Saurabh%d&quot;, success=true&gt;
-
---- Found following differences ---
- expected: null
-   actual: CrmAssignmentResponse&lt;message=&quot;crm updated successfully for order Saurabh%d&quot;, success=true&gt;
-
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.CrmAssignment.CrmAssignmentTest(CrmAssignment.java:56)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.GetShopperBuCityId</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetShopperBuCityIdTest">
-                  </a> <!-- GetShopperBuCityIdTest -->
-                  <span class="method-name">GetShopperBuCityIdTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: ShopperByCityIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;OnCall&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9148981148&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5361126808223744&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;, ...], success=true&gt;
-  Actual: ShopperByCityIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;, ...], success=true&gt;
-
---- Found following differences ---
-data[0].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[0].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[0].mobileNo: expected: &quot;9686642941&quot;, actual: &quot;9686642940&quot;
-data[0].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[1].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[1].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[1].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[2].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[2].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[2].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[3].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[3].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[3].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[4].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[4].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[4].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[5].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[5].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[5].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[6].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[6].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[6].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[7].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[7].name: expected: &quot;OnCall&quot;, actual: &quot;Saurabh Tester4&quot;
-data[7].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[7].stateCode: expected: 1, actual: -1
-data[7].mobileNo: expected: &quot;9148981148&quot;, actual: &quot;7868031245&quot;
-data[7].id: expected: &quot;5361126808223744&quot;, actual: &quot;5491729750818816&quot;
-data[7].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[8].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[8].name: expected: &quot;Saurabh Tester4&quot;, actual: &quot;QASaurabh2&quot;
-data[8].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[8].stateCode: expected: -1, actual: 1
-data[8].mobileNo: expected: &quot;7868031245&quot;, actual: &quot;7568031284&quot;
-data[8].id: expected: &quot;5491729750818816&quot;, actual: &quot;5668100972216320&quot;
-data[8].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[9].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[9].name: expected: &quot;QASaurabh2&quot;, actual: &quot;Saurabh Tester9&quot;
-data[9].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[9].stateCode: expected: 1, actual: -1
-data[9].mobileNo: expected: &quot;7568031284&quot;, actual: &quot;7869981247&quot;
-data[9].id: expected: &quot;5668100972216320&quot;, actual: &quot;5684372455817216&quot;
-data[9].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[10].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[10].name: expected: &quot;Saurabh Tester9&quot;, actual: &quot;Saurabh Tester6&quot;
-data[10].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[10].mobileNo: expected: &quot;7869981247&quot;, actual: &quot;7868041247&quot;
-data[10].id: expected: &quot;5684372455817216&quot;, actual: &quot;5688083307560960&quot;
-data[10].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[11].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[11].name: expected: &quot;Saurabh Tester6&quot;, actual: &quot;Saurabh Tester100&quot;
-data[11].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[11].mobileNo: expected: &quot;7868041247&quot;, actual: &quot;1001000100&quot;
-data[11].id: expected: &quot;5688083307560960&quot;, actual: &quot;5733307635466240&quot;
-data[11].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[12].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[12].name: expected: &quot;Saurabh Tester100&quot;, actual: &quot;NavdeepAuriga&quot;
-data[12].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[12].stateCode: expected: -1, actual: 1
-data[12].mobileNo: expected: &quot;1001000100&quot;, actual: &quot;9108876517&quot;
-data[12].id: expected: &quot;5733307635466240&quot;, actual: &quot;5736044737593344&quot;
-data[12].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[13].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[13].name: expected: &quot;NavdeepAuriga&quot;, actual: &quot;Saurabh Tester10&quot;
-data[13].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[13].stateCode: expected: 1, actual: -1
-data[13].mobileNo: expected: &quot;9108876517&quot;, actual: &quot;7869231247&quot;
-data[13].id: expected: &quot;5736044737593344&quot;, actual: &quot;5759482843889664&quot;
-data[13].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[14].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[14].name: expected: &quot;Saurabh Tester10&quot;, actual: &quot;QASaurabh&quot;
-data[14].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[14].stateCode: expected: -1, actual: 1
-data[14].mobileNo: expected: &quot;7869231247&quot;, actual: &quot;7791823335&quot;
-data[14].id: expected: &quot;5759482843889664&quot;, actual: &quot;5933932872728576&quot;
-data[14].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[15].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[15].name: expected: &quot;QASaurabh&quot;, actual: &quot;Saurabh&quot;
-data[15].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[15].stateCode: expected: 1, actual: -1
-data[15].mobileNo: expected: &quot;7791823335&quot;, actual: &quot;9599855555&quot;
-data[15].id: expected: &quot;5933932872728576&quot;, actual: &quot;5935030303981568&quot;
-data[15].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[16].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[16].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[16].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[17].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[17].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[17].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[18].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[18].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[18].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[19].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[19].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[19].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[20].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[20].name: expected: &quot;Test100&quot;, actual: &quot;Saurabh Tester12&quot;
-data[20].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[20].mobileNo: expected: &quot;1111111111&quot;, actual: &quot;8969231247&quot;
-data[20].id: expected: &quot;6227917713440768&quot;, actual: &quot;6296286110154752&quot;
-data[20].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[21].numOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[21].name: expected: &quot;Saurabh Tester12&quot;, actual: &quot;QASaurabh100&quot;
-data[21].completedOrders: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[21].mobileNo: expected: &quot;8969231247&quot;, actual: &quot;9660752415&quot;
-data[21].id: expected: &quot;6296286110154752&quot;, actual: &quot;6623937354006528&quot;
-data[21].currentOrder: expected: &quot;0&quot;, actual: &quot;--&quot;
-data[22]:
- expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9660752415&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6623937354006528&quot;&gt;
-   actual: --no match--
-
-data[23]:
- expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;SaurabhGrofers&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9929790000&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6667926375497728&quot;&gt;
-   actual: --no match--
-
-
---- Difference detail tree ---
- expected: ShopperByCityIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;OnCall&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9148981148&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5361126808223744&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;, ...], success=true&gt;
-   actual: ShopperByCityIdResponse&lt;message=&quot;shoppers fetched!&quot;, data=[Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;, ...], success=true&gt;
-
-data expected: [Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;OnCall&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9148981148&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5361126808223744&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;, Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;, ...]
-data   actual: [Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;, Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;, ...]
-
-data[0] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sk&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9686642941&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;
-data[0]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sk&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9686642940&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4904445116678144&quot;&gt;
-
-data[0].numOrders expected: &quot;0&quot;
-data[0].numOrders   actual: &quot;--&quot;
-
-data[0].completedOrders expected: &quot;0&quot;
-data[0].completedOrders   actual: &quot;--&quot;
-
-data[0].mobileNo expected: &quot;9686642941&quot;
-data[0].mobileNo   actual: &quot;9686642940&quot;
-
-data[0].currentOrder expected: &quot;0&quot;
-data[0].currentOrder   actual: &quot;--&quot;
-
-data[1] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;
-data[1]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Sahil&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;8058695344&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;4905593080905728&quot;&gt;
-
-data[1].numOrders expected: &quot;0&quot;
-data[1].numOrders   actual: &quot;--&quot;
-
-data[1].completedOrders expected: &quot;0&quot;
-data[1].completedOrders   actual: &quot;--&quot;
-
-data[1].currentOrder expected: &quot;0&quot;
-data[1].currentOrder   actual: &quot;--&quot;
-
-data[2] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;
-data[2]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;saurabh Tester11&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1234445555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5094657339949056&quot;&gt;
-
-data[2].numOrders expected: &quot;0&quot;
-data[2].numOrders   actual: &quot;--&quot;
-
-data[2].completedOrders expected: &quot;0&quot;
-data[2].completedOrders   actual: &quot;--&quot;
-
-data[2].currentOrder expected: &quot;0&quot;
-data[2].currentOrder   actual: &quot;--&quot;
-
-data[3] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;
-data[3]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7368031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5167746945908736&quot;&gt;
-
-data[3].numOrders expected: &quot;0&quot;
-data[3].numOrders   actual: &quot;--&quot;
-
-data[3].completedOrders expected: &quot;0&quot;
-data[3].completedOrders   actual: &quot;--&quot;
-
-data[3].currentOrder expected: &quot;0&quot;
-data[3].currentOrder   actual: &quot;--&quot;
-
-data[4] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;
-data[4]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester3&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031285&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5172775815741440&quot;&gt;
-
-data[4].numOrders expected: &quot;0&quot;
-data[4].numOrders   actual: &quot;--&quot;
-
-data[4].completedOrders expected: &quot;0&quot;
-data[4].completedOrders   actual: &quot;--&quot;
-
-data[4].currentOrder expected: &quot;0&quot;
-data[4].currentOrder   actual: &quot;--&quot;
-
-data[5] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;
-data[5]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester5&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5176692825915392&quot;&gt;
-
-data[5].numOrders expected: &quot;0&quot;
-data[5].numOrders   actual: &quot;--&quot;
-
-data[5].completedOrders expected: &quot;0&quot;
-data[5].completedOrders   actual: &quot;--&quot;
-
-data[5].currentOrder expected: &quot;0&quot;
-data[5].currentOrder   actual: &quot;--&quot;
-
-data[6] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;
-data[6]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester7&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5252924737323008&quot;&gt;
-
-data[6].numOrders expected: &quot;0&quot;
-data[6].numOrders   actual: &quot;--&quot;
-
-data[6].completedOrders expected: &quot;0&quot;
-data[6].completedOrders   actual: &quot;--&quot;
-
-data[6].currentOrder expected: &quot;0&quot;
-data[6].currentOrder   actual: &quot;--&quot;
-
-data[7] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;OnCall&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9148981148&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5361126808223744&quot;&gt;
-data[7]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;
-
-data[7].numOrders expected: &quot;0&quot;
-data[7].numOrders   actual: &quot;--&quot;
-
-data[7].name expected: &quot;OnCall&quot;
-data[7].name   actual: &quot;Saurabh Tester4&quot;
-
-data[7].completedOrders expected: &quot;0&quot;
-data[7].completedOrders   actual: &quot;--&quot;
-
-data[7].stateCode expected: 1
-data[7].stateCode   actual: -1
-
-data[7].mobileNo expected: &quot;9148981148&quot;
-data[7].mobileNo   actual: &quot;7868031245&quot;
-
-data[7].id expected: &quot;5361126808223744&quot;
-data[7].id   actual: &quot;5491729750818816&quot;
-
-data[7].currentOrder expected: &quot;0&quot;
-data[7].currentOrder   actual: &quot;--&quot;
-
-data[8] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester4&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868031245&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5491729750818816&quot;&gt;
-data[8]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;
-
-data[8].numOrders expected: &quot;0&quot;
-data[8].numOrders   actual: &quot;--&quot;
-
-data[8].name expected: &quot;Saurabh Tester4&quot;
-data[8].name   actual: &quot;QASaurabh2&quot;
-
-data[8].completedOrders expected: &quot;0&quot;
-data[8].completedOrders   actual: &quot;--&quot;
-
-data[8].stateCode expected: -1
-data[8].stateCode   actual: 1
-
-data[8].mobileNo expected: &quot;7868031245&quot;
-data[8].mobileNo   actual: &quot;7568031284&quot;
-
-data[8].id expected: &quot;5491729750818816&quot;
-data[8].id   actual: &quot;5668100972216320&quot;
-
-data[8].currentOrder expected: &quot;0&quot;
-data[8].currentOrder   actual: &quot;--&quot;
-
-data[9] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh2&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7568031284&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5668100972216320&quot;&gt;
-data[9]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;
-
-data[9].numOrders expected: &quot;0&quot;
-data[9].numOrders   actual: &quot;--&quot;
-
-data[9].name expected: &quot;QASaurabh2&quot;
-data[9].name   actual: &quot;Saurabh Tester9&quot;
-
-data[9].completedOrders expected: &quot;0&quot;
-data[9].completedOrders   actual: &quot;--&quot;
-
-data[9].stateCode expected: 1
-data[9].stateCode   actual: -1
-
-data[9].mobileNo expected: &quot;7568031284&quot;
-data[9].mobileNo   actual: &quot;7869981247&quot;
-
-data[9].id expected: &quot;5668100972216320&quot;
-data[9].id   actual: &quot;5684372455817216&quot;
-
-data[9].currentOrder expected: &quot;0&quot;
-data[9].currentOrder   actual: &quot;--&quot;
-
-data[10] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester9&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869981247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5684372455817216&quot;&gt;
-data[10]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;
-
-data[10].numOrders expected: &quot;0&quot;
-data[10].numOrders   actual: &quot;--&quot;
-
-data[10].name expected: &quot;Saurabh Tester9&quot;
-data[10].name   actual: &quot;Saurabh Tester6&quot;
-
-data[10].completedOrders expected: &quot;0&quot;
-data[10].completedOrders   actual: &quot;--&quot;
-
-data[10].mobileNo expected: &quot;7869981247&quot;
-data[10].mobileNo   actual: &quot;7868041247&quot;
-
-data[10].id expected: &quot;5684372455817216&quot;
-data[10].id   actual: &quot;5688083307560960&quot;
-
-data[10].currentOrder expected: &quot;0&quot;
-data[10].currentOrder   actual: &quot;--&quot;
-
-data[11] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester6&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7868041247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5688083307560960&quot;&gt;
-data[11]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;
-
-data[11].numOrders expected: &quot;0&quot;
-data[11].numOrders   actual: &quot;--&quot;
-
-data[11].name expected: &quot;Saurabh Tester6&quot;
-data[11].name   actual: &quot;Saurabh Tester100&quot;
-
-data[11].completedOrders expected: &quot;0&quot;
-data[11].completedOrders   actual: &quot;--&quot;
-
-data[11].mobileNo expected: &quot;7868041247&quot;
-data[11].mobileNo   actual: &quot;1001000100&quot;
-
-data[11].id expected: &quot;5688083307560960&quot;
-data[11].id   actual: &quot;5733307635466240&quot;
-
-data[11].currentOrder expected: &quot;0&quot;
-data[11].currentOrder   actual: &quot;--&quot;
-
-data[12] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1001000100&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5733307635466240&quot;&gt;
-data[12]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;
-
-data[12].numOrders expected: &quot;0&quot;
-data[12].numOrders   actual: &quot;--&quot;
-
-data[12].name expected: &quot;Saurabh Tester100&quot;
-data[12].name   actual: &quot;NavdeepAuriga&quot;
-
-data[12].completedOrders expected: &quot;0&quot;
-data[12].completedOrders   actual: &quot;--&quot;
-
-data[12].stateCode expected: -1
-data[12].stateCode   actual: 1
-
-data[12].mobileNo expected: &quot;1001000100&quot;
-data[12].mobileNo   actual: &quot;9108876517&quot;
-
-data[12].id expected: &quot;5733307635466240&quot;
-data[12].id   actual: &quot;5736044737593344&quot;
-
-data[12].currentOrder expected: &quot;0&quot;
-data[12].currentOrder   actual: &quot;--&quot;
-
-data[13] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;NavdeepAuriga&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9108876517&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5736044737593344&quot;&gt;
-data[13]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;
-
-data[13].numOrders expected: &quot;0&quot;
-data[13].numOrders   actual: &quot;--&quot;
-
-data[13].name expected: &quot;NavdeepAuriga&quot;
-data[13].name   actual: &quot;Saurabh Tester10&quot;
-
-data[13].completedOrders expected: &quot;0&quot;
-data[13].completedOrders   actual: &quot;--&quot;
-
-data[13].stateCode expected: 1
-data[13].stateCode   actual: -1
-
-data[13].mobileNo expected: &quot;9108876517&quot;
-data[13].mobileNo   actual: &quot;7869231247&quot;
-
-data[13].id expected: &quot;5736044737593344&quot;
-data[13].id   actual: &quot;5759482843889664&quot;
-
-data[13].currentOrder expected: &quot;0&quot;
-data[13].currentOrder   actual: &quot;--&quot;
-
-data[14] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester10&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5759482843889664&quot;&gt;
-data[14]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;
-
-data[14].numOrders expected: &quot;0&quot;
-data[14].numOrders   actual: &quot;--&quot;
-
-data[14].name expected: &quot;Saurabh Tester10&quot;
-data[14].name   actual: &quot;QASaurabh&quot;
-
-data[14].completedOrders expected: &quot;0&quot;
-data[14].completedOrders   actual: &quot;--&quot;
-
-data[14].stateCode expected: -1
-data[14].stateCode   actual: 1
-
-data[14].mobileNo expected: &quot;7869231247&quot;
-data[14].mobileNo   actual: &quot;7791823335&quot;
-
-data[14].id expected: &quot;5759482843889664&quot;
-data[14].id   actual: &quot;5933932872728576&quot;
-
-data[14].currentOrder expected: &quot;0&quot;
-data[14].currentOrder   actual: &quot;--&quot;
-
-data[15] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7791823335&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=1, createdBy=null, id=&quot;5933932872728576&quot;&gt;
-data[15]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9599855555&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5935030303981568&quot;&gt;
-
-data[15].numOrders expected: &quot;0&quot;
-data[15].numOrders   actual: &quot;--&quot;
-
-data[15].name expected: &quot;QASaurabh&quot;
-data[15].name   actual: &quot;Saurabh&quot;
-
-data[15].completedOrders expected: &quot;0&quot;
-data[15].completedOrders   actual: &quot;--&quot;
-
-data[15].stateCode expected: 1
-data[15].stateCode   actual: -1
-
-data[15].mobileNo expected: &quot;7791823335&quot;
-data[15].mobileNo   actual: &quot;9599855555&quot;
-
-data[15].id expected: &quot;5933932872728576&quot;
-data[15].id   actual: &quot;5935030303981568&quot;
-
-data[15].currentOrder expected: &quot;0&quot;
-data[15].currentOrder   actual: &quot;--&quot;
-
-data[16] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh10&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1234567890&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5992794258669568&quot;&gt;
-data[16]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh10&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;1234567890&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;5992794258669568&quot;&gt;
-
-data[16].numOrders expected: &quot;0&quot;
-data[16].numOrders   actual: &quot;--&quot;
-
-data[16].completedOrders expected: &quot;0&quot;
-data[16].completedOrders   actual: &quot;--&quot;
-
-data[16].currentOrder expected: &quot;0&quot;
-data[16].currentOrder   actual: &quot;--&quot;
-
-data[17] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh101&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9660752421&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6002990309703680&quot;&gt;
-data[17]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh101&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9660752421&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6002990309703680&quot;&gt;
-
-data[17].numOrders expected: &quot;0&quot;
-data[17].numOrders   actual: &quot;--&quot;
-
-data[17].completedOrders expected: &quot;0&quot;
-data[17].completedOrders   actual: &quot;--&quot;
-
-data[17].currentOrder expected: &quot;0&quot;
-data[17].currentOrder   actual: &quot;--&quot;
-
-data[18] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh3&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9929790015&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6024598827040768&quot;&gt;
-data[18]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh3&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9929790015&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6024598827040768&quot;&gt;
-
-data[18].numOrders expected: &quot;0&quot;
-data[18].numOrders   actual: &quot;--&quot;
-
-data[18].completedOrders expected: &quot;0&quot;
-data[18].completedOrders   actual: &quot;--&quot;
-
-data[18].currentOrder expected: &quot;0&quot;
-data[18].currentOrder   actual: &quot;--&quot;
-
-data[19] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester8&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;7869081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6221938078777344&quot;&gt;
-data[19]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester8&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;7869081247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6221938078777344&quot;&gt;
-
-data[19].numOrders expected: &quot;0&quot;
-data[19].numOrders   actual: &quot;--&quot;
-
-data[19].completedOrders expected: &quot;0&quot;
-data[19].completedOrders   actual: &quot;--&quot;
-
-data[19].currentOrder expected: &quot;0&quot;
-data[19].currentOrder   actual: &quot;--&quot;
-
-data[20] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Test100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;1111111111&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6227917713440768&quot;&gt;
-data[20]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;Saurabh Tester12&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;8969231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6296286110154752&quot;&gt;
-
-data[20].numOrders expected: &quot;0&quot;
-data[20].numOrders   actual: &quot;--&quot;
-
-data[20].name expected: &quot;Test100&quot;
-data[20].name   actual: &quot;Saurabh Tester12&quot;
-
-data[20].completedOrders expected: &quot;0&quot;
-data[20].completedOrders   actual: &quot;--&quot;
-
-data[20].mobileNo expected: &quot;1111111111&quot;
-data[20].mobileNo   actual: &quot;8969231247&quot;
-
-data[20].id expected: &quot;6227917713440768&quot;
-data[20].id   actual: &quot;6296286110154752&quot;
-
-data[20].currentOrder expected: &quot;0&quot;
-data[20].currentOrder   actual: &quot;--&quot;
-
-data[21] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;Saurabh Tester12&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;8969231247&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6296286110154752&quot;&gt;
-data[21]   actual: Datum&lt;numOrders=&quot;--&quot;, name=&quot;QASaurabh100&quot;, completedOrders=&quot;--&quot;, mobileNo=&quot;9660752415&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;--&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6623937354006528&quot;&gt;
-
-data[21].numOrders expected: &quot;0&quot;
-data[21].numOrders   actual: &quot;--&quot;
-
-data[21].name expected: &quot;Saurabh Tester12&quot;
-data[21].name   actual: &quot;QASaurabh100&quot;
-
-data[21].completedOrders expected: &quot;0&quot;
-data[21].completedOrders   actual: &quot;--&quot;
-
-data[21].mobileNo expected: &quot;8969231247&quot;
-data[21].mobileNo   actual: &quot;9660752415&quot;
-
-data[21].id expected: &quot;6296286110154752&quot;
-data[21].id   actual: &quot;6623937354006528&quot;
-
-data[21].currentOrder expected: &quot;0&quot;
-data[21].currentOrder   actual: &quot;--&quot;
-
-data[22] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;QASaurabh100&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9660752415&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6623937354006528&quot;&gt;
-data[22]   actual: &quot;&quot;
-
-data[23] expected: Datum&lt;numOrders=&quot;0&quot;, name=&quot;SaurabhGrofers&quot;, completedOrders=&quot;0&quot;, mobileNo=&quot;9929790000&quot;, payroll=null, cityId=&quot;jaipur&quot;, currentOrder=&quot;0&quot;, stationId=null, stateCode=-1, createdBy=null, id=&quot;6667926375497728&quot;&gt;
-data[23]   actual: &quot;&quot;
-
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetShopperBuCityId.GetShopperBuCityIdTest(GetShopperBuCityId.java:41)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.ResetMerchantThreshold</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ResetMerchantThresholdTest">
-                  </a> <!-- ResetMerchantThresholdTest -->
-                  <span class="method-name">ResetMerchantThresholdTest</span>
-                  <div class="stack-trace">java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:805:0:0:0:2011:80
-	at okhttp3.internal.io.RealConnection.connectSocket(RealConnection.java:142)
-	at okhttp3.internal.io.RealConnection.connect(RealConnection.java:111)
-	at okhttp3.internal.http.StreamAllocation.findConnection(StreamAllocation.java:188)
-	at okhttp3.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:127)
-	at okhttp3.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
-	at okhttp3.internal.http.HttpEngine.connect(HttpEngine.java:289)
-	at okhttp3.internal.http.HttpEngine.sendRequest(HttpEngine.java:241)
-	at okhttp3.RealCall.getResponse(RealCall.java:240)
-	at okhttp3.RealCall$ApplicationInterceptorChain.proceed(RealCall.java:198)
-	at retrofit.ServiceGenerator$1.intercept(ServiceGenerator.java:26)
-	at okhttp3.RealCall$ApplicationInterceptorChain.proceed(RealCall.java:187)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:160)
-	at okhttp3.RealCall.execute(RealCall.java:57)
-	at retrofit2.OkHttpCall.execute(OkHttpCall.java:174)
-	at apiTests.ResetMerchantThreshold.ResetMerchantThresholdTest(ResetMerchantThreshold.java:32)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.GetQueuedOrders</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetQueuedOrdersTest">
-                  </a> <!-- GetQueuedOrdersTest -->
-                  <span class="method-name">GetQueuedOrdersTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: null
-  Actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;
-
---- Found following differences ---
-expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:50)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.InsertOrder</span>
+              <span class="class-name">apiTests.UpdateMerchantThreshold</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="InsertOrderTest">
-                  </a> <!-- InsertOrderTest -->
-                  <span class="method-name">InsertOrderTest</span>
+                  <a name="UpdateMerchantThresholdTest">
+                  </a> <!-- UpdateMerchantThresholdTest -->
+                  <span class="method-name">UpdateMerchantThresholdTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1016,14 +159,14 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.UpdateMerchantThreshold</span>
+              <span class="class-name">apiTests.InsertOrder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UpdateMerchantThresholdTest">
-                  </a> <!-- UpdateMerchantThresholdTest -->
-                  <span class="method-name">UpdateMerchantThresholdTest</span>
+                  <a name="InsertOrderTest">
+                  </a> <!-- InsertOrderTest -->
+                  <span class="method-name">InsertOrderTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1040,17 +183,9 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
 &lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;apiTests.FeAssignment&quot;/&gt;
-      &lt;class name=&quot;apiTests.GetMerchantsDetail&quot;/&gt;
-      &lt;class name=&quot;apiTests.GetQueuedOrders&quot;/&gt;
-      &lt;class name=&quot;apiTests.ResetMerchantThreshold&quot;/&gt;
       &lt;class name=&quot;apiTests.UpdateMerchantType&quot;/&gt;
-      &lt;class name=&quot;apiTests.GetShopperBuCityId&quot;/&gt;
       &lt;class name=&quot;apiTests.InsertOrder&quot;/&gt;
-      &lt;class name=&quot;apiTests.GetShopperByMerchantId&quot;/&gt;
-      &lt;class name=&quot;apiTests.GetShoppersById&quot;/&gt;
       &lt;class name=&quot;apiTests.UpdateMerchantThreshold&quot;/&gt;
-      &lt;class name=&quot;apiTests.CrmAssignment&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -1064,7 +199,7 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (11 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1090,56 +225,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ResetMerchantThresholdTest')
-data.setCell(0, 2, 'apiTests.ResetMerchantThreshold')
-data.setCell(0, 3, 10033);
+data.setCell(0, 1, 'UpdateMerchantTypeTest')
+data.setCell(0, 2, 'apiTests.UpdateMerchantType')
+data.setCell(0, 3, 1169);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'UpdateMerchantTypeTest')
-data.setCell(1, 2, 'apiTests.UpdateMerchantType')
-data.setCell(1, 3, 2041);
+data.setCell(1, 1, 'InsertOrderTest')
+data.setCell(1, 2, 'apiTests.InsertOrder')
+data.setCell(1, 3, 1062);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'FeAssignmentTest')
-data.setCell(2, 2, 'apiTests.FeAssignment')
-data.setCell(2, 3, 1724);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'InsertOrderTest')
-data.setCell(3, 2, 'apiTests.InsertOrder')
-data.setCell(3, 3, 1384);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'CrmAssignmentTest')
-data.setCell(4, 2, 'apiTests.CrmAssignment')
-data.setCell(4, 3, 1331);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'GetShopperBuCityIdTest')
-data.setCell(5, 2, 'apiTests.GetShopperBuCityId')
-data.setCell(5, 3, 951);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'GetShopperByMerchantIdTest')
-data.setCell(6, 2, 'apiTests.GetShopperByMerchantId')
-data.setCell(6, 3, 519);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'UpdateMerchantThresholdTest')
-data.setCell(7, 2, 'apiTests.UpdateMerchantThreshold')
-data.setCell(7, 3, 508);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'GetQueuedOrdersTest')
-data.setCell(8, 2, 'apiTests.GetQueuedOrders')
-data.setCell(8, 3, 490);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'GetMerchantsDetailTest')
-data.setCell(9, 2, 'apiTests.GetMerchantsDetail')
-data.setCell(9, 3, 433);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'GetShoppersByIdTest')
-data.setCell(10, 2, 'apiTests.GetShoppersById')
-data.setCell(10, 3, 408);
+data.setCell(2, 1, 'UpdateMerchantThresholdTest')
+data.setCell(2, 2, 'apiTests.UpdateMerchantThreshold')
+data.setCell(2, 3, 531);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1160,15 +263,6 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">UpdateMerchantThresholdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of UpdateMerchantThreshold Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of UpdateMerchantThreshold Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">InsertOrderTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Verify the response of InsertOrder Api.</span>
@@ -1178,65 +272,12 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">ResetMerchantThresholdTest</span>
+              <span class="reporter-method-name">UpdateMerchantThresholdTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of ResetMerchantThreshold Api.</span>
+                <span class="reporter-method-output">Verify the response of UpdateMerchantThreshold Api.</span>
                 <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetMerchantsDetailTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetMerchantsDetail Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetShopperByMerchantIdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetShopperByMerchantId Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetShopperBuCityIdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetShopperBuCityId Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetShoppersByIdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetShoppersById Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">CrmAssignmentTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of CrmAssignment Api.</span>
-                <span class="reporter-method-output">Base U`RL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">http response code is not 200. </span>
-                <span class="reporter-method-output">Test Status of CrmAssignment Api :  FAIL  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FeAssignmentTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of FeAssignment Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">http response code is not 200. </span>
-                <span class="reporter-method-output">Test Status of FeAssignment Api :  FAIL  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetQueuedOrdersTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetQueuedOrders Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">http response code is not 200. </span>
-                <span class="reporter-method-output">Test Status of GetQueuedOrders Api :  FAIL  </span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of UpdateMerchantThreshold Api :  PASS  </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1254,96 +295,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.FeAssignment</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">FeAssignmentTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetMerchantsDetail</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">GetMerchantsDetailTest</span>
-                <span class="method-start">1735 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetQueuedOrders</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">GetQueuedOrdersTest</span>
-                <span class="method-start">2169 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.ResetMerchantThreshold</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">ResetMerchantThresholdTest</span>
-                <span class="method-start">2660 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">apiTests.UpdateMerchantType</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantTypeTest</span>
-                <span class="method-start">12701 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetShopperBuCityId</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">GetShopperBuCityIdTest</span>
-                <span class="method-start">14743 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.InsertOrder</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">InsertOrderTest</span>
-                <span class="method-start">15706 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetShopperByMerchantId</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">GetShopperByMerchantIdTest</span>
-                <span class="method-start">17091 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetShoppersById</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">GetShoppersByIdTest</span>
-                <span class="method-start">17614 ms</span>
+                <span class="method-start">1171 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.UpdateMerchantThreshold</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantThresholdTest</span>
-                <span class="method-start">18023 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.CrmAssignment</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">CrmAssignmentTest</span>
-                <span class="method-start">18531 ms</span>
+                <span class="method-start">2234 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
