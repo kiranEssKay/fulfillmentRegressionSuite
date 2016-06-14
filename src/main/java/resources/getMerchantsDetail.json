@@ -3,7 +3,7 @@
     "message": "Merchants fetched!",
     "merchants": [
       {
-        "merchantThresholdTime": null,
+        "merchantThresholdTime": 900.0,
         "name": "QAJaipur4",
         "id": "1003"
       }

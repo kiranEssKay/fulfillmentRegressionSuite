@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
+      <class name="apiTests.GetQueuedOrders">
+        <methods>
+          <include name="GetQueuedOrdersTest"/>
+        </methods>
+      </class> <!-- apiTests.GetQueuedOrders -->
+      <class name="apiTests.ResetMerchantThreshold">
+        <methods>
+          <include name="ResetMerchantThresholdTest"/>
+        </methods>
+      </class> <!-- apiTests.ResetMerchantThreshold -->
       <class name="apiTests.CrmAssignment">
         <methods>
           <include name="CrmAssignmentTest"/>
         </methods>
       </class> <!-- apiTests.CrmAssignment -->
+      <class name="apiTests.FeAssignment">
+        <methods>
+          <include name="FeAssignmentTest"/>
+        </methods>
+      </class> <!-- apiTests.FeAssignment -->
+      <class name="apiTests.GetMerchantsDetail">
+        <methods>
+          <include name="GetMerchantsDetailTest"/>
+        </methods>
+      </class> <!-- apiTests.GetMerchantsDetail -->
+      <class name="apiTests.GetShopperBuCityId">
+        <methods>
+          <include name="GetShopperBuCityIdTest"/>
+        </methods>
+      </class> <!-- apiTests.GetShopperBuCityId -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

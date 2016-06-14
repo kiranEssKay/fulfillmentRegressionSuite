@@ -5,7 +5,7 @@
     "merchantType" : 1
   },
   "response": {
-    "message": "Merchant added successfully!",
+    "message": "Merchant Updated Successfully",
     "data": {
       "cityId": "jaipur",
       "merchantType": 1,

@@ -1,14 +1,1 @@
-/apiTests/
-/getMerchantsDetail/
-/getShopperByCityId/
-/getShopperById/
-/getShopperByMerchantId/
-/postCrmAssignment/
-/postFeAssignment/
-/postGetQueuedUrders/
-/postInsertOrder/
-/postResetMerchantThreshold/
-/postUpdateMerchantThreshold/
-/postUpdateMerchantType/
-/retrofit/
-/utils/
+/resources/
