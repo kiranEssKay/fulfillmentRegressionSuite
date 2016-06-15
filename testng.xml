@@ -3,17 +3,15 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-      <class name="apiTests.FeAssignment"/>
+      
       <class name="apiTests.GetMerchantsDetail"/>
-      <class name="apiTests.GetQueuedOrders"/>
-      <class name="apiTests.ResetMerchantThreshold"/>
-      <class name="apiTests.UpdateMerchantType"/>
-      <class name="apiTests.GetShopperBuCityId"/>
+ 
+  
       <class name="apiTests.InsertOrder"/>
       <class name="apiTests.GetShopperByMerchantId"/>
       <class name="apiTests.GetShoppersById"/>
       <class name="apiTests.UpdateMerchantThreshold"/>
-      <class name="apiTests.CrmAssignment"/>
+  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
