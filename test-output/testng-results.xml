@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
       <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
@@ -12,6 +12,30 @@
     </line>
     <line>
       <![CDATA[Test Status of GetMerchantsDetail Api :  PASS  ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the response of UpdateMerchantType Api.]]>
+    </line>
+    <line>
+      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+    </line>
+    <line>
+      <![CDATA[Expected and Actual response are same.  ]]>
+    </line>
+    <line>
+      <![CDATA[Test Status of UpdateMerchantType Api :  PASS  ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
+    </line>
+    <line>
+      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+    </line>
+    <line>
+      <![CDATA[Expected and Actual response are same.  ]]>
+    </line>
+    <line>
+      <![CDATA[Test Status of ShopperByCityId Api :  PASS  ]]>
     </line>
     <line>
       <![CDATA[Verify the response of InsertOrder Api.]]>
@@ -62,12 +86,30 @@
       <![CDATA[Test Status of UpdateMerchantThreshold Api :  PASS  ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="6384" started-at="2016-06-15T12:02:46Z" finished-at="2016-06-15T12:02:53Z">
+  <suite name="Suite" duration-ms="4376" started-at="2016-06-17T07:30:27Z" finished-at="2016-06-17T07:30:31Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6384" started-at="2016-06-15T12:02:46Z" finished-at="2016-06-15T12:02:53Z">
+    <test name="Test" duration-ms="4376" started-at="2016-06-17T07:30:27Z" finished-at="2016-06-17T07:30:31Z">
+      <class name="apiTests.GetShopperBuCityId">
+        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@4cdbe50f]" name="GetShopperBuCityIdTest" duration-ms="501" started-at="2016-06-17T13:00:29Z" finished-at="2016-06-17T13:00:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
+            </line>
+            <line>
+              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+            </line>
+            <line>
+              <![CDATA[Expected and Actual response are same.  ]]>
+            </line>
+            <line>
+              <![CDATA[Test Status of ShopperByCityId Api :  PASS  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetShopperBuCityIdTest -->
+      </class> <!-- apiTests.GetShopperBuCityId -->
       <class name="apiTests.UpdateMerchantThreshold">
-        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.UpdateMerchantThreshold@6adca536]" name="UpdateMerchantThresholdTest" duration-ms="611" started-at="2016-06-15T17:32:52Z" finished-at="2016-06-15T17:32:53Z">
+        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.UpdateMerchantThreshold@7cf10a6f]" name="UpdateMerchantThresholdTest" duration-ms="322" started-at="2016-06-17T13:00:31Z" finished-at="2016-06-17T13:00:31Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of UpdateMerchantThreshold Api.]]>
@@ -85,7 +127,7 @@
         </test-method> <!-- UpdateMerchantThresholdTest -->
       </class> <!-- apiTests.UpdateMerchantThreshold -->
       <class name="apiTests.GetMerchantsDetail">
-        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@4cdbe50f]" name="GetMerchantsDetailTest" duration-ms="2828" started-at="2016-06-15T17:32:46Z" finished-at="2016-06-15T17:32:49Z">
+        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@7e0babb1]" name="GetMerchantsDetailTest" duration-ms="1266" started-at="2016-06-17T13:00:27Z" finished-at="2016-06-17T13:00:28Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
@@ -103,7 +145,7 @@
         </test-method> <!-- GetMerchantsDetailTest -->
       </class> <!-- apiTests.GetMerchantsDetail -->
       <class name="apiTests.GetShopperByMerchantId">
-        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@1fbc7afb]" name="GetShopperByMerchantIdTest" duration-ms="1406" started-at="2016-06-15T17:32:50Z" finished-at="2016-06-15T17:32:52Z">
+        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@28f67ac7]" name="GetShopperByMerchantIdTest" duration-ms="358" started-at="2016-06-17T13:00:30Z" finished-at="2016-06-17T13:00:31Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetShopperByMerchantId Api.]]>
@@ -121,7 +163,7 @@
         </test-method> <!-- GetShopperByMerchantIdTest -->
       </class> <!-- apiTests.GetShopperByMerchantId -->
       <class name="apiTests.InsertOrder">
-        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.InsertOrder@66d33a]" name="InsertOrderTest" duration-ms="1227" started-at="2016-06-15T17:32:49Z" finished-at="2016-06-15T17:32:50Z">
+        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.InsertOrder@66d33a]" name="InsertOrderTest" duration-ms="1022" started-at="2016-06-17T13:00:29Z" finished-at="2016-06-17T13:00:30Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of InsertOrder Api.]]>
@@ -139,7 +181,7 @@
         </test-method> <!-- InsertOrderTest -->
       </class> <!-- apiTests.InsertOrder -->
       <class name="apiTests.GetShoppersById">
-        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetShoppersById@45c8e616]" name="GetShoppersByIdTest" duration-ms="292" started-at="2016-06-15T17:32:52Z" finished-at="2016-06-15T17:32:52Z">
+        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetShoppersById@5ba23b66]" name="GetShoppersByIdTest" duration-ms="342" started-at="2016-06-17T13:00:31Z" finished-at="2016-06-17T13:00:31Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetShoppersById Api.]]>
@@ -156,6 +198,24 @@
           </reporter-output>
         </test-method> <!-- GetShoppersByIdTest -->
       </class> <!-- apiTests.GetShoppersById -->
+      <class name="apiTests.UpdateMerchantType">
+        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.UpdateMerchantType@6debcae2]" name="UpdateMerchantTypeTest" duration-ms="515" started-at="2016-06-17T13:00:28Z" finished-at="2016-06-17T13:00:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the response of UpdateMerchantType Api.]]>
+            </line>
+            <line>
+              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+            </line>
+            <line>
+              <![CDATA[Expected and Actual response are same.  ]]>
+            </line>
+            <line>
+              <![CDATA[Test Status of UpdateMerchantType Api :  PASS  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateMerchantTypeTest -->
+      </class> <!-- apiTests.UpdateMerchantType -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

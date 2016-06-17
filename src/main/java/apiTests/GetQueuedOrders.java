@@ -34,6 +34,8 @@ public class GetQueuedOrders {
 
         GetQueuedOrdersResponse expected1 = apiTestData.getResponse();
         GetQueuedOrdersResponse expected = response.body();
+        
+        System.out.println(response.code());
 
         if(response.code()==200){
 

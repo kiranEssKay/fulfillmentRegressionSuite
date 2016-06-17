@@ -3,15 +3,13 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-      
       <class name="apiTests.GetMerchantsDetail"/>
- 
-  
+      <class name="apiTests.UpdateMerchantType"/>
+      <class name="apiTests.GetShopperBuCityId"/>
       <class name="apiTests.InsertOrder"/>
       <class name="apiTests.GetShopperByMerchantId"/>
       <class name="apiTests.GetShoppersById"/>
       <class name="apiTests.UpdateMerchantThreshold"/>
-  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

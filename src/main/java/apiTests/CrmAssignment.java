@@ -27,7 +27,7 @@ public class CrmAssignment {
     public void CrmAssignmentTest() throws IOException {
         Reporter.log("Verify the response of CrmAssignment Api.", true);
         RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-        Reporter.log("Base U`RL is " + Constant.BaseURL, true);
+        Reporter.log("Base URL is " + Constant.BaseURL, true);
 
         CrmAssignmentApiTestData apiTestData = (CrmAssignmentApiTestData) FixtureUtils.getAsObject(CrmAssignmentApiTestData.class, "src/main/java/resources/crmAssignment.json");
 
