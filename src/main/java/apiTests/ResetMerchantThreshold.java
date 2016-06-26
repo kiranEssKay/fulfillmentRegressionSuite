@@ -15,7 +15,7 @@ import utils.FixtureUtils;
 import java.io.IOException;
 
 /**
- * Created by AurigaIT on 4/4/2016.
+ * Created by Kiran SK on 4/4/2016.
  */
 public class ResetMerchantThreshold {
 

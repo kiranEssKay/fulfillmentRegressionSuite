@@ -32,6 +32,7 @@ public class InsertOrder {
 	    InsertOrderApiTestData apiTestData = (InsertOrderApiTestData) FixtureUtils.getAsObject(InsertOrderApiTestData.class ,"src/main/java/resources/insertorder.json");
 
 		orderNo= new Random().nextInt(10000);
+		System.out.println(orderNo);
 	 	Call<InsertOrderResponse> call = service.postOrder("Auto"+orderNo, apiTestData.getRequest());
 		retrofit2.Response<InsertOrderResponse> response = call.execute();
 
