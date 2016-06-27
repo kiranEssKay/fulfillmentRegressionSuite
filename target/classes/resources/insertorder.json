@@ -17,8 +17,8 @@
 				"qty": 1,
 				"unit": "100gm"
 			}],
-			"scheduledTime": "2016-03-08T10:45:00",
-			"originalMerchantId": "Dhoni",
+			"scheduledTime": "2016-06-21T10:45:00",
+			"originalMerchantId": 696,
 			"stationId": 1234,
 			"fe": {
 				"phone": "9953639777",
