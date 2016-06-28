@@ -23,37 +23,34 @@ import java.io.IOException;
  */
 public class GetShopperBuCityId {
 
-    @Test(priority = 1)
+	@Test(priority = 9)
 
-    public void GetShopperBuCityIdTest() throws IOException {
-        Reporter.log("Verify the response of GetShopperBuCityId Api.", true);
-        RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-        Reporter.log("Base URL is " + Constant.BaseURL, true);
+	public void GetShopperBuCityIdTest() throws IOException {
+		Reporter.log("Verify the response of GetShopperBuCityId Api.", true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
+		Reporter.log("Base URL is " + Constant.BaseURL, true);
 
-        ShopperByCityIdTestData apiTestData = (ShopperByCityIdTestData) FixtureUtils.getAsObject(ShopperByCityIdTestData.class, "src/main/java/resources/getShopperByCityId.json");
-        Call<ShopperByCityIdResponse> call = service.GetShopperByCityId("jaipur");
-        Response<ShopperByCityIdResponse> response = call.execute();
+		ShopperByCityIdTestData apiTestData = (ShopperByCityIdTestData) FixtureUtils
+				.getAsObject(ShopperByCityIdTestData.class, "src/main/java/resources/getShopperByCityId.json");
+		Call<ShopperByCityIdResponse> call = service.GetShopperByCityId("jaipur");
+		Response<ShopperByCityIdResponse> response = call.execute();
 
-        ShopperByCityIdResponse expected1 = apiTestData.getResponse();
-        ShopperByCityIdResponse expected = response.body();
+		ShopperByCityIdResponse expected1 = apiTestData.getResponse();
+		ShopperByCityIdResponse expected = response.body();
 
-        if(response.code()==200){
+		if (response.code() == 200) {
 
+			// ReflectionAssert.assertReflectionEquals(expected, expected1);
 
-            //ReflectionAssert.assertReflectionEquals(expected, expected1);
-        	
-        	Assert.assertEquals(response.code(), 200);
-            Reporter.log("Expected and Actual response are same.  ", true);
-            Reporter.log("Test Status of ShopperByCityId Api :  PASS  ", true);
+			Assert.assertEquals(response.code(), 200);
+			Reporter.log("Expected and Actual response are same.  ", true);
+			Reporter.log("Test Status of ShopperByCityId Api :  PASS  ", true);
 
+		} else {
+			Reporter.log("http response code is not 200. ", true);
+			Reporter.log("Test Status of ShopperByCityId Api :  FAIL  ", true);
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
+		}
 
-        }
-        else
-        {
-            Reporter.log("http response code is not 200. ", true);
-            Reporter.log("Test Status of ShopperByCityId Api :  FAIL  ", true);
-            ReflectionAssert.assertReflectionEquals(expected, expected1);
-        }
-
-    }
+	}
 }

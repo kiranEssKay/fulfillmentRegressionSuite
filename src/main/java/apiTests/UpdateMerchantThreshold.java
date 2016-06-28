@@ -21,39 +21,34 @@ import java.io.IOException;
  */
 public class UpdateMerchantThreshold {
 
-    @Test(priority = 1)
+	@Test(priority = 5)
 
-    public void UpdateMerchantThresholdTest() throws IOException {
-        Reporter.log("Verify the response of UpdateMerchantThreshold Api.", true);
-        RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-        Reporter.log("Base URL is " + Constant.BaseURL, true);
+	public void UpdateMerchantThresholdTest() throws IOException {
+		Reporter.log("Verify the response of UpdateMerchantThreshold Api.", true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
+		Reporter.log("Base URL is " + Constant.BaseURL, true);
 
-        UpdateMerchantThresholdTestData apiTestData = (UpdateMerchantThresholdTestData) FixtureUtils.getAsObject(UpdateMerchantThresholdTestData.class, "src/main/java/resources/updateMerchantThreshold.json");
+		UpdateMerchantThresholdTestData apiTestData = (UpdateMerchantThresholdTestData) FixtureUtils.getAsObject(
+				UpdateMerchantThresholdTestData.class, "src/main/java/resources/updateMerchantThreshold.json");
 
-        Call<UpdateMerchantThresholdResponse> call = service.postOrder(apiTestData.getRequest());
-        Response<UpdateMerchantThresholdResponse> response = call.execute();
+		Call<UpdateMerchantThresholdResponse> call = service.postOrder(apiTestData.getRequest());
+		Response<UpdateMerchantThresholdResponse> response = call.execute();
 
+		UpdateMerchantThresholdResponse expected1 = apiTestData.getResponse();
+		UpdateMerchantThresholdResponse expected = response.body();
 
-        UpdateMerchantThresholdResponse expected1 = apiTestData.getResponse();
-        UpdateMerchantThresholdResponse expected = response.body();
+		if (response.code() == 200) {
 
-        if(response.code()==200){
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
+			Reporter.log("Expected and Actual response are same.  ", true);
+			Reporter.log("Test Status of UpdateMerchantThreshold Api :  PASS  ", true);
 
+		} else {
+			Reporter.log("http response code is not 200. ", true);
+			Reporter.log("Test Status of UpdateMerchantThreshold Api :  FAIL  ", true);
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
+		}
 
-
-            ReflectionAssert.assertReflectionEquals(expected, expected1);
-            Reporter.log("Expected and Actual response are same.  ", true);
-            Reporter.log("Test Status of UpdateMerchantThreshold Api :  PASS  ", true);
-
-
-        }
-        else
-        {
-            Reporter.log("http response code is not 200. ", true);
-            Reporter.log("Test Status of UpdateMerchantThreshold Api :  FAIL  ", true);
-            ReflectionAssert.assertReflectionEquals(expected, expected1);
-        }
-
-    }
+	}
 
 }

@@ -21,38 +21,34 @@ import java.io.IOException;
  */
 public class GetMerchantsDetail {
 
-    @Test(priority = 1)
+	@Test(priority = 11)
 
-    public void GetMerchantsDetailTest() throws IOException {
-        Reporter.log("Verify the response of GetMerchantsDetail Api.", true);
-        RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-        Reporter.log("Base URL is " + Constant.BaseURL, true);
+	public void GetMerchantsDetailTest() throws IOException {
+		Reporter.log("Verify the response of GetMerchantsDetail Api.", true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
+		Reporter.log("Base URL is " + Constant.BaseURL, true);
 
-        GetMerchantsDetailTestData apiTestData = (GetMerchantsDetailTestData) FixtureUtils.getAsObject(GetMerchantsDetailTestData.class, "src/main/java/resources/getMerchantsDetail.json");
+		GetMerchantsDetailTestData apiTestData = (GetMerchantsDetailTestData) FixtureUtils
+				.getAsObject(GetMerchantsDetailTestData.class, "src/main/java/resources/getMerchantsDetail.json");
 
-        Call<GetMerchantsDetailResponse> call = service.GetMerchantsDetail(1003);
-        Response<GetMerchantsDetailResponse> response = call.execute();
+		Call<GetMerchantsDetailResponse> call = service.GetMerchantsDetail(1003);
+		Response<GetMerchantsDetailResponse> response = call.execute();
 
-        GetMerchantsDetailResponse expected1 = apiTestData.getResponse();
-        GetMerchantsDetailResponse expected = response.body();
+		GetMerchantsDetailResponse expected1 = apiTestData.getResponse();
+		GetMerchantsDetailResponse expected = response.body();
 
-        if(response.code()==200){
+		if (response.code() == 200) {
 
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
+			Reporter.log("Expected and Actual response are same.  ", true);
+			Reporter.log("Test Status of GetMerchantsDetail Api :  PASS  ", true);
 
+		} else {
+			Reporter.log("http response code is not 200. ", true);
+			Reporter.log("Test Status of GetMerchantsDetail Api :  FAIL  ", true);
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
+		}
 
-            ReflectionAssert.assertReflectionEquals(expected, expected1);
-            Reporter.log("Expected and Actual response are same.  ", true);
-            Reporter.log("Test Status of GetMerchantsDetail Api :  PASS  ", true);
-
-
-        }
-        else
-        {
-            Reporter.log("http response code is not 200. ", true);
-            Reporter.log("Test Status of GetMerchantsDetail Api :  FAIL  ", true);
-            ReflectionAssert.assertReflectionEquals(expected, expected1);
-        }
-
-    }
+	}
 
 }
