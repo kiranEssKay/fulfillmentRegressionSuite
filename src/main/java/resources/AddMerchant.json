@@ -1,0 +1,25 @@
+{"request":
+
+{
+
+  "id" : "12345678",
+  "name" : "VVV Kumar",
+  "cityId" : "gurgaon"
+
+}
+,
+"response":
+{
+
+  "message": "Merchant added successfully!",
+  "data": {
+    "cityId": "gurgaon",
+    "merchantThresholdTime": 18000,
+    "merchantType": 2,
+    "name": "VVV Kumar",
+    "id": "12345678"
+  },
+  "success": true
+
+}
+}

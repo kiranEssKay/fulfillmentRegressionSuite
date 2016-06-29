@@ -12,6 +12,7 @@
       <class name="apiTests.GetShopperByMerchantId"/>
       <class name="apiTests.GetShoppersById"/>
       <class name="apiTests.UpdateMerchantThreshold"/>
+       <class name="apiTests.PostAddMerchant"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

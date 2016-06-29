@@ -1,0 +1,35 @@
+{
+  "request": {
+
+    
+  "name" : "Kiran Acharya",
+    "mobileNo" : "0987609876",
+    "cityId" : "mysuru"
+
+
+   } ,
+  "response": 
+  {
+
+
+    
+  "message": "Shopper added successfully!",
+  "data": {
+    "numOrders": 0,
+    "name": "Kiran Acharya",
+    "completedOrders": 0,
+    "mobileNo": "0987609876",
+    "payroll": null,
+    "cityId": "mysuru",
+    "currentOrder": 0,
+    "stationId": null,
+    "stateCode": -1,
+    "createdBy": null,
+    "fullfilledOrders": 0,
+    "id": 6091953301094400
+  },
+  "success": true
+    
+}}
+
+

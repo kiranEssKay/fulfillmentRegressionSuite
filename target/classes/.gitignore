@@ -1,3 +1,7 @@
 /resources/
 /apiTests/
 /utils/
+/postInsertOrder/
+/postAddShopper/
+/retrofit/
+/postAddMerchantExchange/
