@@ -1,14 +1,14 @@
 package apiTests;
 
-import getShopperByCityId.ShopperByCityIdResponse;
-import getShopperByCityId.ShopperByCityIdTestData;
-import getShopperByMerchantId.ShopperByMerchantIdResponse;
-import getShopperByMerchantId.ShopperByMerchantIdTestData;
-
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
+
+import getShopperByCityIdExchange.ShopperByCityIdResponse;
+import getShopperByCityIdExchange.ShopperByCityIdTestData;
+import getShopperByMerchantIdExchange.ShopperByMerchantIdResponse;
+import getShopperByMerchantIdExchange.ShopperByMerchantIdTestData;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;

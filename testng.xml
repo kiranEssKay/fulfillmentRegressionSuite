@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" >
-  <test name="Test">
-    <classes>
-    
-    <class name="apiTests.InsertOrder"/>
-      <class name="apiTests.GetMerchantsDetail"/>
-      <class name="apiTests.UpdateMerchantType"/>
-      <class name="apiTests.GetShopperBuCityId"/>
-      
-      <class name="apiTests.GetShopperByMerchantId"/>
-      <class name="apiTests.GetShoppersById"/>
-      <class name="apiTests.UpdateMerchantThreshold"/>
-       <class name="apiTests.PostAddMerchant"/>
-    </classes>
-  </test> <!-- Test -->
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+
+			<class name="apiTests.InsertOrder" />
+			<class name="apiTests.GetMerchantsDetail" />
+			<class name="apiTests.UpdateMerchantType" />
+			<class name="apiTests.GetShopperBuCityId" />
+			<class name="apiTests.GetShopperByMerchantId" />
+			<class name="apiTests.GetShoppersById" />
+			<class name="apiTests.UpdateMerchantThreshold" />
+			<class name="apiTests.PostAddMerchant" />
+			<class name="apiTests.CrmAssignment" />
+			<class name="apiTests.FeAssignment" />
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

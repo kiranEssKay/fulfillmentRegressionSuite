@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="apiTests.PostAddMerchant">
+      <class name="apiTests.FeAssignment">
         <methods>
-          <include name="postUserAuthenticationTest"/>
+          <include name="FeAssignmentTest"/>
         </methods>
-      </class> <!-- apiTests.PostAddMerchant -->
+      </class> <!-- apiTests.FeAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

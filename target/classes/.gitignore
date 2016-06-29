@@ -5,3 +5,16 @@
 /postAddShopper/
 /retrofit/
 /postAddMerchantExchange/
+/postCancelOrderExchange/
+/getMerchantsDetailExchange/
+/getShopperByCityIdExchange/
+/getShopperByIdExchange/
+/getShopperByMerchantIdExchange/
+/postAddShopperExchange/
+/postCrmAssignmentExchange/
+/postFeAssignmentExchange/
+/postGetQueuedUrdersExchange/
+/postInsertOrderExchange/
+/postResetMerchantThresholdExchange/
+/postUpdateMerchantThresholdExchange/
+/postUpdateMerchantTypeExchange/

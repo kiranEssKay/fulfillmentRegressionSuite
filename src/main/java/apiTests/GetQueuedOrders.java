@@ -3,8 +3,9 @@ package apiTests;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
-import postGetQueuedUrders.GetQueuedOrdersResponse;
-import postGetQueuedUrders.GetQueuedOrdersTestData;
+
+import postGetQueuedUrdersExchange.GetQueuedOrdersResponse;
+import postGetQueuedUrdersExchange.GetQueuedOrdersTestData;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;

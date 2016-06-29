@@ -3,8 +3,9 @@ package apiTests;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
-import postUpdateMerchantType.UpdateMerchantTypeResponse;
-import postUpdateMerchantType.UpdateMerchantTypeTestData;
+
+import postUpdateMerchantTypeExchange.UpdateMerchantTypeResponse;
+import postUpdateMerchantTypeExchange.UpdateMerchantTypeTestData;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;

@@ -3,8 +3,9 @@ package apiTests;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
-import postResetMerchantThreshold.ResetMerchantThresholdResponse;
-import postResetMerchantThreshold.ResetMerchantThresholdTestData;
+
+import postResetMerchantThresholdExchange.ResetMerchantThresholdResponse;
+import postResetMerchantThresholdExchange.ResetMerchantThresholdTestData;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
