@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,26 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetQueuedOrders" hash-for-method="GetQueuedOrdersTest">GetQueuedOrdersTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostResetMerchantThreshold" hash-for-method="ResetMerchantThresholdTest">ResetMerchantThresholdTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">11 methods,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -185,76 +166,47 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.PostResetMerchantThreshold</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ResetMerchantThresholdTest">
-                  </a> <!-- ResetMerchantThresholdTest -->
-                  <span class="method-name">ResetMerchantThresholdTest</span>
-                  <div class="stack-trace">java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80
-	at okhttp3.internal.io.RealConnection.connectSocket(RealConnection.java:142)
-	at okhttp3.internal.io.RealConnection.connect(RealConnection.java:111)
-	at okhttp3.internal.http.StreamAllocation.findConnection(StreamAllocation.java:188)
-	at okhttp3.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:127)
-	at okhttp3.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
-	at okhttp3.internal.http.HttpEngine.connect(HttpEngine.java:289)
-	at okhttp3.internal.http.HttpEngine.sendRequest(HttpEngine.java:241)
-	at okhttp3.RealCall.getResponse(RealCall.java:240)
-	at okhttp3.RealCall$ApplicationInterceptorChain.proceed(RealCall.java:198)
-	at retrofit.ServiceGenerator$1.intercept(ServiceGenerator.java:26)
-	at okhttp3.RealCall$ApplicationInterceptorChain.proceed(RealCall.java:187)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:160)
-	at okhttp3.RealCall.execute(RealCall.java:57)
-	at retrofit2.OkHttpCall.execute(OkHttpCall.java:174)
-	at apiTests.PostResetMerchantThreshold.ResetMerchantThresholdTest(PostResetMerchantThreshold.java:34)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">apiTests.GetQueuedOrders</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetQueuedOrdersTest">
-                  </a> <!-- GetQueuedOrdersTest -->
-                  <span class="method-name">GetQueuedOrdersTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: null
-  Actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;
-
---- Found following differences ---
-expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:50)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.PostUpdateMerchantType</span>
+              <span class="class-name">apiTests.PostCancelOrder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UpdateMerchantTypeTest">
-                  </a> <!-- UpdateMerchantTypeTest -->
-                  <span class="method-name">UpdateMerchantTypeTest</span>
+                  <a name="CancelOrderTest">
+                  </a> <!-- CancelOrderTest -->
+                  <span class="method-name">CancelOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetShopperByMerchantId</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetShopperByMerchantIdTest">
+                  </a> <!-- GetShopperByMerchantIdTest -->
+                  <span class="method-name">GetShopperByMerchantIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetShoppersById</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetShoppersByIdTest">
+                  </a> <!-- GetShoppersByIdTest -->
+                  <span class="method-name">GetShoppersByIdTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -292,81 +244,6 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.PostFeAssignment</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FeAssignmentTest">
-                  </a> <!-- FeAssignmentTest -->
-                  <span class="method-name">FeAssignmentTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">apiTests.GetShoppersById</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetShoppersByIdTest">
-                  </a> <!-- GetShoppersByIdTest -->
-                  <span class="method-name">GetShoppersByIdTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">apiTests.PostInsertOrder</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="InsertOrderTest">
-                  </a> <!-- InsertOrderTest -->
-                  <span class="method-name">InsertOrderTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">apiTests.PostUpdateMerchantThreshold</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="UpdateMerchantThresholdTest">
-                  </a> <!-- UpdateMerchantThresholdTest -->
-                  <span class="method-name">UpdateMerchantThresholdTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">apiTests.GetShopperByMerchantId</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="GetShopperByMerchantIdTest">
-                  </a> <!-- GetShopperByMerchantIdTest -->
-                  <span class="method-name">GetShopperByMerchantIdTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">apiTests.GetShopperBuCityId</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -397,14 +274,59 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.PostCancelOrder</span>
+              <span class="class-name">apiTests.PostUpdateMerchantType</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CancelOrderTest">
-                  </a> <!-- CancelOrderTest -->
-                  <span class="method-name">CancelOrderTest</span>
+                  <a name="UpdateMerchantTypeTest">
+                  </a> <!-- UpdateMerchantTypeTest -->
+                  <span class="method-name">UpdateMerchantTypeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostUpdateMerchantThreshold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateMerchantThresholdTest">
+                  </a> <!-- UpdateMerchantThresholdTest -->
+                  <span class="method-name">UpdateMerchantThresholdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostInsertOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InsertOrderTest">
+                  </a> <!-- InsertOrderTest -->
+                  <span class="method-name">InsertOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostFeAssignment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FeAssignmentTest">
+                  </a> <!-- FeAssignmentTest -->
+                  <span class="method-name">FeAssignmentTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -421,14 +343,12 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
 &lt;suite name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;apiTests.GetQueuedOrders&quot;/&gt;
       &lt;class name=&quot;apiTests.PostCrmAssignment&quot;/&gt;
       &lt;class name=&quot;apiTests.PostFeAssignment&quot;/&gt;
       &lt;class name=&quot;apiTests.GetShoppersById&quot;/&gt;
       &lt;class name=&quot;apiTests.GetMerchantsDetail&quot;/&gt;
       &lt;class name=&quot;apiTests.PostCancelOrder&quot;/&gt;
       &lt;class name=&quot;apiTests.PostInsertOrder&quot;/&gt;
-      &lt;class name=&quot;apiTests.PostResetMerchantThreshold&quot;/&gt;
       &lt;class name=&quot;apiTests.GetShopperBuCityId&quot;/&gt;
       &lt;class name=&quot;apiTests.GetShopperByMerchantId&quot;/&gt;
       &lt;class name=&quot;apiTests.PostUpdateMerchantThreshold&quot;/&gt;
@@ -447,7 +367,7 @@ expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Add
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (13 classes)</span>
+                <span class="test-name">Test (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -473,64 +393,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ResetMerchantThresholdTest')
-data.setCell(0, 2, 'apiTests.PostResetMerchantThreshold')
-data.setCell(0, 3, 10024);
+data.setCell(0, 1, 'CancelOrderTest')
+data.setCell(0, 2, 'apiTests.PostCancelOrder')
+data.setCell(0, 3, 3175);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CancelOrderTest')
-data.setCell(1, 2, 'apiTests.PostCancelOrder')
-data.setCell(1, 3, 2852);
+data.setCell(1, 1, 'CrmAssignmentTest')
+data.setCell(1, 2, 'apiTests.PostCrmAssignment')
+data.setCell(1, 3, 2445);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'FeAssignmentTest')
 data.setCell(2, 2, 'apiTests.PostFeAssignment')
-data.setCell(2, 3, 1720);
+data.setCell(2, 3, 1705);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CrmAssignmentTest')
-data.setCell(3, 2, 'apiTests.PostCrmAssignment')
-data.setCell(3, 3, 1509);
+data.setCell(3, 1, 'GetShopperBuCityIdTest')
+data.setCell(3, 2, 'apiTests.GetShopperBuCityId')
+data.setCell(3, 3, 1121);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'GetQueuedOrdersTest')
-data.setCell(4, 2, 'apiTests.GetQueuedOrders')
-data.setCell(4, 3, 992);
+data.setCell(4, 1, 'InsertOrderTest')
+data.setCell(4, 2, 'apiTests.PostInsertOrder')
+data.setCell(4, 3, 1022);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'GetShopperBuCityIdTest')
-data.setCell(5, 2, 'apiTests.GetShopperBuCityId')
-data.setCell(5, 3, 944);
+data.setCell(5, 1, 'UpdateMerchantTypeTest')
+data.setCell(5, 2, 'apiTests.PostUpdateMerchantType')
+data.setCell(5, 3, 408);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'GetShopperByMerchantIdTest')
-data.setCell(6, 2, 'apiTests.GetShopperByMerchantId')
-data.setCell(6, 3, 914);
+data.setCell(6, 1, 'AddMerchantTestt')
+data.setCell(6, 2, 'apiTests.PostAddMerchant')
+data.setCell(6, 3, 408);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'InsertOrderTest')
-data.setCell(7, 2, 'apiTests.PostInsertOrder')
-data.setCell(7, 3, 822);
+data.setCell(7, 1, 'UpdateMerchantThresholdTest')
+data.setCell(7, 2, 'apiTests.PostUpdateMerchantThreshold')
+data.setCell(7, 3, 368);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'UpdateMerchantThresholdTest')
-data.setCell(8, 2, 'apiTests.PostUpdateMerchantThreshold')
-data.setCell(8, 3, 614);
+data.setCell(8, 1, 'GetMerchantsDetailTest')
+data.setCell(8, 2, 'apiTests.GetMerchantsDetail')
+data.setCell(8, 3, 361);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'UpdateMerchantTypeTest')
-data.setCell(9, 2, 'apiTests.PostUpdateMerchantType')
-data.setCell(9, 3, 510);
+data.setCell(9, 1, 'GetShopperByMerchantIdTest')
+data.setCell(9, 2, 'apiTests.GetShopperByMerchantId')
+data.setCell(9, 3, 349);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'GetShoppersByIdTest')
 data.setCell(10, 2, 'apiTests.GetShoppersById')
-data.setCell(10, 3, 425);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'AddMerchantTestt')
-data.setCell(11, 2, 'apiTests.PostAddMerchant')
-data.setCell(11, 3, 408);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'GetMerchantsDetailTest')
-data.setCell(12, 2, 'apiTests.GetMerchantsDetail')
-data.setCell(12, 3, 309);
+data.setCell(10, 3, 269);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -542,12 +454,66 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">CrmAssignmentTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify the response of CrmAssignment Api.</span>
+                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CancelOrderTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify the response of Cancel Order Api.</span>
+                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">UpdateMerchantTypeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify the response of UpdateMerchantType Api.</span>
+                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of UpdateMerchantType Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetShoppersByIdTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify the response of GetShoppersById Api.</span>
+                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of ShopperById Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">InsertOrderTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Verify the response of InsertOrder Api.</span>
                 <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
                 <span class="reporter-method-output">Expected and Actual response are same.  </span>
                 <span class="reporter-method-output">Test Status of insertOrder Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetShopperByMerchantIdTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify the response of GetShopperByMerchantId Api.</span>
+                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of ShopperByMerchantId Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetMerchantsDetailTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify the response of GetMerchantsDetail Api.</span>
+                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of GetMerchantsDetail Api :  PASS  </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -569,24 +535,6 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">GetMerchantsDetailTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetMerchantsDetail Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of GetMerchantsDetail Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetShopperBuCityIdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetShopperBuCityId Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of ShopperByCityId Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">FeAssignmentTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Verify the response of FeAssignment Api.</span>
@@ -596,64 +544,12 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">UpdateMerchantTypeTest</span>
+              <span class="reporter-method-name">GetShopperBuCityIdTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of UpdateMerchantType Api.</span>
+                <span class="reporter-method-output">Verify the response of GetShopperBuCityId Api.</span>
                 <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
                 <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of UpdateMerchantType Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetShopperByMerchantIdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetShopperByMerchantId Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of ShopperByMerchantId Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetShoppersByIdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetShoppersById Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of ShopperById Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">CrmAssignmentTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of CrmAssignment Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">CancelOrderTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of Cancel Order Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">Expected and Actual response are same.  </span>
-                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">ResetMerchantThresholdTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of ResetMerchantThreshold Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">GetQueuedOrdersTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify the response of GetQueuedOrders Api.</span>
-                <span class="reporter-method-output">Base URL is http://test-grofers-hp.appspot.com</span>
-                <span class="reporter-method-output">http response code is not 200. </span>
-                <span class="reporter-method-output">Test Status of GetQueuedOrders Api :  FAIL  </span>
+                <span class="reporter-method-output">Test Status of ShopperByCityId Api :  PASS  </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -671,98 +567,80 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetQueuedOrders</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">GetQueuedOrdersTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostCrmAssignment</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CrmAssignmentTest</span>
-                <span class="method-start">996 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostFeAssignment</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FeAssignmentTest</span>
-                <span class="method-start">2507 ms</span>
+                <span class="method-start">2447 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetShoppersById</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetShoppersByIdTest</span>
-                <span class="method-start">4229 ms</span>
+                <span class="method-start">4154 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetMerchantsDetail</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetMerchantsDetailTest</span>
-                <span class="method-start">4655 ms</span>
+                <span class="method-start">4425 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostCancelOrder</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CancelOrderTest</span>
-                <span class="method-start">4965 ms</span>
+                <span class="method-start">4787 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostInsertOrder</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">InsertOrderTest</span>
-                <span class="method-start">7818 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.PostResetMerchantThreshold</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">ResetMerchantThresholdTest</span>
-                <span class="method-start">8641 ms</span>
+                <span class="method-start">7964 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetShopperBuCityId</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetShopperBuCityIdTest</span>
-                <span class="method-start">18667 ms</span>
+                <span class="method-start">8987 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetShopperByMerchantId</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetShopperByMerchantIdTest</span>
-                <span class="method-start">19613 ms</span>
+                <span class="method-start">10109 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostUpdateMerchantThreshold</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantThresholdTest</span>
-                <span class="method-start">20528 ms</span>
+                <span class="method-start">10460 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostUpdateMerchantType</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantTypeTest</span>
-                <span class="method-start">21144 ms</span>
+                <span class="method-start">10830 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostAddMerchant</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">AddMerchantTestt</span>
-                <span class="method-start">21655 ms</span>
+                <span class="method-start">11240 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
