@@ -20,7 +20,7 @@ import retrofit2.Response;
 import utils.Constant;
 import utils.FixtureUtils;
 
-public class InsertOrder {
+public class PostInsertOrder {
 
 	Constant con = new Constant();
 	public int ordid = con.orderID;

@@ -6,6 +6,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
+import postCancelOrderExchange.PostCanceOrderResponse;
+import postCancelOrderExchange.PostCancelOrderFixtureModel;
 import postCrmAssignmentExchange.CrmAssignmentApiTestData;
 import postCrmAssignmentExchange.CrmAssignmentResponse;
 import retrofit.RetrofitService;
@@ -20,7 +22,7 @@ public class PostCancelOrder
 
 {
 
-	@Test
+	@Test (priority =11)
 	public void CancelOrderTest()
 
 			throws IOException
@@ -31,18 +33,18 @@ public class PostCancelOrder
 
 		// Assign CRM Test Suite
 
-		Reporter.log("Verify the response of CrmAssignment Api.", true);
+		Reporter.log("Verify the response of Cancel Order Api.", true);
 		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
 		Reporter.log("Base URL is " + Constant.BaseURL, true);
 
-		CrmAssignmentApiTestData apiTestData = (CrmAssignmentApiTestData) FixtureUtils
-				.getAsObject(CrmAssignmentApiTestData.class, "src/main/java/resources/crmAssignment.json");
+		PostCancelOrderFixtureModel apiTestData = (PostCancelOrderFixtureModel) FixtureUtils
+				.getAsObject(PostCancelOrderFixtureModel.class, "src/main/java/resources/canceOrder.json");
 
-		Call<CrmAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
-		Response<CrmAssignmentResponse> response = call.execute();
+		Call<PostCanceOrderResponse> call = service.cancelOrder("Auto" + utils.ordid, apiTestData.getRequest());
+		Response<PostCanceOrderResponse> response = call.execute();
 
-		CrmAssignmentResponse expected1 = apiTestData.getResponse();
-		CrmAssignmentResponse expected = response.body();
+		PostCanceOrderResponse expected1 = apiTestData.getResponse();
+		PostCanceOrderResponse expected = response.body();
 
 		if (response.code() == 200) {
 

@@ -1,6 +1,8 @@
 
 package apiTests;
 
+import java.io.IOException;
+
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
@@ -15,13 +17,11 @@ import utils.Constant;
 import utils.FixtureUtils;
 import utils.InsertOrderUtil;
 
-import java.io.IOException;
-
 /**
  * Created by Kiran SK on 4/1/2016.
  */
 
-public class FeAssignment {
+public class PostFeAssignment {
 	
 	// Assign FE Test Suite
 	

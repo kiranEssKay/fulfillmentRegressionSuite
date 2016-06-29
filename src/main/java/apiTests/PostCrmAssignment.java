@@ -24,7 +24,7 @@ import java.io.IOException;
  * Created by Kiran SK on 4/5/2016.
  */
 
-public class CrmAssignment {
+public class PostCrmAssignment {
 
 	@Test(priority = 13)
 

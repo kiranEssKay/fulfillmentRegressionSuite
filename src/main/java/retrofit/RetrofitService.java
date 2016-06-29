@@ -8,6 +8,8 @@ import postAddMerchantExchange.PostAddMerchantRequest;
 import postAddMerchantExchange.PostAddMerchantResponse;
 import postAddShopperExchange.PostShopperRequest;
 import postAddShopperExchange.PostShopperResponse;
+import postCancelOrderExchange.PostCanceOrderRequest;
+import postCancelOrderExchange.PostCanceOrderResponse;
 import postCrmAssignmentExchange.CrmAssignmentRequest;
 import postCrmAssignmentExchange.CrmAssignmentResponse;
 import postFeAssignmentExchange.FeAssignmentRequest;
@@ -73,5 +75,10 @@ public interface RetrofitService {
 	
 	@POST("/merchants/")
     Call<PostAddMerchantResponse> addMerchantResponse(@Body PostAddMerchantRequest bodyAuth);
+	// Cancel Order API 
+	
+	@POST("/orders/{order_id}/")
+    Call<PostCanceOrderResponse> cancelOrder(@Path("order_id") String order_id,@Body PostCanceOrderRequest bodyAuth);
+	
 
 }

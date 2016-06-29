@@ -18,7 +18,7 @@ import java.io.IOException;
 /**
  * Created by Kiran SK on 4/4/2016.
  */
-public class UpdateMerchantThreshold {
+public class PostUpdateMerchantThreshold {
 
 	@Test(priority = 5)
 

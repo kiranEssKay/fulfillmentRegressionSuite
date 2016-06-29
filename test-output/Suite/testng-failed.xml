@@ -3,11 +3,16 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="apiTests.ResetMerchantThreshold">
+      <class name="apiTests.PostResetMerchantThreshold">
         <methods>
           <include name="ResetMerchantThresholdTest"/>
         </methods>
-      </class> <!-- apiTests.ResetMerchantThreshold -->
+      </class> <!-- apiTests.PostResetMerchantThreshold -->
+      <class name="apiTests.GetQueuedOrders">
+        <methods>
+          <include name="GetQueuedOrdersTest"/>
+        </methods>
+      </class> <!-- apiTests.GetQueuedOrders -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
