@@ -152,12 +152,12 @@
       <![CDATA[Test Cases : Post Authentication API Passed ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="24027" started-at="2016-06-29T13:23:47Z" finished-at="2016-06-29T13:24:11Z">
+  <suite name="Suite" duration-ms="22080" started-at="2016-06-29T13:32:15Z" finished-at="2016-06-29T13:32:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24027" started-at="2016-06-29T13:23:47Z" finished-at="2016-06-29T13:24:11Z">
+    <test name="Test" duration-ms="22080" started-at="2016-06-29T13:32:15Z" finished-at="2016-06-29T13:32:37Z">
       <class name="apiTests.PostInsertOrder">
-        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@3cb5cdba]" name="InsertOrderTest" duration-ms="919" started-at="2016-06-29T18:53:56Z" finished-at="2016-06-29T18:53:57Z">
+        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@3cb5cdba]" name="InsertOrderTest" duration-ms="822" started-at="2016-06-29T19:02:22Z" finished-at="2016-06-29T19:02:23Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of InsertOrder Api.]]>
@@ -175,7 +175,7 @@
         </test-method> <!-- InsertOrderTest -->
       </class> <!-- apiTests.PostInsertOrder -->
       <class name="apiTests.PostAddMerchant">
-        <test-method status="PASS" signature="AddMerchantTestt()[pri:0, instance:apiTests.PostAddMerchant@2ff4f00f]" name="AddMerchantTestt" duration-ms="855" started-at="2016-06-29T18:54:10Z" finished-at="2016-06-29T18:54:11Z">
+        <test-method status="PASS" signature="AddMerchantTestt()[pri:0, instance:apiTests.PostAddMerchant@2ff4f00f]" name="AddMerchantTestt" duration-ms="408" started-at="2016-06-29T19:02:36Z" finished-at="2016-06-29T19:02:37Z">
           <reporter-output>
             <line>
               <![CDATA[End Point Under Testhttp://test-grofers-hp.appspot.com]]>
@@ -193,7 +193,7 @@
         </test-method> <!-- AddMerchantTestt -->
       </class> <!-- apiTests.PostAddMerchant -->
       <class name="apiTests.GetShopperBuCityId">
-        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@75bd9247]" name="GetShopperBuCityIdTest" duration-ms="1238" started-at="2016-06-29T18:54:07Z" finished-at="2016-06-29T18:54:09Z">
+        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@75bd9247]" name="GetShopperBuCityIdTest" duration-ms="944" started-at="2016-06-29T19:02:33Z" finished-at="2016-06-29T19:02:34Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
@@ -211,7 +211,7 @@
         </test-method> <!-- GetShopperBuCityIdTest -->
       </class> <!-- apiTests.GetShopperBuCityId -->
       <class name="apiTests.GetMerchantsDetail">
-        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@35bbe5e8]" name="GetMerchantsDetailTest" duration-ms="613" started-at="2016-06-29T18:53:53Z" finished-at="2016-06-29T18:53:54Z">
+        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@35bbe5e8]" name="GetMerchantsDetailTest" duration-ms="309" started-at="2016-06-29T19:02:19Z" finished-at="2016-06-29T19:02:20Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
@@ -229,7 +229,7 @@
         </test-method> <!-- GetMerchantsDetailTest -->
       </class> <!-- apiTests.GetMerchantsDetail -->
       <class name="apiTests.PostUpdateMerchantThreshold">
-        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@3f0ee7cb]" name="UpdateMerchantThresholdTest" duration-ms="408" started-at="2016-06-29T18:54:09Z" finished-at="2016-06-29T18:54:09Z">
+        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@3f0ee7cb]" name="UpdateMerchantThresholdTest" duration-ms="614" started-at="2016-06-29T19:02:35Z" finished-at="2016-06-29T19:02:36Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of UpdateMerchantThreshold Api.]]>
@@ -247,7 +247,7 @@
         </test-method> <!-- UpdateMerchantThresholdTest -->
       </class> <!-- apiTests.PostUpdateMerchantThreshold -->
       <class name="apiTests.PostUpdateMerchantType">
-        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@7dc36524]" name="UpdateMerchantTypeTest" duration-ms="614" started-at="2016-06-29T18:54:09Z" finished-at="2016-06-29T18:54:10Z">
+        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@7dc36524]" name="UpdateMerchantTypeTest" duration-ms="510" started-at="2016-06-29T19:02:36Z" finished-at="2016-06-29T19:02:36Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of UpdateMerchantType Api.]]>
@@ -265,7 +265,7 @@
         </test-method> <!-- UpdateMerchantTypeTest -->
       </class> <!-- apiTests.PostUpdateMerchantType -->
       <class name="apiTests.PostCancelOrder">
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@d041cf]" name="CancelOrderTest" duration-ms="2254" started-at="2016-06-29T18:53:54Z" finished-at="2016-06-29T18:53:56Z">
+        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@d041cf]" name="CancelOrderTest" duration-ms="2852" started-at="2016-06-29T19:02:20Z" finished-at="2016-06-29T19:02:22Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of Cancel Order Api.]]>
@@ -283,7 +283,7 @@
         </test-method> <!-- CancelOrderTest -->
       </class> <!-- apiTests.PostCancelOrder -->
       <class name="apiTests.GetShopperByMerchantId">
-        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@1134affc]" name="GetShopperByMerchantIdTest" duration-ms="506" started-at="2016-06-29T18:54:09Z" finished-at="2016-06-29T18:54:09Z">
+        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@1134affc]" name="GetShopperByMerchantIdTest" duration-ms="914" started-at="2016-06-29T19:02:34Z" finished-at="2016-06-29T19:02:35Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetShopperByMerchantId Api.]]>
@@ -301,13 +301,13 @@
         </test-method> <!-- GetShopperByMerchantIdTest -->
       </class> <!-- apiTests.GetShopperByMerchantId -->
       <class name="apiTests.PostResetMerchantThreshold">
-        <test-method status="FAIL" signature="ResetMerchantThresholdTest()[pri:0, instance:apiTests.PostResetMerchantThreshold@4ec6a292]" name="ResetMerchantThresholdTest" duration-ms="10028" started-at="2016-06-29T18:53:57Z" finished-at="2016-06-29T18:54:07Z">
+        <test-method status="FAIL" signature="ResetMerchantThresholdTest()[pri:0, instance:apiTests.PostResetMerchantThreshold@4ec6a292]" name="ResetMerchantThresholdTest" duration-ms="10024" started-at="2016-06-29T19:02:23Z" finished-at="2016-06-29T19:02:33Z">
           <exception class="java.net.ConnectException">
             <message>
-              <![CDATA[Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:806:0:0:0:2011:80]]>
+              <![CDATA[Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:806:0:0:0:2011:80
+              <![CDATA[java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80
 	at okhttp3.internal.io.RealConnection.connectSocket(RealConnection.java:142)
 	at okhttp3.internal.io.RealConnection.connect(RealConnection.java:111)
 	at okhttp3.internal.http.StreamAllocation.findConnection(StreamAllocation.java:188)
@@ -361,7 +361,7 @@
         </test-method> <!-- ResetMerchantThresholdTest -->
       </class> <!-- apiTests.PostResetMerchantThreshold -->
       <class name="apiTests.GetQueuedOrders">
-        <test-method status="FAIL" signature="GetQueuedOrdersTest()[pri:0, instance:apiTests.GetQueuedOrders@56cbfb61]" name="GetQueuedOrdersTest" duration-ms="1261" started-at="2016-06-29T18:53:47Z" finished-at="2016-06-29T18:53:48Z">
+        <test-method status="FAIL" signature="GetQueuedOrdersTest()[pri:0, instance:apiTests.GetQueuedOrders@56cbfb61]" name="GetQueuedOrdersTest" duration-ms="992" started-at="2016-06-29T19:02:15Z" finished-at="2016-06-29T19:02:16Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
               <![CDATA[
@@ -428,7 +428,7 @@ expected: null, actual: GetQueuedOrdersResponse<message="orders Task Added to Qu
         </test-method> <!-- GetQueuedOrdersTest -->
       </class> <!-- apiTests.GetQueuedOrders -->
       <class name="apiTests.PostFeAssignment">
-        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2c8d66b2]" name="FeAssignmentTest" duration-ms="2441" started-at="2016-06-29T18:53:51Z" finished-at="2016-06-29T18:53:53Z">
+        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2c8d66b2]" name="FeAssignmentTest" duration-ms="1720" started-at="2016-06-29T19:02:17Z" finished-at="2016-06-29T19:02:19Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of FeAssignment Api.]]>
@@ -446,7 +446,7 @@ expected: null, actual: GetQueuedOrdersResponse<message="orders Task Added to Qu
         </test-method> <!-- FeAssignmentTest -->
       </class> <!-- apiTests.PostFeAssignment -->
       <class name="apiTests.GetShoppersById">
-        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetShoppersById@5a39699c]" name="GetShoppersByIdTest" duration-ms="511" started-at="2016-06-29T18:53:53Z" finished-at="2016-06-29T18:53:53Z">
+        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetShoppersById@5a39699c]" name="GetShoppersByIdTest" duration-ms="425" started-at="2016-06-29T19:02:19Z" finished-at="2016-06-29T19:02:19Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of GetShoppersById Api.]]>
@@ -464,7 +464,7 @@ expected: null, actual: GetQueuedOrdersResponse<message="orders Task Added to Qu
         </test-method> <!-- GetShoppersByIdTest -->
       </class> <!-- apiTests.GetShoppersById -->
       <class name="apiTests.PostCrmAssignment">
-        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@7d417077]" name="CrmAssignmentTest" duration-ms="2343" started-at="2016-06-29T18:53:48Z" finished-at="2016-06-29T18:53:51Z">
+        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@7d417077]" name="CrmAssignmentTest" duration-ms="1509" started-at="2016-06-29T19:02:16Z" finished-at="2016-06-29T19:02:17Z">
           <reporter-output>
             <line>
               <![CDATA[Verify the response of CrmAssignment Api.]]>

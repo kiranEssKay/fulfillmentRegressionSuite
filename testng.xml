@@ -3,14 +3,14 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-     
+   
       <class name="apiTests.PostCrmAssignment"/>
       <class name="apiTests.PostFeAssignment"/>
       <class name="apiTests.GetShoppersById"/>
       <class name="apiTests.GetMerchantsDetail"/>
       <class name="apiTests.PostCancelOrder"/>
       <class name="apiTests.PostInsertOrder"/>
-      
+
       <class name="apiTests.GetShopperBuCityId"/>
       <class name="apiTests.GetShopperByMerchantId"/>
       <class name="apiTests.PostUpdateMerchantThreshold"/>
