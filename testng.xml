@@ -16,6 +16,8 @@
       <class name="apiTests.PostUpdateMerchantThreshold"/>
       <class name="apiTests.PostUpdateMerchantType"/>
       <class name="apiTests.PostAddMerchant"/>
+      <class name="apiTests.PostOrderEnroute"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

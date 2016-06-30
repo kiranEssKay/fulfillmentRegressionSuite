@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Verify the response of CrmAssignment Api.]]>
+      <![CDATA[Verify the response of Order Enroute Api.]]>
     </line>
     <line>
       <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
@@ -12,263 +12,17 @@
     </line>
     <line>
       <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of FeAssignment Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of GetShoppersById Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of GetMerchantsDetail Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of Cancel Order Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of InsertOrder Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of ShopperByCityId Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of GetShopperByMerchantId Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of ShopperByMerchantId Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of UpdateMerchantThreshold Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of UpdateMerchantThreshold Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of UpdateMerchantType Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of UpdateMerchantType Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[End Point Under Testhttp://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[ShopperAppResponse for Post Authentication ShopperAppRequest is 200]]>
-    </line>
-    <line>
-      <![CDATA[Post Authentication API for POS - Master successful]]>
-    </line>
-    <line>
-      <![CDATA[Test Cases : Post Authentication API Passed ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="11663" started-at="2016-06-29T14:37:54Z" finished-at="2016-06-29T14:38:05Z">
+  <suite name="Default suite" duration-ms="3464" started-at="2016-06-30T06:45:18Z" finished-at="2016-06-30T06:45:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11663" started-at="2016-06-29T14:37:54Z" finished-at="2016-06-29T14:38:05Z">
-      <class name="apiTests.PostInsertOrder">
-        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@5a39699c]" name="InsertOrderTest" duration-ms="1022" started-at="2016-06-29T20:08:01Z" finished-at="2016-06-29T20:08:03Z">
+    <test name="Default test" duration-ms="3464" started-at="2016-06-30T06:45:18Z" finished-at="2016-06-30T06:45:21Z">
+      <class name="apiTests.PostOrderEnroute">
+        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostOrderEnroute@6e3c1e69]" name="CancelOrderTest" duration-ms="3430" started-at="2016-06-30T12:15:18Z" finished-at="2016-06-30T12:15:21Z">
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of InsertOrder Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- InsertOrderTest -->
-      </class> <!-- apiTests.PostInsertOrder -->
-      <class name="apiTests.PostAddMerchant">
-        <test-method status="PASS" signature="AddMerchantTestt()[pri:0, instance:apiTests.PostAddMerchant@75bd9247]" name="AddMerchantTestt" duration-ms="408" started-at="2016-06-29T20:08:05Z" finished-at="2016-06-29T20:08:05Z">
-          <reporter-output>
-            <line>
-              <![CDATA[End Point Under Testhttp://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[ShopperAppResponse for Post Authentication ShopperAppRequest is 200]]>
-            </line>
-            <line>
-              <![CDATA[Post Authentication API for POS - Master successful]]>
-            </line>
-            <line>
-              <![CDATA[Test Cases : Post Authentication API Passed ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AddMerchantTestt -->
-      </class> <!-- apiTests.PostAddMerchant -->
-      <class name="apiTests.PostFeAssignment">
-        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2c8d66b2]" name="FeAssignmentTest" duration-ms="1705" started-at="2016-06-29T20:07:56Z" finished-at="2016-06-29T20:07:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of FeAssignment Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FeAssignmentTest -->
-      </class> <!-- apiTests.PostFeAssignment -->
-      <class name="apiTests.GetShopperBuCityId">
-        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@3f0ee7cb]" name="GetShopperBuCityIdTest" duration-ms="1121" started-at="2016-06-29T20:08:03Z" finished-at="2016-06-29T20:08:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of ShopperByCityId Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- GetShopperBuCityIdTest -->
-      </class> <!-- apiTests.GetShopperBuCityId -->
-      <class name="apiTests.GetMerchantsDetail">
-        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@2ff4f00f]" name="GetMerchantsDetailTest" duration-ms="361" started-at="2016-06-29T20:07:58Z" finished-at="2016-06-29T20:07:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of GetMerchantsDetail Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- GetMerchantsDetailTest -->
-      </class> <!-- apiTests.GetMerchantsDetail -->
-      <class name="apiTests.PostUpdateMerchantType">
-        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@7dc36524]" name="UpdateMerchantTypeTest" duration-ms="408" started-at="2016-06-29T20:08:04Z" finished-at="2016-06-29T20:08:05Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of UpdateMerchantType Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of UpdateMerchantType Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateMerchantTypeTest -->
-      </class> <!-- apiTests.PostUpdateMerchantType -->
-      <class name="apiTests.PostUpdateMerchantThreshold">
-        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@35bbe5e8]" name="UpdateMerchantThresholdTest" duration-ms="368" started-at="2016-06-29T20:08:04Z" finished-at="2016-06-29T20:08:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of UpdateMerchantThreshold Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of UpdateMerchantThreshold Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- UpdateMerchantThresholdTest -->
-      </class> <!-- apiTests.PostUpdateMerchantThreshold -->
-      <class name="apiTests.PostCancelOrder">
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@16c0663d]" name="CancelOrderTest" duration-ms="3175" started-at="2016-06-29T20:07:58Z" finished-at="2016-06-29T20:08:01Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of Cancel Order Api.]]>
+              <![CDATA[Verify the response of Order Enroute Api.]]>
             </line>
             <line>
               <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
@@ -281,61 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CancelOrderTest -->
-      </class> <!-- apiTests.PostCancelOrder -->
-      <class name="apiTests.GetShopperByMerchantId">
-        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@6debcae2]" name="GetShopperByMerchantIdTest" duration-ms="349" started-at="2016-06-29T20:08:04Z" finished-at="2016-06-29T20:08:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of GetShopperByMerchantId Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of ShopperByMerchantId Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- GetShopperByMerchantIdTest -->
-      </class> <!-- apiTests.GetShopperByMerchantId -->
-      <class name="apiTests.GetShoppersById">
-        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetShoppersById@5ba23b66]" name="GetShoppersByIdTest" duration-ms="269" started-at="2016-06-29T20:07:58Z" finished-at="2016-06-29T20:07:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of GetShoppersById Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- GetShoppersByIdTest -->
-      </class> <!-- apiTests.GetShoppersById -->
-      <class name="apiTests.PostCrmAssignment">
-        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@7d417077]" name="CrmAssignmentTest" duration-ms="2445" started-at="2016-06-29T20:07:54Z" finished-at="2016-06-29T20:07:56Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of CrmAssignment Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CrmAssignmentTest -->
-      </class> <!-- apiTests.PostCrmAssignment -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- apiTests.PostOrderEnroute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
