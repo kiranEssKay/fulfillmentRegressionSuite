@@ -10,7 +10,7 @@
 ,
 "response":
 {
-"message": "order with id Auto%d cancelled successfullyx",
+"message": "order with id Auto%d cancelled successfully",
   "success": true
   
 

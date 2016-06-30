@@ -1,0 +1,19 @@
+{"request":
+
+{
+"actionType" : "orderEnroute",
+    "data" : {
+        "fe" : {
+            "name" : "Vinod Kumar",
+            "mobile" : "9582135791"
+        }
+    }
+}
+,
+"response":
+{
+"message": "order Auto%d marked enroute successfully",
+  "success": true
+
+}
+}

@@ -17,6 +17,8 @@ import postFeAssignmentExchange.FeAssignmentResponse;
 import postGetQueuedUrdersExchange.GetQueuedOrdersResponse;
 import postInsertOrderExchange.InsertOrderRequest;
 import postInsertOrderExchange.InsertOrderResponse;
+import postOrderEnrouteExchange.PostEnrouteRequest;
+import postOrderEnrouteExchange.PostOrderEnrouteResponse;
 import postResetMerchantThresholdExchange.ResetMerchantThresholdResponse;
 import postUpdateMerchantThresholdExchange.UpdateMerchantThresholdRequest;
 import postUpdateMerchantThresholdExchange.UpdateMerchantThresholdResponse;
@@ -79,6 +81,12 @@ public interface RetrofitService {
 	
 	@POST("/orders/{order_id}/")
     Call<PostCanceOrderResponse> cancelOrder(@Path("order_id") String order_id,@Body PostCanceOrderRequest bodyAuth);
+	
+	// Order Enroute
+	
+	@POST("/orders/{order_id}/")
+    Call<PostOrderEnrouteResponse> orderEnroute(@Path("order_id") String order_id,@Body PostEnrouteRequest bodyAuth);
+	
 	
 
 }

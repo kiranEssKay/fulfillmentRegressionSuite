@@ -21,7 +21,7 @@ import utils.FixtureUtils;
 
 public class PostAddMerchant {
 
-	@Test(priority = 111)
+	@Test(priority = 13)
 
 	public void AddMerchantTestt() throws Exception
 
