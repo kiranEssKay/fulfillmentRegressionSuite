@@ -19,7 +19,7 @@
       <class name="apiTests.PostOrderEnroute"/>
       
       
-       <class name="apiTests.PostInsertChildOrder"/>
+       
         <class name="apiTests.GetForceUpdateConfig"/>
       
     </classes>
