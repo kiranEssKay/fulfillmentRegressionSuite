@@ -1,0 +1,13 @@
+{
+"response": {
+
+  "message": "Force Update Config Details",
+  "data": {
+    "minVersion": 25,
+    "interval": 30,
+    "id": 1,
+    "latestVersion": 27,
+    "forceUpdateEnabled": true
+  },
+  "success": true}
+}

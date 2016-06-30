@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Verify the response of Order Enroute Api.]]>
+      <![CDATA[Verify the response of GetShoppersById Api.]]>
     </line>
     <line>
       <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
@@ -11,18 +11,18 @@
       <![CDATA[Expected and Actual response are same.  ]]>
     </line>
     <line>
-      <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
+      <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3464" started-at="2016-06-30T06:45:18Z" finished-at="2016-06-30T06:45:21Z">
+  <suite name="Default suite" duration-ms="1238" started-at="2016-06-30T13:11:00Z" finished-at="2016-06-30T13:11:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3464" started-at="2016-06-30T06:45:18Z" finished-at="2016-06-30T06:45:21Z">
-      <class name="apiTests.PostOrderEnroute">
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostOrderEnroute@6e3c1e69]" name="CancelOrderTest" duration-ms="3430" started-at="2016-06-30T12:15:18Z" finished-at="2016-06-30T12:15:21Z">
+    <test name="Default test" duration-ms="1238" started-at="2016-06-30T13:11:00Z" finished-at="2016-06-30T13:11:01Z">
+      <class name="apiTests.GetForceUpdateConfig">
+        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetForceUpdateConfig@6e3c1e69]" name="GetShoppersByIdTest" duration-ms="1197" started-at="2016-06-30T18:41:00Z" finished-at="2016-06-30T18:41:01Z">
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of Order Enroute Api.]]>
+              <![CDATA[Verify the response of GetShoppersById Api.]]>
             </line>
             <line>
               <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
@@ -31,11 +31,11 @@
               <![CDATA[Expected and Actual response are same.  ]]>
             </line>
             <line>
-              <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
+              <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CancelOrderTest -->
-      </class> <!-- apiTests.PostOrderEnroute -->
+        </test-method> <!-- GetShoppersByIdTest -->
+      </class> <!-- apiTests.GetForceUpdateConfig -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

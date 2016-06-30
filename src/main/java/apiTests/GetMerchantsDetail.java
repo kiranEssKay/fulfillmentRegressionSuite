@@ -1,21 +1,19 @@
 package apiTests;
 
+import java.io.IOException;
+
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
 import getMerchantsDetailExchange.GetMerchantsDetailResponse;
 import getMerchantsDetailExchange.GetMerchantsDetailTestData;
-import postUpdateMerchantThresholdExchange.UpdateMerchantThresholdResponse;
-import postUpdateMerchantThresholdExchange.UpdateMerchantThresholdTestData;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
 import utils.Constant;
 import utils.FixtureUtils;
-
-import java.io.IOException;
 
 /**
  * Created by Kiran SK on 4/4/2016.

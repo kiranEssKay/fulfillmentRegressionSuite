@@ -6,6 +6,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
+import getForceUpdateExchange.GetForceUpadateResponse;
+import getForceUpdateExchange.GetForceUpdateFixtureModel;
 import getShopperByIdExchange.ShopperByIdResponse;
 import getShopperByIdExchange.ShopperByIdTestData;
 import retrofit.RetrofitService;
@@ -18,22 +20,22 @@ import utils.FixtureUtils;
 /**
  * Created by Kiran SK on 4/5/2016.
  */
-public class GetShoppersById {
+public class GetForceUpdateConfig {
 
 	@Test(priority = 7)
 
-	public void GetForceUpdateConfig() throws IOException {
+	public void GetShoppersByIdTest() throws IOException {
 		Reporter.log("Verify the response of GetShoppersById Api.", true);
 		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
 		Reporter.log("Base URL is " + Constant.BaseURL, true);
 
-		ShopperByIdTestData apiTestData = (ShopperByIdTestData) FixtureUtils.getAsObject(ShopperByIdTestData.class,
-				"src/main/java/resources/getShopperById.json");
-		Call<ShopperByIdResponse> call = service.GetShopperById("4904445116678144");
-		Response<ShopperByIdResponse> response = call.execute();
+		GetForceUpdateFixtureModel apiTestData = (GetForceUpdateFixtureModel) FixtureUtils.getAsObject(GetForceUpdateFixtureModel.class,
+				"src/main/java/resources/getForceUpdate.json");
+		Call<GetForceUpadateResponse> call = service.getForceUpdate();
+		Response<GetForceUpadateResponse> response = call.execute();
 
-		ShopperByIdResponse expected1 = apiTestData.getResponse();
-		ShopperByIdResponse expected = response.body();
+		GetForceUpadateResponse expected1 = apiTestData.getResponse();
+		GetForceUpadateResponse expected = response.body();
 
 		if (response.code() == 200) {
 

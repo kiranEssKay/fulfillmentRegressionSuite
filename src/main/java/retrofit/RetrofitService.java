@@ -1,5 +1,6 @@
 package retrofit;
 
+import getForceUpdateExchange.GetForceUpadateResponse;
 import getMerchantsDetailExchange.GetMerchantsDetailResponse;
 import getShopperByCityIdExchange.ShopperByCityIdResponse;
 import getShopperByIdExchange.ShopperByIdResponse;
@@ -8,6 +9,8 @@ import postAddMerchantExchange.PostAddMerchantRequest;
 import postAddMerchantExchange.PostAddMerchantResponse;
 import postAddShopperExchange.PostShopperRequest;
 import postAddShopperExchange.PostShopperResponse;
+import postBackupMerchantExchange.PostBackupRequest;
+import postBackupMerchantExchange.PostBackupResponse;
 import postCancelOrderExchange.PostCanceOrderRequest;
 import postCancelOrderExchange.PostCanceOrderResponse;
 import postCrmAssignmentExchange.CrmAssignmentRequest;
@@ -20,6 +23,8 @@ import postInsertOrderExchange.InsertOrderResponse;
 import postOrderEnrouteExchange.PostEnrouteRequest;
 import postOrderEnrouteExchange.PostOrderEnrouteResponse;
 import postResetMerchantThresholdExchange.ResetMerchantThresholdResponse;
+import postShopperMerchantExchange.PostShopperMerchantRequest;
+import postShopperMerchantExchange.PostShopperMerchantResponse;
 import postUpdateMerchantThresholdExchange.UpdateMerchantThresholdRequest;
 import postUpdateMerchantThresholdExchange.UpdateMerchantThresholdResponse;
 import postUpdateMerchantTypeExchange.UpdateMerchantTypeRequest;
@@ -86,6 +91,18 @@ public interface RetrofitService {
 	
 	@POST("/orders/{order_id}/")
     Call<PostOrderEnrouteResponse> orderEnroute(@Path("order_id") String order_id,@Body PostEnrouteRequest bodyAuth);
+	
+	@POST("/mappings/merchant-shopper")
+    Call<PostShopperMerchantResponse> shopperMerchant(@Body PostShopperMerchantRequest bodyAuth);
+	
+	@POST("/mappings/backup-merchant")
+    Call<PostBackupResponse> merchantBackup(@Body PostBackupRequest bodyAuth);
+
+	//Call<PostBackupResponse> merchantBackup(PostBackupRequest request);
+	
+	
+	@GET("/forceupdateconfig")
+	Call<GetForceUpadateResponse> getForceUpdate();
 	
 	
 

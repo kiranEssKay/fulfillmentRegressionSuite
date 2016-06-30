@@ -6,8 +6,9 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
-import postBackupMerchantExchange.PostBackupMerchantFixtureModel;
-import postBackupMerchantExchange.PostBackupResponse;
+import postInsertOrderExchange.InsertOrderResponse;
+import postShopperMerchantExchange.PostShopperMerchantFixtureModel;
+import postShopperMerchantExchange.PostShopperMerchantResponse;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
@@ -15,33 +16,37 @@ import retrofit2.Response;
 import utils.Constant;
 import utils.FixtureUtils;
 
-public class PostMerchantBackupMapping
+public class PostAddMerchantShopperMappingTest
 
 {
 
-	@Test(priority = 14)
-	public void CancelOrderTest()
+	@Test (priority =11)
+	public void AddMerchantShopperMapping()
 
 			throws IOException
 
 	{
+	
 
-		Reporter.log("Verify the response of Order Enroute Api.", true);
+		// Assign CRM Test Suite
+
+		Reporter.log("Verify the response of Add Merchant Shooper Api.", true);
 		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
 		Reporter.log("Base URL is " + Constant.BaseURL, true);
 
-		PostBackupMerchantFixtureModel apiTestData = (PostBackupMerchantFixtureModel) FixtureUtils
-				.getAsObject(PostBackupMerchantFixtureModel.class, "src/main/java/resources/backupMerchant.json");
+		PostShopperMerchantFixtureModel apiTestData = (PostShopperMerchantFixtureModel) FixtureUtils
+				.getAsObject(PostShopperMerchantFixtureModel.class, "src/main/java/resources/merchantShopperMapping.json");
 
-		Call<PostBackupResponse> call = service.merchantBackup(apiTestData.getRequest());
-		Response<PostBackupResponse> response = call.execute();
+		Call<PostShopperMerchantResponse> call = service.shopperMerchant(apiTestData.getRequest());
+		retrofit2.Response<PostShopperMerchantResponse> response = call.execute();
 
-		PostBackupResponse expected1 = apiTestData.getResponse();
-		PostBackupResponse expected = response.body();
+
+		PostShopperMerchantResponse expected1 = apiTestData.getResponse();
+		PostShopperMerchantResponse expected = response.body();
 
 		if (response.code() == 200) {
 
-			
+		
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 			Reporter.log("Expected and Actual response are same.  ", true);
 			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);

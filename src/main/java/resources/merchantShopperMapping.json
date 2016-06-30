@@ -1,0 +1,16 @@
+{"request":
+
+{
+	"merchantId" : "12345678",
+    "shopperId" : 5629499
+
+  
+
+}
+,
+"response":
+{
+"message": "mapping for this merchant and shopper already exists!",
+  "success": false
+
+}}

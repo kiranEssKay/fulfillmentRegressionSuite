@@ -1,5 +1,7 @@
 package apiTests;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -7,16 +9,12 @@ import org.unitils.reflectionassert.ReflectionAssert;
 
 import getShopperByCityIdExchange.ShopperByCityIdResponse;
 import getShopperByCityIdExchange.ShopperByCityIdTestData;
-import getShopperByMerchantIdExchange.ShopperByMerchantIdResponse;
-import getShopperByMerchantIdExchange.ShopperByMerchantIdTestData;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
 import utils.Constant;
 import utils.FixtureUtils;
-
-import java.io.IOException;
 
 /**
  * Created by Kiran SK on 4/6/2016.

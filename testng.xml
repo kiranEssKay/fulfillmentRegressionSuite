@@ -18,6 +18,10 @@
       <class name="apiTests.PostAddMerchant"/>
       <class name="apiTests.PostOrderEnroute"/>
       
+      
+       <class name="apiTests.PostInsertChildOrder"/>
+        <class name="apiTests.GetForceUpdateConfig"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
