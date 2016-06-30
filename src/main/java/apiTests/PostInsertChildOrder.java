@@ -22,7 +22,7 @@ public class PostInsertChildOrder {
 	// Insert Order API Test Script
 	@Test(priority = 1)
 
-	public void InsertOrderTest() throws IOException {
+	public void InsertChildOrderTest() throws IOException {
 		Reporter.log("Verify the response of InsertChildOrder Api.", true);
 		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
 		Reporter.log("Base URL is " + Constant.BaseURL, true);
