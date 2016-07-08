@@ -11,12 +11,12 @@ import postInsertOrderExchange.InsertOrderResponse;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 public class PostInsertChildOrder {
 
-	Constant con = new Constant();
+	ApiEndPoints con = new ApiEndPoints();
 	public int ordid = con.orderID;
 
 	// Insert Order API Test Script
@@ -24,8 +24,8 @@ public class PostInsertChildOrder {
 
 	public void InsertChildOrderTest() throws IOException {
 		Reporter.log("Verify the response of InsertChildOrder Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 		// pos-master//src//main//resources//PostStockIn.json
 		InsertOrderApiTestData apiTestData = (InsertOrderApiTestData) FixtureUtils
 				.getAsObject(InsertOrderApiTestData.class, "src/main/java/resources/insertChildorder.json");

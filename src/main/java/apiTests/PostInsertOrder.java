@@ -11,12 +11,12 @@ import postInsertOrderExchange.InsertOrderResponse;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 public class PostInsertOrder {
 
-	Constant con = new Constant();
+	ApiEndPoints con = new ApiEndPoints();
 	public int ordid = con.orderID;
 
 	// Insert Order API Test Script
@@ -24,14 +24,14 @@ public class PostInsertOrder {
 
 	public void InsertOrderTest() throws IOException {
 		Reporter.log("Verify the response of InsertOrder Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 		// pos-master//src//main//resources//PostStockIn.json
 		InsertOrderApiTestData apiTestData = (InsertOrderApiTestData) FixtureUtils
 				.getAsObject(InsertOrderApiTestData.class, "src/main/java/resources/insertorder.json");
 
 		// System.out.println(orderNo);
-		Call<InsertOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
+		Call<InsertOrderResponse> call = service.postOrder("Auto" +con.orderID, apiTestData.getRequest());
 
 		retrofit2.Response<InsertOrderResponse> response = call.execute();
 

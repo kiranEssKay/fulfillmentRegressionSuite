@@ -13,9 +13,9 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
-import utils.InsertOrderUtil;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
+import utility.InsertOrderUtil;
 
 /**
  * Created by Kiran SK on 4/1/2016.
@@ -31,8 +31,8 @@ public class PostFeAssignment {
 			InsertOrderUtil utils = new InsertOrderUtil();
 			utils.InsertOrderTest();
 			Reporter.log("Verify the response of FeAssignment Api.", true);
-			RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-			Reporter.log("Base URL is " + Constant.BaseURL, true);
+			RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+			Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 			FeAssignmentApiTestData apiTestData = (FeAssignmentApiTestData) FixtureUtils
 					.getAsObject(FeAssignmentApiTestData.class, "src/main/java/resources/feAssignment.json");

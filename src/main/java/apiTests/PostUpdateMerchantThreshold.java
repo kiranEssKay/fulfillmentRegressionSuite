@@ -10,8 +10,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 import java.io.IOException;
 
@@ -24,8 +24,8 @@ public class PostUpdateMerchantThreshold {
 
 	public void UpdateMerchantThresholdTest() throws IOException {
 		Reporter.log("Verify the response of UpdateMerchantThreshold Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		UpdateMerchantThresholdTestData apiTestData = (UpdateMerchantThresholdTestData) FixtureUtils.getAsObject(
 				UpdateMerchantThresholdTestData.class, "src/main/java/resources/updateMerchantThreshold.json");

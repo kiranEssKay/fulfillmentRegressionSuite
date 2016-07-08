@@ -13,8 +13,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 /**
  * Created by Kiran SK on 4/6/2016.
@@ -25,8 +25,8 @@ public class GetShopperBuCityId {
 
 	public void GetShopperBuCityIdTest() throws IOException {
 		Reporter.log("Verify the response of GetShopperBuCityId Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		ShopperByCityIdTestData apiTestData = (ShopperByCityIdTestData) FixtureUtils
 				.getAsObject(ShopperByCityIdTestData.class, "src/main/java/resources/getShopperByCityId.json");

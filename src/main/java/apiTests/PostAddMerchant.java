@@ -12,8 +12,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 /**
  * Created by Kiran SK on 4/5/2016.
@@ -26,7 +26,7 @@ public class PostAddMerchant {
 	public void AddMerchantTestt() throws Exception
 
 	{
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
 
 		PostAddMerchantFixtureModel respoAuthentication = (PostAddMerchantFixtureModel) FixtureUtils
 				.getAsObject(PostAddMerchantFixtureModel.class, "src/main/java/resources/AddMerchant.json");
@@ -34,7 +34,7 @@ public class PostAddMerchant {
 		PostAddMerchantRequest requestBody = respoAuthentication.getRequest();
 
 		Call<PostAddMerchantResponse> postAuth = service.addMerchantResponse(requestBody);
-		Reporter.log("End Point Under Test" + Constant.BaseURL, true);
+		Reporter.log("End Point Under Test" + ApiEndPoints.BaseURL, true);
 
 		Response<PostAddMerchantResponse> response = postAuth.execute();
 

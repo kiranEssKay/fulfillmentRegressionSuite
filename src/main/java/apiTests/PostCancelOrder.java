@@ -14,9 +14,9 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
-import utils.InsertOrderUtil;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
+import utility.InsertOrderUtil;
 
 public class PostCancelOrder
 
@@ -34,8 +34,8 @@ public class PostCancelOrder
 		// Assign CRM Test Suite
 
 		Reporter.log("Verify the response of Cancel Order Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostCancelOrderFixtureModel apiTestData = (PostCancelOrderFixtureModel) FixtureUtils
 				.getAsObject(PostCancelOrderFixtureModel.class, "src/main/java/resources/canceOrder.json");

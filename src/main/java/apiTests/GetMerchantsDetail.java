@@ -12,8 +12,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 /**
  * Created by Kiran SK on 4/4/2016.
@@ -24,8 +24,8 @@ public class GetMerchantsDetail {
 
 	public void GetMerchantsDetailTest() throws IOException {
 		Reporter.log("Verify the response of GetMerchantsDetail Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		GetMerchantsDetailTestData apiTestData = (GetMerchantsDetailTestData) FixtureUtils
 				.getAsObject(GetMerchantsDetailTestData.class, "src/main/java/resources/getMerchantsDetail.json");

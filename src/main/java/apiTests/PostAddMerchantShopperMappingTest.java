@@ -13,8 +13,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 public class PostAddMerchantShopperMappingTest
 
@@ -31,8 +31,8 @@ public class PostAddMerchantShopperMappingTest
 		// Assign CRM Test Suite
 
 		Reporter.log("Verify the response of Add Merchant Shooper Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostShopperMerchantFixtureModel apiTestData = (PostShopperMerchantFixtureModel) FixtureUtils
 				.getAsObject(PostShopperMerchantFixtureModel.class, "src/main/java/resources/merchantShopperMapping.json");

@@ -13,10 +13,10 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
-import utils.InsertOrderUtil;
-import utils.Utilator;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
+import utility.InsertOrderUtil;
+import utility.Utilator;
 
 import java.io.IOException;
 
@@ -34,8 +34,8 @@ public class PostCrmAssignment {
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
 		Reporter.log("Verify the response of CrmAssignment Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		CrmAssignmentApiTestData apiTestData = (CrmAssignmentApiTestData) FixtureUtils
 				.getAsObject(CrmAssignmentApiTestData.class, "src/main/java/resources/crmAssignment.json");

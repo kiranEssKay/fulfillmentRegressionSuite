@@ -1,4 +1,4 @@
-package utils;
+package utility;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import retrofit2.Call;
 
 public class InsertOrderUtil {
 
-	Constant con = new Constant();
+	ApiEndPoints con = new ApiEndPoints();
 	public int ordid = con.orderID;
 
 	// Insert Order API Test Script
@@ -21,7 +21,7 @@ public class InsertOrderUtil {
 
 	public void InsertOrderTest() throws IOException {
 		
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
 		
 		
 		

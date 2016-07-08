@@ -14,8 +14,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 /**
  * Created by Kiran SK on 4/5/2016.
@@ -26,8 +26,8 @@ public class GetForceUpdateConfig {
 
 	public void GetShoppersByIdTest() throws IOException {
 		Reporter.log("Verify the response of GetShoppersById Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		GetForceUpdateFixtureModel apiTestData = (GetForceUpdateFixtureModel) FixtureUtils.getAsObject(GetForceUpdateFixtureModel.class,
 				"src/main/java/resources/getForceUpdate.json");

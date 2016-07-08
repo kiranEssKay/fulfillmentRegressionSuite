@@ -12,8 +12,8 @@ import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utils.Constant;
-import utils.FixtureUtils;
+import utility.ApiEndPoints;
+import utility.FixtureUtils;
 
 public class PostMerchantBackupMapping
 
@@ -27,8 +27,8 @@ public class PostMerchantBackupMapping
 	{
 
 		Reporter.log("Verify the response of Order Enroute Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, Constant.BaseURL);
-		Reporter.log("Base URL is " + Constant.BaseURL, true);
+		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
+		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostBackupMerchantFixtureModel apiTestData = (PostBackupMerchantFixtureModel) FixtureUtils
 				.getAsObject(PostBackupMerchantFixtureModel.class, "src/main/java/resources/backupMerchant.json");
