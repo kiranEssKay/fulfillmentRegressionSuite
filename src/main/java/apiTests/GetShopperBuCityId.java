@@ -19,14 +19,11 @@ import utility.FixtureUtils;
 /**
  * Created by Kiran SK on 4/6/2016.
  */
-public class GetShopperBuCityId {
+public class GetShopperBuCityId extends BaseApiTest {
 
 	@Test(priority = 9)
 
 	public void GetShopperBuCityIdTest() throws IOException {
-		Reporter.log("Verify the response of GetShopperBuCityId Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		ShopperByCityIdTestData apiTestData = (ShopperByCityIdTestData) FixtureUtils
 				.getAsObject(ShopperByCityIdTestData.class, "src/main/java/resources/getShopperByCityId.json");
@@ -41,12 +38,9 @@ public class GetShopperBuCityId {
 			// ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 			Assert.assertEquals(response.code(), 200);
-			Reporter.log("Expected and Actual response are same.  ", true);
-			Reporter.log("Test Status of ShopperByCityId Api :  PASS  ", true);
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
-			Reporter.log("Test Status of ShopperByCityId Api :  FAIL  ", true);
+
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}
 

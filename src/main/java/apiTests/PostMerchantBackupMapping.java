@@ -15,7 +15,7 @@ import retrofit2.Response;
 import utility.ApiEndPoints;
 import utility.FixtureUtils;
 
-public class PostMerchantBackupMapping
+public class PostMerchantBackupMapping extends BaseApiTest
 
 {
 
@@ -25,10 +25,6 @@ public class PostMerchantBackupMapping
 			throws IOException
 
 	{
-
-		Reporter.log("Verify the response of Order Enroute Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostBackupMerchantFixtureModel apiTestData = (PostBackupMerchantFixtureModel) FixtureUtils
 				.getAsObject(PostBackupMerchantFixtureModel.class, "src/main/java/resources/backupMerchant.json");
@@ -41,13 +37,12 @@ public class PostMerchantBackupMapping
 
 		if (response.code() == 200) {
 
-			
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			Reporter.log("Expected and Actual response are same.  ", true);
+
 			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
+
 			Reporter.log("Test Status of CrmAssignment Api :  FAIL  ", true);
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}

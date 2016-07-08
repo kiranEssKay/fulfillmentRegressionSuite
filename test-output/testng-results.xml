@@ -2,94 +2,193 @@
 <testng-results skipped="0" failed="0" total="15" passed="15">
   <reporter-output>
     <line>
-      <![CDATA[Verify the response of CrmAssignment Api.]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[Starting Execution of Test: CrmAssignmentTest]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
     </line>
     <line>
       <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[Verify the response of FeAssignment Api.]]>
+      <![CDATA[API Test Passed CrmAssignmentTest]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[Completed Execution of Test: CrmAssignmentTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: FeAssignmentTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
     </line>
     <line>
       <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[Verify the response of GetShoppersById Api.]]>
+      <![CDATA[API Test Passed FeAssignmentTest]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[Completed Execution of Test: FeAssignmentTest]]>
     </line>
     <line>
-      <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[Starting Execution of Test: GetForceUpdateConfig]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Test Status of GetMerchantsDetail Api :  PASS  ]]>
+      <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[Verify the response of Cancel Order Api.]]>
+      <![CDATA[API Test Passed GetForceUpdateConfig]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[Completed Execution of Test: GetForceUpdateConfig]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: GetMerchantsDetailTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed GetMerchantsDetailTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: GetMerchantsDetailTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: CancelOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
     </line>
     <line>
       <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[Verify the response of InsertOrder Api.]]>
+      <![CDATA[API Test Passed CancelOrderTest]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[Completed Execution of Test: CancelOrderTest]]>
     </line>
     <line>
-      <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[Starting Execution of Test: InsertOrderTest]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Test Status of ShopperByCityId Api :  PASS  ]]>
+      <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[Verify the response of GetShopperByMerchantId Api.]]>
+      <![CDATA[API Test Passed InsertOrderTest]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: InsertOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: GetShopperBuCityIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed GetShopperBuCityIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: GetShopperBuCityIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: GetShopperByMerchantIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
     </line>
     <line>
       <![CDATA[Expected and Actual response are same.  ]]>
@@ -98,283 +197,742 @@
       <![CDATA[Test Status of ShopperByMerchantId Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[Verify the response of UpdateMerchantThreshold Api.]]>
+      <![CDATA[API Test Passed GetShopperByMerchantIdTest]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[Completed Execution of Test: GetShopperByMerchantIdTest]]>
     </line>
     <line>
-      <![CDATA[Test Status of UpdateMerchantThreshold Api :  PASS  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Verify the response of UpdateMerchantType Api.]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[Starting Execution of Test: UpdateMerchantThresholdTest]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of UpdateMerchantType Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[End Point Under Testhttp://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[ShopperAppResponse for Post Authentication ShopperAppRequest is 200]]>
-    </line>
-    <line>
-      <![CDATA[Post Authentication API for POS - Master successful]]>
-    </line>
-    <line>
-      <![CDATA[Test Cases : Post Authentication API Passed ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of Order Enroute Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of GetShoppersById Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[Verify the response of InsertChildOrder Api.]]>
-    </line>
-    <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-    </line>
-    <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
       <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+      <![CDATA[API Test Passed UpdateMerchantThresholdTest]]>
     </line>
     <line>
-      <![CDATA[Expected and Actual response are same.  ]]>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
+      <![CDATA[Completed Execution of Test: UpdateMerchantThresholdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: UpdateMerchantTypeTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed UpdateMerchantTypeTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: UpdateMerchantTypeTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: AddMerchantTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed AddMerchantTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: AddMerchantTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: CancelOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed CancelOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: CancelOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: GetShoppersByIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed GetShoppersByIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: GetShoppersByIdTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: InsertChildOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed InsertChildOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: InsertChildOrderTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: OrderRescheduleTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed OrderRescheduleTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: OrderRescheduleTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="14423" started-at="2016-07-08T11:24:37Z" finished-at="2016-07-08T11:24:51Z">
+  <suite name="Suite" duration-ms="25494" started-at="2016-07-08T13:37:10Z" finished-at="2016-07-08T13:37:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14423" started-at="2016-07-08T11:24:37Z" finished-at="2016-07-08T11:24:51Z">
-      <class name="apiTests.PostInsertOrder">
-        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@2d209079]" name="InsertOrderTest" duration-ms="551" started-at="2016-07-08T16:54:45Z" finished-at="2016-07-08T16:54:46Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify the response of InsertOrder Api.]]>
-            </line>
-            <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
-            </line>
-            <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- InsertOrderTest -->
-      </class> <!-- apiTests.PostInsertOrder -->
+    <test name="Test" duration-ms="25494" started-at="2016-07-08T13:37:10Z" finished-at="2016-07-08T13:37:35Z">
       <class name="apiTests.PostOrderEnroute">
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostOrderEnroute@3cb5cdba]" name="CancelOrderTest" duration-ms="1497" started-at="2016-07-08T16:54:48Z" finished-at="2016-07-08T16:54:50Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-08T19:07:28Z" finished-at="2016-07-08T19:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostOrderEnroute.CancelOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of Order Enroute Api.]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[Starting Execution of Test: CancelOrderTest]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
-            <line>
-              <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CancelOrderTest -->
-      </class> <!-- apiTests.PostOrderEnroute -->
-      <class name="apiTests.PostRescheduleOrder">
-        <test-method status="PASS" signature="OrderRescheduleTest()[pri:0, instance:apiTests.PostRescheduleOrder@7dc36524]" name="OrderRescheduleTest" duration-ms="428" started-at="2016-07-08T16:54:51Z" finished-at="2016-07-08T16:54:51Z">
-          <reporter-output>
             <line>
               <![CDATA[]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="CancelOrderTest" duration-ms="4914" started-at="2016-07-08T19:07:28Z" finished-at="2016-07-08T19:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelOrderTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostOrderEnroute.CancelOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[API Test Passed CancelOrderTest]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
+              <![CDATA[Completed Execution of Test: CancelOrderTest]]>
             </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostOrderEnroute -->
+      <class name="apiTests.PostInsertOrder">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-08T19:07:22Z" finished-at="2016-07-08T19:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostInsertOrder.InsertOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: InsertOrderTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="InsertOrderTest" duration-ms="2347" started-at="2016-07-08T19:07:22Z" finished-at="2016-07-08T19:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertOrderTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:24Z" finished-at="2016-07-08T19:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostInsertOrder.InsertOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed InsertOrderTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: InsertOrderTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostInsertOrder -->
+      <class name="apiTests.PostRescheduleOrder">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostRescheduleOrder.OrderRescheduleTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: OrderRescheduleTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="OrderRescheduleTest()[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="OrderRescheduleTest" duration-ms="424" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderRescheduleTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostRescheduleOrder.OrderRescheduleTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed OrderRescheduleTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: OrderRescheduleTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostRescheduleOrder -->
       <class name="apiTests.PostAddMerchant">
-        <test-method status="PASS" signature="AddMerchantTestt()[pri:0, instance:apiTests.PostAddMerchant@7d417077]" name="AddMerchantTestt" duration-ms="347" started-at="2016-07-08T16:54:48Z" finished-at="2016-07-08T16:54:48Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostAddMerchant.AddMerchantTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[End Point Under Testhttp://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[ShopperAppResponse for Post Authentication ShopperAppRequest is 200]]>
+              <![CDATA[Starting Execution of Test: AddMerchantTest]]>
             </line>
             <line>
-              <![CDATA[Post Authentication API for POS - Master successful]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Test Cases : Post Authentication API Passed ]]>
+              <![CDATA[]]>
             </line>
           </reporter-output>
-        </test-method> <!-- AddMerchantTestt -->
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="AddMerchantTest()[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="AddMerchantTest" duration-ms="335" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMerchantTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:28Z" finished-at="2016-07-08T19:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostAddMerchant.AddMerchantTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed AddMerchantTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: AddMerchantTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostAddMerchant -->
       <class name="apiTests.GetShopperBuCityId">
-        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@129a8472]" name="GetShopperBuCityIdTest" duration-ms="738" started-at="2016-07-08T16:54:46Z" finished-at="2016-07-08T16:54:47Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:24Z" finished-at="2016-07-08T19:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetShopperBuCityId.GetShopperBuCityIdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of GetShopperBuCityId Api.]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[Starting Execution of Test: GetShopperBuCityIdTest]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Test Status of ShopperByCityId Api :  PASS  ]]>
+              <![CDATA[]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="GetShopperBuCityIdTest" duration-ms="1095" started-at="2016-07-08T19:07:24Z" finished-at="2016-07-08T19:07:25Z">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- GetShopperBuCityIdTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:25Z" finished-at="2016-07-08T19:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetShopperBuCityId.GetShopperBuCityIdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed GetShopperBuCityIdTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: GetShopperBuCityIdTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.GetShopperBuCityId -->
       <class name="apiTests.GetMerchantsDetail">
-        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@d041cf]" name="GetMerchantsDetailTest" duration-ms="370" started-at="2016-07-08T16:54:42Z" finished-at="2016-07-08T16:54:43Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetMerchantsDetail.GetMerchantsDetailTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of GetMerchantsDetail Api.]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[Starting Execution of Test: GetMerchantsDetailTest]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Test Status of GetMerchantsDetail Api :  PASS  ]]>
+              <![CDATA[]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="GetMerchantsDetailTest" duration-ms="897" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:18Z">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- GetMerchantsDetailTest -->
-      </class> <!-- apiTests.GetMerchantsDetail -->
-      <class name="apiTests.PostUpdateMerchantType">
-        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@2f7c7260]" name="UpdateMerchantTypeTest" duration-ms="373" started-at="2016-07-08T16:54:47Z" finished-at="2016-07-08T16:54:48Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:18Z" finished-at="2016-07-08T19:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetMerchantsDetail.GetMerchantsDetailTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of UpdateMerchantType Api.]]>
+              <![CDATA[API Test Passed GetMerchantsDetailTest]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[Completed Execution of Test: GetMerchantsDetailTest]]>
             </line>
             <line>
-              <![CDATA[Test Status of UpdateMerchantType Api :  PASS  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
           </reporter-output>
-        </test-method> <!-- UpdateMerchantTypeTest -->
-      </class> <!-- apiTests.PostUpdateMerchantType -->
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.GetMerchantsDetail -->
       <class name="apiTests.PostUpdateMerchantThreshold">
-        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@35bbe5e8]" name="UpdateMerchantThresholdTest" duration-ms="369" started-at="2016-07-08T16:54:47Z" finished-at="2016-07-08T16:54:47Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:26Z" finished-at="2016-07-08T19:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of UpdateMerchantThreshold Api.]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[Starting Execution of Test: UpdateMerchantThresholdTest]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Test Status of UpdateMerchantThreshold Api :  PASS  ]]>
+              <![CDATA[]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="UpdateMerchantThresholdTest" duration-ms="611" started-at="2016-07-08T19:07:26Z" finished-at="2016-07-08T19:07:27Z">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateMerchantThresholdTest -->
-      </class> <!-- apiTests.PostUpdateMerchantThreshold -->
-      <class name="apiTests.GetForceUpdateConfig">
-        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetForceUpdateConfig@75bd9247]" name="GetShoppersByIdTest" duration-ms="361" started-at="2016-07-08T16:54:50Z" finished-at="2016-07-08T16:54:50Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of GetShoppersById Api.]]>
+              <![CDATA[API Test Passed UpdateMerchantThresholdTest]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[Completed Execution of Test: UpdateMerchantThresholdTest]]>
             </line>
             <line>
-              <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetShoppersByIdTest -->
-      </class> <!-- apiTests.GetForceUpdateConfig -->
-      <class name="apiTests.PostCancelOrder">
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@56cbfb61]" name="CancelOrderTest" duration-ms="2603" started-at="2016-07-08T16:54:43Z" finished-at="2016-07-08T16:54:45Z">
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostUpdateMerchantThreshold -->
+      <class name="apiTests.PostUpdateMerchantType">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of Cancel Order Api.]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[Starting Execution of Test: UpdateMerchantTypeTest]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="UpdateMerchantTypeTest" duration-ms="420" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateMerchantTypeTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed UpdateMerchantTypeTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: UpdateMerchantTypeTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostUpdateMerchantType -->
+      <class name="apiTests.GetForceUpdateConfig">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetForceUpdateConfig.GetShoppersByIdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: GetShoppersByIdTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="GetShoppersByIdTest" duration-ms="493" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetShoppersByIdTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetForceUpdateConfig.GetShoppersByIdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed GetShoppersByIdTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: GetShoppersByIdTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.GetForceUpdateConfig -->
+      <class name="apiTests.PostCancelOrder">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:18Z" finished-at="2016-07-08T19:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostCancelOrder.CancelOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: CancelOrderTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="CancelOrderTest" duration-ms="3537" started-at="2016-07-08T19:07:18Z" finished-at="2016-07-08T19:07:22Z">
+          <reporter-output>
             <line>
               <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- CancelOrderTest -->
-      </class> <!-- apiTests.PostCancelOrder -->
-      <class name="apiTests.GetShopperByMerchantId">
-        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@3c5a99da]" name="GetShopperByMerchantIdTest" duration-ms="604" started-at="2016-07-08T16:54:47Z" finished-at="2016-07-08T16:54:47Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:22Z" finished-at="2016-07-08T19:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostCancelOrder.CancelOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of GetShopperByMerchantId Api.]]>
+              <![CDATA[API Test Passed CancelOrderTest]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
+            <line>
+              <![CDATA[Completed Execution of Test: CancelOrderTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostCancelOrder -->
+      <class name="apiTests.GetShopperByMerchantId">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-08T19:07:25Z" finished-at="2016-07-08T19:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: GetShopperByMerchantIdTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="GetShopperByMerchantIdTest" duration-ms="1284" started-at="2016-07-08T19:07:25Z" finished-at="2016-07-08T19:07:26Z">
+          <reporter-output>
             <line>
               <![CDATA[Expected and Actual response are same.  ]]>
             </line>
@@ -383,78 +941,246 @@
             </line>
           </reporter-output>
         </test-method> <!-- GetShopperByMerchantIdTest -->
-      </class> <!-- apiTests.GetShopperByMerchantId -->
-      <class name="apiTests.PostFeAssignment">
-        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2c8d66b2]" name="FeAssignmentTest" duration-ms="1386" started-at="2016-07-08T16:54:40Z" finished-at="2016-07-08T16:54:42Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:26Z" finished-at="2016-07-08T19:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of FeAssignment Api.]]>
+              <![CDATA[API Test Passed GetShopperByMerchantIdTest]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[Completed Execution of Test: GetShopperByMerchantIdTest]]>
             </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.GetShopperByMerchantId -->
+      <class name="apiTests.PostFeAssignment">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="Createonnection" is-config="true" duration-ms="19" started-at="2016-07-08T19:07:13Z" finished-at="2016-07-08T19:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: FeAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="FeAssignmentTest" duration-ms="3478" started-at="2016-07-08T19:07:13Z" finished-at="2016-07-08T19:07:17Z">
+          <reporter-output>
             <line>
               <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- FeAssignmentTest -->
-      </class> <!-- apiTests.PostFeAssignment -->
-      <class name="apiTests.PostInsertChildOrder">
-        <test-method status="PASS" signature="InsertChildOrderTest()[pri:0, instance:apiTests.PostInsertChildOrder@5a39699c]" name="InsertChildOrderTest" duration-ms="916" started-at="2016-07-08T16:54:50Z" finished-at="2016-07-08T16:54:51Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of InsertChildOrder Api.]]>
+              <![CDATA[API Test Passed FeAssignmentTest]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[Completed Execution of Test: FeAssignmentTest]]>
             </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostFeAssignment -->
+      <class name="apiTests.PostInsertChildOrder">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostInsertChildOrder.InsertChildOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: InsertChildOrderTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="InsertChildOrderTest()[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="InsertChildOrderTest" duration-ms="1858" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:35Z">
+          <reporter-output>
             <line>
               <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- InsertChildOrderTest -->
-      </class> <!-- apiTests.PostInsertChildOrder -->
-      <class name="apiTests.GetShoppersById">
-        <test-method status="PASS" signature="GetForceUpdateConfig()[pri:0, instance:apiTests.GetShoppersById@1134affc]" name="GetForceUpdateConfig" duration-ms="390" started-at="2016-07-08T16:54:42Z" finished-at="2016-07-08T16:54:42Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostInsertChildOrder.InsertChildOrderTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of GetShoppersById Api.]]>
+              <![CDATA[API Test Passed InsertChildOrderTest]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[Completed Execution of Test: InsertChildOrderTest]]>
             </line>
             <line>
-              <![CDATA[Test Status of ShopperById Api :  PASS  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetForceUpdateConfig -->
-      </class> <!-- apiTests.GetShoppersById -->
-      <class name="apiTests.PostCrmAssignment">
-        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@1b0375b3]" name="CrmAssignmentTest" duration-ms="3429" started-at="2016-07-08T16:54:37Z" finished-at="2016-07-08T16:54:40Z">
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostInsertChildOrder -->
+      <class name="apiTests.GetShoppersById">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShoppersById@e580929]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetShoppersById.GetForceUpdateConfig() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify the response of CrmAssignment Api.]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Base URL is http://test-grofers-hp.appspot.com]]>
+              <![CDATA[Starting Execution of Test: GetForceUpdateConfig]]>
             </line>
             <line>
-              <![CDATA[Expected and Actual response are same.  ]]>
+              <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="GetForceUpdateConfig()[pri:0, instance:apiTests.GetShoppersById@e580929]" name="GetForceUpdateConfig" duration-ms="492" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetForceUpdateConfig -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShoppersById@e580929]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.GetShoppersById.GetForceUpdateConfig() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed GetForceUpdateConfig]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: GetForceUpdateConfig]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.GetShoppersById -->
+      <class name="apiTests.PostCrmAssignment">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="Createonnection" is-config="true" duration-ms="602" started-at="2016-07-08T19:07:10Z" finished-at="2016-07-08T19:07:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: CrmAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="CrmAssignmentTest" duration-ms="2549" started-at="2016-07-08T19:07:11Z" finished-at="2016-07-08T19:07:13Z">
+          <reporter-output>
             <line>
               <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- CrmAssignmentTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="terminateConnection" is-config="true" duration-ms="2" started-at="2016-07-08T19:07:13Z" finished-at="2016-07-08T19:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed CrmAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: CrmAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostCrmAssignment -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

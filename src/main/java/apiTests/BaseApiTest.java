@@ -1,6 +1,7 @@
 package apiTests;
 
-import org.testng.ITestResult;
+import java.lang.reflect.Method;
+
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,32 +13,36 @@ import utility.ApiEndPoints;
 public class BaseApiTest
 
 {
-	
-	//private static final Logger LOGGER = (Logger) LoggerFactory.getLogger(BaseAPITest.class.getName());
+
 	public RetrofitService service;
 
-	@BeforeMethod(alwaysRun=true)
-	public void Createonnection(ITestResult result) {
-		
-		Reporter.log("------------------------------------------------------------------------------------");
-		Reporter.log("Starting Execution of Test: " + result.getMethod().getMethodName()	);
-		Reporter.log("------------------------------------------------------------------------------------");
-		
-			
+	@BeforeMethod
+	public void Createonnection(Method method) {
+
+		Reporter.log("------------------------------------------------------------------------------------", true);
+		Reporter.log("Starting Execution of Test: " + method.getName(), true);
+		Reporter.log("------------------------------------------------------------------------------------", true);
+
+		Reporter.log("", true);
 		service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
+		
+
 	}
 
 	@AfterMethod()
 
-	public void terminateConnection(ITestResult result)
+	public void terminateConnection(Method method) {
 
-	{
 		
-		Reporter.log("------------------------------------------------------------------------------------");
-		Reporter.log("Completed the Execution of Test: " + result.getMethod().getMethodName()	);
-		Reporter.log("------------------------------------------------------------------------------------");
-
+		Reporter.log("API Test Passed " + method.getName(), true);
+		
+		Reporter.log("------------------------------------------------------------------------------------", true);
+		Reporter.log("Completed Execution of Test: " + method.getName(), true);
+		
+		
+		Reporter.log("------------------------------------------------------------------------------------", true);
 	}
+
+	
 
 }

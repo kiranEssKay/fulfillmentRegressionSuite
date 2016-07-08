@@ -1,31 +1,24 @@
 package apiTests;
 
-import org.testng.Reporter;
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
 import postUpdateMerchantTypeExchange.UpdateMerchantTypeResponse;
 import postUpdateMerchantTypeExchange.UpdateMerchantTypeTestData;
-import retrofit.RetrofitService;
-import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utility.ApiEndPoints;
 import utility.FixtureUtils;
-
-import java.io.IOException;
 
 /**
  * Created by Kiran SK on 4/4/2016.
  */
-public class PostUpdateMerchantType {
+public class PostUpdateMerchantType extends BaseApiTest {
 
 	@Test(priority = 4)
 
 	public void UpdateMerchantTypeTest() throws IOException {
-		Reporter.log("Verify the response of UpdateMerchantType Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		UpdateMerchantTypeTestData apiTestData = (UpdateMerchantTypeTestData) FixtureUtils
 				.getAsObject(UpdateMerchantTypeTestData.class, "src/main/java/resources/updateMerchantType.json");
@@ -39,12 +32,9 @@ public class PostUpdateMerchantType {
 		if (response.code() == 200) {
 
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			Reporter.log("Expected and Actual response are same.  ", true);
-			Reporter.log("Test Status of UpdateMerchantType Api :  PASS  ", true);
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
-			Reporter.log("Test Status of UpdateMerchantType Api :  FAIL  ", true);
+
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}
 

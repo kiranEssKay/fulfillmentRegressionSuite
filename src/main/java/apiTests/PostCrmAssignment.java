@@ -24,7 +24,7 @@ import java.io.IOException;
  * Created by Kiran SK on 4/5/2016.
  */
 
-public class PostCrmAssignment {
+public class PostCrmAssignment extends BaseApiTest{
 
 	@Test(priority = 13)
 
@@ -33,9 +33,7 @@ public class PostCrmAssignment {
 
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
-		Reporter.log("Verify the response of CrmAssignment Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
+		
 
 		CrmAssignmentApiTestData apiTestData = (CrmAssignmentApiTestData) FixtureUtils
 				.getAsObject(CrmAssignmentApiTestData.class, "src/main/java/resources/crmAssignment.json");
@@ -50,11 +48,11 @@ public class PostCrmAssignment {
 
 			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			Reporter.log("Expected and Actual response are same.  ", true);
+			
 			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
+			
 			Reporter.log("Test Status of CrmAssignment Api :  FAIL  ", true);
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}

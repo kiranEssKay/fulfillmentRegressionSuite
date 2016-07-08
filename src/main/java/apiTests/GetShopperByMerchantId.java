@@ -18,14 +18,11 @@ import utility.FixtureUtils;
 /**
  * Created by Kiran SK on 4/5/2016.
  */
-public class GetShopperByMerchantId {
+public class GetShopperByMerchantId extends BaseApiTest {
 
 	@Test(priority = 8)
 
 	public void GetShopperByMerchantIdTest() throws IOException {
-		Reporter.log("Verify the response of GetShopperByMerchantId Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		ShopperByMerchantIdTestData apiTestData = (ShopperByMerchantIdTestData) FixtureUtils
 				.getAsObject(ShopperByMerchantIdTestData.class, "src/main/java/resources/getShopperByMerchantId.json");

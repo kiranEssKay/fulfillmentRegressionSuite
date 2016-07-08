@@ -21,41 +21,37 @@ import utility.InsertOrderUtil;
  * Created by Kiran SK on 4/1/2016.
  */
 
-public class PostFeAssignment {
-	
+public class PostFeAssignment extends BaseApiTest {
+
 	// Assign FE Test Suite
-	
-		@Test
-		public void FeAssignmentTest() throws IOException 
-		{
-			InsertOrderUtil utils = new InsertOrderUtil();
-			utils.InsertOrderTest();
-			Reporter.log("Verify the response of FeAssignment Api.", true);
-			RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-			Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
-			FeAssignmentApiTestData apiTestData = (FeAssignmentApiTestData) FixtureUtils
-					.getAsObject(FeAssignmentApiTestData.class, "src/main/java/resources/feAssignment.json");
+	@Test
+	public void FeAssignmentTest() throws IOException {
+		InsertOrderUtil utils = new InsertOrderUtil();
+		utils.InsertOrderTest();
 
-			Call<FeAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
-			Response<FeAssignmentResponse> response = call.execute();
+		FeAssignmentApiTestData apiTestData = (FeAssignmentApiTestData) FixtureUtils
+				.getAsObject(FeAssignmentApiTestData.class, "src/main/java/resources/feAssignment.json");
 
-			FeAssignmentResponse expected1 = apiTestData.getResponse();
-			FeAssignmentResponse expected = response.body();
+		Call<FeAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
+		Response<FeAssignmentResponse> response = call.execute();
 
-			if (response.code() == 200) {
+		FeAssignmentResponse expected1 = apiTestData.getResponse();
+		FeAssignmentResponse expected = response.body();
 
-				expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
-				ReflectionAssert.assertReflectionEquals(expected, expected1);
-				Reporter.log("Expected and Actual response are same.  ", true);
-				Reporter.log("Test Status of FeAssignment Api :  PASS  ", true);
+		if (response.code() == 200) {
 
-			} else {
-				Reporter.log("http response code is not 200. ", true);
-				Reporter.log("Test Status of FeAssignment Api :  FAIL  ", true);
-				ReflectionAssert.assertReflectionEquals(expected, expected1);
-			}
+			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
 
+			Reporter.log("Test Status of FeAssignment Api :  PASS  ", true);
+
+		} else {
+
+			Reporter.log("Test Status of FeAssignment Api :  FAIL  ", true);
+			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}
+
+	}
 
 }

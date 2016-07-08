@@ -24,7 +24,7 @@ public class InsertOrderUtil {
 		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
 		
 		
-		
+
 		// pos-master//src//main//resources//PostStockIn.json
 		InsertOrderApiTestData apiTestData = (InsertOrderApiTestData) FixtureUtils
 				.getAsObject(InsertOrderApiTestData.class, "src/main/java/resources/insertorder.json");

@@ -1,31 +1,25 @@
 package apiTests;
 
-import org.testng.Reporter;
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
 import postResetMerchantThresholdExchange.ResetMerchantThresholdResponse;
 import postResetMerchantThresholdExchange.ResetMerchantThresholdTestData;
-import retrofit.RetrofitService;
-import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utility.ApiEndPoints;
 import utility.FixtureUtils;
-
-import java.io.IOException;
 
 /**
  * Created by Kiran SK on 4/4/2016.
  */
-public class PostResetMerchantThreshold {
+public class PostResetMerchantThreshold extends BaseApiTest {
 
 	@Test(priority = 6)
 
 	public void ResetMerchantThresholdTest() throws IOException {
-		Reporter.log("Verify the response of ResetMerchantThreshold Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
+		
 
 		ResetMerchantThresholdTestData apiTestData = (ResetMerchantThresholdTestData) FixtureUtils.getAsObject(
 				ResetMerchantThresholdTestData.class, "src/main/java/resources/resetMerchantsThreshold.json");
@@ -39,12 +33,10 @@ public class PostResetMerchantThreshold {
 		if (response.code() == 200) {
 
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			Reporter.log("Expected and Actual response are same.  ", true);
-			Reporter.log("Test Status of ResetMerchantThreshold Api :  PASS  ", true);
+			
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
-			Reporter.log("Test Status of ResetMerchantThreshold Api :  FAIL  ", true);
+			
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}
 

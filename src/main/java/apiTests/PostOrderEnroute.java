@@ -2,25 +2,21 @@ package apiTests;
 
 import java.io.IOException;
 
-import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
 import postOrderEnrouteExchange.PostOrderEnrouteFixtureModel;
 import postOrderEnrouteExchange.PostOrderEnrouteResponse;
-import retrofit.RetrofitService;
-import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utility.ApiEndPoints;
 import utility.FixtureUtils;
 import utility.InsertOrderUtil;
 
-public class PostOrderEnroute
+public class PostOrderEnroute extends BaseApiTest
 
 {
 
-	@Test(priority = 14)
+	@Test
 	public void CancelOrderTest()
 
 			throws IOException
@@ -28,12 +24,6 @@ public class PostOrderEnroute
 	{
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
-
-		// Assign CRM Test Suite
-
-		Reporter.log("Verify the response of Order Enroute Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostOrderEnrouteFixtureModel apiTestData = (PostOrderEnrouteFixtureModel) FixtureUtils
 				.getAsObject(PostOrderEnrouteFixtureModel.class, "src/main/java/resources/canceOrder.json");
@@ -48,12 +38,9 @@ public class PostOrderEnroute
 
 			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			Reporter.log("Expected and Actual response are same.  ", true);
-			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
-			Reporter.log("Test Status of CrmAssignment Api :  FAIL  ", true);
+
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}
 

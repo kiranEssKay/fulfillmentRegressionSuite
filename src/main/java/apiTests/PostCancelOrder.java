@@ -18,11 +18,11 @@ import utility.ApiEndPoints;
 import utility.FixtureUtils;
 import utility.InsertOrderUtil;
 
-public class PostCancelOrder
+public class PostCancelOrder extends BaseApiTest
 
 {
 
-	@Test (priority =11)
+	@Test(priority = 11)
 	public void CancelOrderTest()
 
 			throws IOException
@@ -32,10 +32,6 @@ public class PostCancelOrder
 		utils.InsertOrderTest();
 
 		// Assign CRM Test Suite
-
-		Reporter.log("Verify the response of Cancel Order Api.", true);
-		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
-		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostCancelOrderFixtureModel apiTestData = (PostCancelOrderFixtureModel) FixtureUtils
 				.getAsObject(PostCancelOrderFixtureModel.class, "src/main/java/resources/canceOrder.json");
@@ -50,11 +46,11 @@ public class PostCancelOrder
 
 			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			Reporter.log("Expected and Actual response are same.  ", true);
+
 			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);
 
 		} else {
-			Reporter.log("http response code is not 200. ", true);
+
 			Reporter.log("Test Status of CrmAssignment Api :  FAIL  ", true);
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}
