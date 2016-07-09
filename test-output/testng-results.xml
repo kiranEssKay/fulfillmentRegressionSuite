@@ -380,12 +380,12 @@
       <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="25494" started-at="2016-07-08T13:37:10Z" finished-at="2016-07-08T13:37:35Z">
+  <suite name="Suite" duration-ms="19973" started-at="2016-07-09T07:18:20Z" finished-at="2016-07-09T07:18:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25494" started-at="2016-07-08T13:37:10Z" finished-at="2016-07-08T13:37:35Z">
+    <test name="Test" duration-ms="19973" started-at="2016-07-09T07:18:20Z" finished-at="2016-07-09T07:18:40Z">
       <class name="apiTests.PostOrderEnroute">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-08T19:07:28Z" finished-at="2016-07-08T19:07:28Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-09T12:48:35Z" finished-at="2016-07-09T12:48:35Z">
           <params>
             <param index="0">
               <value>
@@ -408,11 +408,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="CancelOrderTest" duration-ms="4914" started-at="2016-07-08T19:07:28Z" finished-at="2016-07-08T19:07:33Z">
+        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="CancelOrderTest" duration-ms="2656" started-at="2016-07-09T12:48:35Z" finished-at="2016-07-09T12:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CancelOrderTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostOrderEnroute@6b71769e]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-09T12:48:38Z" finished-at="2016-07-09T12:48:38Z">
           <params>
             <param index="0">
               <value>
@@ -437,7 +437,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostOrderEnroute -->
       <class name="apiTests.PostInsertOrder">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-08T19:07:22Z" finished-at="2016-07-08T19:07:22Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-09T12:48:31Z" finished-at="2016-07-09T12:48:31Z">
           <params>
             <param index="0">
               <value>
@@ -460,11 +460,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="InsertOrderTest" duration-ms="2347" started-at="2016-07-08T19:07:22Z" finished-at="2016-07-08T19:07:24Z">
+        <test-method status="PASS" signature="InsertOrderTest()[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="InsertOrderTest" duration-ms="818" started-at="2016-07-09T12:48:31Z" finished-at="2016-07-09T12:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InsertOrderTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:24Z" finished-at="2016-07-08T19:07:24Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertOrder@1d251891]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-09T12:48:32Z" finished-at="2016-07-09T12:48:32Z">
           <params>
             <param index="0">
               <value>
@@ -489,7 +489,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostInsertOrder -->
       <class name="apiTests.PostRescheduleOrder">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="Createonnection" is-config="true" duration-ms="2" started-at="2016-07-09T12:48:40Z" finished-at="2016-07-09T12:48:40Z">
           <params>
             <param index="0">
               <value>
@@ -512,11 +512,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="OrderRescheduleTest()[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="OrderRescheduleTest" duration-ms="424" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+        <test-method status="PASS" signature="OrderRescheduleTest()[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="OrderRescheduleTest" duration-ms="704" started-at="2016-07-09T12:48:40Z" finished-at="2016-07-09T12:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderRescheduleTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostRescheduleOrder@1b0375b3]" name="terminateConnection" is-config="true" duration-ms="7" started-at="2016-07-09T12:48:40Z" finished-at="2016-07-09T12:48:40Z">
           <params>
             <param index="0">
               <value>
@@ -541,7 +541,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostRescheduleOrder -->
       <class name="apiTests.PostAddMerchant">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-09T12:48:34Z" finished-at="2016-07-09T12:48:34Z">
           <params>
             <param index="0">
               <value>
@@ -564,11 +564,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="AddMerchantTest()[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="AddMerchantTest" duration-ms="335" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:28Z">
+        <test-method status="PASS" signature="AddMerchantTest()[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="AddMerchantTest" duration-ms="544" started-at="2016-07-09T12:48:34Z" finished-at="2016-07-09T12:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddMerchantTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:28Z" finished-at="2016-07-08T19:07:28Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostAddMerchant@129a8472]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:35Z" finished-at="2016-07-09T12:48:35Z">
           <params>
             <param index="0">
               <value>
@@ -593,7 +593,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostAddMerchant -->
       <class name="apiTests.GetShopperBuCityId">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:24Z" finished-at="2016-07-08T19:07:24Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="Createonnection" is-config="true" duration-ms="2" started-at="2016-07-09T12:48:32Z" finished-at="2016-07-09T12:48:32Z">
           <params>
             <param index="0">
               <value>
@@ -616,11 +616,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="GetShopperBuCityIdTest" duration-ms="1095" started-at="2016-07-08T19:07:24Z" finished-at="2016-07-08T19:07:25Z">
+        <test-method status="PASS" signature="GetShopperBuCityIdTest()[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="GetShopperBuCityIdTest" duration-ms="819" started-at="2016-07-09T12:48:32Z" finished-at="2016-07-09T12:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetShopperBuCityIdTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:25Z" finished-at="2016-07-08T19:07:25Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperBuCityId@7c75222b]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:33Z" finished-at="2016-07-09T12:48:33Z">
           <params>
             <param index="0">
               <value>
@@ -645,7 +645,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.GetShopperBuCityId -->
       <class name="apiTests.GetMerchantsDetail">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-09T12:48:29Z" finished-at="2016-07-09T12:48:29Z">
           <params>
             <param index="0">
               <value>
@@ -668,11 +668,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="GetMerchantsDetailTest" duration-ms="897" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:18Z">
+        <test-method status="PASS" signature="GetMerchantsDetailTest()[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="GetMerchantsDetailTest" duration-ms="324" started-at="2016-07-09T12:48:29Z" finished-at="2016-07-09T12:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetMerchantsDetailTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:18Z" finished-at="2016-07-08T19:07:18Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetMerchantsDetail@1cd072a9]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-09T12:48:30Z" finished-at="2016-07-09T12:48:30Z">
           <params>
             <param index="0">
               <value>
@@ -697,7 +697,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.GetMerchantsDetail -->
       <class name="apiTests.PostUpdateMerchantThreshold">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:26Z" finished-at="2016-07-08T19:07:26Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-09T12:48:33Z" finished-at="2016-07-09T12:48:33Z">
           <params>
             <param index="0">
               <value>
@@ -720,11 +720,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="UpdateMerchantThresholdTest" duration-ms="611" started-at="2016-07-08T19:07:26Z" finished-at="2016-07-08T19:07:27Z">
+        <test-method status="PASS" signature="UpdateMerchantThresholdTest()[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="UpdateMerchantThresholdTest" duration-ms="504" started-at="2016-07-09T12:48:33Z" finished-at="2016-07-09T12:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateMerchantThresholdTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantThreshold@2f7c7260]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-09T12:48:34Z" finished-at="2016-07-09T12:48:34Z">
           <params>
             <param index="0">
               <value>
@@ -749,7 +749,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostUpdateMerchantThreshold -->
       <class name="apiTests.PostUpdateMerchantType">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="Createonnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:34Z" finished-at="2016-07-09T12:48:34Z">
           <params>
             <param index="0">
               <value>
@@ -772,11 +772,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="UpdateMerchantTypeTest" duration-ms="420" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+        <test-method status="PASS" signature="UpdateMerchantTypeTest()[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="UpdateMerchantTypeTest" duration-ms="368" started-at="2016-07-09T12:48:34Z" finished-at="2016-07-09T12:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateMerchantTypeTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:27Z" finished-at="2016-07-08T19:07:27Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostUpdateMerchantType@27f674d]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:34Z" finished-at="2016-07-09T12:48:34Z">
           <params>
             <param index="0">
               <value>
@@ -801,7 +801,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostUpdateMerchantType -->
       <class name="apiTests.GetForceUpdateConfig">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-09T12:48:38Z" finished-at="2016-07-09T12:48:38Z">
           <params>
             <param index="0">
               <value>
@@ -824,11 +824,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="GetShoppersByIdTest" duration-ms="493" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+        <test-method status="PASS" signature="GetShoppersByIdTest()[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="GetShoppersByIdTest" duration-ms="664" started-at="2016-07-09T12:48:38Z" finished-at="2016-07-09T12:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetShoppersByIdTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetForceUpdateConfig@d041cf]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:38Z" finished-at="2016-07-09T12:48:38Z">
           <params>
             <param index="0">
               <value>
@@ -853,7 +853,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.GetForceUpdateConfig -->
       <class name="apiTests.PostCancelOrder">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-08T19:07:18Z" finished-at="2016-07-08T19:07:18Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-09T12:48:30Z" finished-at="2016-07-09T12:48:30Z">
           <params>
             <param index="0">
               <value>
@@ -876,14 +876,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="CancelOrderTest" duration-ms="3537" started-at="2016-07-08T19:07:18Z" finished-at="2016-07-08T19:07:22Z">
+        <test-method status="PASS" signature="CancelOrderTest()[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="CancelOrderTest" duration-ms="1605" started-at="2016-07-09T12:48:30Z" finished-at="2016-07-09T12:48:31Z">
           <reporter-output>
             <line>
               <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- CancelOrderTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:22Z" finished-at="2016-07-08T19:07:22Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCancelOrder@2752f6e2]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-09T12:48:31Z" finished-at="2016-07-09T12:48:31Z">
           <params>
             <param index="0">
               <value>
@@ -908,7 +908,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostCancelOrder -->
       <class name="apiTests.GetShopperByMerchantId">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-08T19:07:25Z" finished-at="2016-07-08T19:07:25Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="Createonnection" is-config="true" duration-ms="4" started-at="2016-07-09T12:48:33Z" finished-at="2016-07-09T12:48:33Z">
           <params>
             <param index="0">
               <value>
@@ -931,7 +931,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="GetShopperByMerchantIdTest" duration-ms="1284" started-at="2016-07-08T19:07:25Z" finished-at="2016-07-08T19:07:26Z">
+        <test-method status="PASS" signature="GetShopperByMerchantIdTest()[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="GetShopperByMerchantIdTest" duration-ms="396" started-at="2016-07-09T12:48:33Z" finished-at="2016-07-09T12:48:33Z">
           <reporter-output>
             <line>
               <![CDATA[Expected and Actual response are same.  ]]>
@@ -941,7 +941,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- GetShopperByMerchantIdTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:26Z" finished-at="2016-07-08T19:07:26Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShopperByMerchantId@7e0babb1]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:33Z" finished-at="2016-07-09T12:48:33Z">
           <params>
             <param index="0">
               <value>
@@ -966,7 +966,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.GetShopperByMerchantId -->
       <class name="apiTests.PostFeAssignment">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="Createonnection" is-config="true" duration-ms="19" started-at="2016-07-08T19:07:13Z" finished-at="2016-07-08T19:07:13Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="Createonnection" is-config="true" duration-ms="7" started-at="2016-07-09T12:48:26Z" finished-at="2016-07-09T12:48:26Z">
           <params>
             <param index="0">
               <value>
@@ -989,14 +989,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="FeAssignmentTest" duration-ms="3478" started-at="2016-07-08T19:07:13Z" finished-at="2016-07-08T19:07:17Z">
+        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="FeAssignmentTest" duration-ms="3067" started-at="2016-07-09T12:48:26Z" finished-at="2016-07-09T12:48:29Z">
           <reporter-output>
             <line>
               <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- FeAssignmentTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@2d209079]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:29Z" finished-at="2016-07-09T12:48:29Z">
           <params>
             <param index="0">
               <value>
@@ -1021,7 +1021,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostFeAssignment -->
       <class name="apiTests.PostInsertChildOrder">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="Createonnection" is-config="true" duration-ms="6" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:33Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="Createonnection" is-config="true" duration-ms="3" started-at="2016-07-09T12:48:38Z" finished-at="2016-07-09T12:48:38Z">
           <params>
             <param index="0">
               <value>
@@ -1044,14 +1044,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="InsertChildOrderTest()[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="InsertChildOrderTest" duration-ms="1858" started-at="2016-07-08T19:07:33Z" finished-at="2016-07-08T19:07:35Z">
+        <test-method status="PASS" signature="InsertChildOrderTest()[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="InsertChildOrderTest" duration-ms="1383" started-at="2016-07-09T12:48:38Z" finished-at="2016-07-09T12:48:40Z">
           <reporter-output>
             <line>
               <![CDATA[Test Status of insertOrder Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- InsertChildOrderTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-08T19:07:35Z" finished-at="2016-07-08T19:07:35Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertChildOrder@6bdf28bb]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-09T12:48:40Z" finished-at="2016-07-09T12:48:40Z">
           <params>
             <param index="0">
               <value>
@@ -1076,7 +1076,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.PostInsertChildOrder -->
       <class name="apiTests.GetShoppersById">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShoppersById@e580929]" name="Createonnection" is-config="true" duration-ms="5" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShoppersById@e580929]" name="Createonnection" is-config="true" duration-ms="2" started-at="2016-07-09T12:48:29Z" finished-at="2016-07-09T12:48:29Z">
           <params>
             <param index="0">
               <value>
@@ -1099,11 +1099,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="GetForceUpdateConfig()[pri:0, instance:apiTests.GetShoppersById@e580929]" name="GetForceUpdateConfig" duration-ms="492" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+        <test-method status="PASS" signature="GetForceUpdateConfig()[pri:0, instance:apiTests.GetShoppersById@e580929]" name="GetForceUpdateConfig" duration-ms="639" started-at="2016-07-09T12:48:29Z" finished-at="2016-07-09T12:48:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetForceUpdateConfig -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShoppersById@e580929]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-08T19:07:17Z" finished-at="2016-07-08T19:07:17Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.GetShoppersById@e580929]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:29Z" finished-at="2016-07-09T12:48:29Z">
           <params>
             <param index="0">
               <value>
@@ -1128,7 +1128,7 @@
         </test-method> <!-- terminateConnection -->
       </class> <!-- apiTests.GetShoppersById -->
       <class name="apiTests.PostCrmAssignment">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="Createonnection" is-config="true" duration-ms="602" started-at="2016-07-08T19:07:10Z" finished-at="2016-07-08T19:07:11Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="Createonnection" is-config="true" duration-ms="1193" started-at="2016-07-09T12:48:20Z" finished-at="2016-07-09T12:48:22Z">
           <params>
             <param index="0">
               <value>
@@ -1151,14 +1151,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="CrmAssignmentTest" duration-ms="2549" started-at="2016-07-08T19:07:11Z" finished-at="2016-07-08T19:07:13Z">
+        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="CrmAssignmentTest" duration-ms="4164" started-at="2016-07-09T12:48:22Z" finished-at="2016-07-09T12:48:26Z">
           <reporter-output>
             <line>
               <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- CrmAssignmentTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="terminateConnection" is-config="true" duration-ms="2" started-at="2016-07-08T19:07:13Z" finished-at="2016-07-08T19:07:13Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@4c203ea1]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-09T12:48:26Z" finished-at="2016-07-09T12:48:26Z">
           <params>
             <param index="0">
               <value>
