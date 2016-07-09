@@ -21,7 +21,7 @@
       
        
         <class name="apiTests.GetForceUpdateConfig"/>
-         <class name="apiTests.PostInsertChildOrder"/>
+        
           <class name="apiTests.PostRescheduleOrder"/>
       
     </classes>
