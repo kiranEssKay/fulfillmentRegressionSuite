@@ -2,18 +2,20 @@
 package apiTests;
 
 import java.io.IOException;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
+import com.google.gson.reflect.TypeToken;
+
 import postFeAssignmentExchange.FeAssignmentApiTestData;
 import postFeAssignmentExchange.FeAssignmentResponse;
-import retrofit.RetrofitService;
-import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import retrofit2.Response;
-import utility.ApiEndPoints;
 import utility.FixtureUtils;
 import utility.InsertOrderUtil;
 
@@ -30,28 +32,36 @@ public class PostFeAssignment extends BaseApiTest {
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
 
-		FeAssignmentApiTestData apiTestData = (FeAssignmentApiTestData) FixtureUtils
-				.getAsObject(FeAssignmentApiTestData.class, "src/main/java/resources/feAssignment.json");
+		// FeAssignmentApiTestData apiTestData = (FeAssignmentApiTestData)
+		// FixtureUtils
+		// .getAsObject(FeAssignmentApiTestData.class,
+		// "src/main/java/resources/feAssignment.json");
 
-		Call<FeAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
-		Response<FeAssignmentResponse> response = call.execute();
+		ArrayList<FeAssignmentApiTestData> dataList;
+		Type listType = new TypeToken<List<FeAssignmentApiTestData>>(){}.getType();
+		dataList = (ArrayList<FeAssignmentApiTestData>) FixtureUtils.getAsList(FeAssignmentApiTestData.class,
+				"src/main/java/resources/feAssignment.json",listType);
 
-		FeAssignmentResponse expected1 = apiTestData.getResponse();
-		FeAssignmentResponse expected = response.body();
+		for (FeAssignmentApiTestData apiTestData : dataList) {
+			Call<FeAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
+			Response<FeAssignmentResponse> response = call.execute();
 
-		if (response.code() == 200) {
+			FeAssignmentResponse expected1 = apiTestData.getResponse();
+			FeAssignmentResponse expected = response.body();
 
-			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
-			ReflectionAssert.assertReflectionEquals(expected, expected1);
+			if (response.code() == 200) {
 
-			Reporter.log("Test Status of FeAssignment Api :  PASS  ", true);
+				expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
+				ReflectionAssert.assertReflectionEquals(expected, expected1);
 
-		} else {
+				Reporter.log("Test Status of FeAssignment Api :  PASS  ", true);
 
-			Reporter.log("Test Status of FeAssignment Api :  FAIL  ", true);
-			ReflectionAssert.assertReflectionEquals(expected, expected1);
+			} else {
+
+				Reporter.log("Test Status of FeAssignment Api :  FAIL  ", true);
+				ReflectionAssert.assertReflectionEquals(expected, expected1);
+			}
 		}
-
 	}
 
 }

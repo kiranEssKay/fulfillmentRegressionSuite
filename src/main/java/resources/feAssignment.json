@@ -1,3 +1,19 @@
+[{
+  "request": {
+
+    "actionType" : "feAssignment",
+    "data" : {
+      "fe" : {
+        "name" : "Vinod Kumar",
+        "mobile" : "9582135791"
+      }
+    }
+  },
+  "response": {
+    "message": "fe updated successfully for order Auto%d",
+    "success": true
+  }
+},
 {
   "request": {
 
@@ -13,4 +29,20 @@
     "message": "fe updated successfully for order Auto%d",
     "success": true
   }
-}
+},
+{
+  "request": {
+
+    "actionType" : "feAssignment",
+    "data" : {
+      "fe" : {
+        "name" : "Vinod Kumar",
+        "mobile" : "9582135791"
+      }
+    }
+  },
+  "response": {
+    "message": "fe updated successfully for order Auto%d",
+    "success": true
+  }
+}]

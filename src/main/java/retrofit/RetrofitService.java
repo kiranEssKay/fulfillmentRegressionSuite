@@ -99,7 +99,7 @@ public interface RetrofitService {
     Call<PostBackupResponse> merchantBackup(@Body PostBackupRequest bodyAuth);
 
 	//Call<PostBackupResponse> merchantBackup(PostBackupRequest request);
-	
+
 	
 	@GET("/forceupdateconfig")
 	Call<GetForceUpadateResponse> getForceUpdate();

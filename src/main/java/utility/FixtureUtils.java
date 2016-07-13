@@ -17,18 +17,14 @@ public class FixtureUtils
 
 {
 
-    public static <T> List<T> getAsList(Class<T> cl,String path) throws FileNotFoundException {
+    public static <T> List<T> getAsList(Class<T> cl,String path, Type listType) throws FileNotFoundException {
         //ClassLoader classLoader = FixtureUtils.class.getClassLoader();
         File file = new File(path); //fixtures/tax_test_list.json"
 
-        Type listType = new TypeToken<List<T>>(){}.getType();
 
         JsonReader reader = new JsonReader(new FileReader(file));
-
-        return (List<T>) new Gson().fromJson(reader, listType);
-
-
-
+        List<T> list =  new Gson().fromJson(reader, listType);
+        return list;
 
     }
     public static Object getAsObject(Class cl,String path) throws FileNotFoundException {
@@ -40,4 +36,6 @@ public class FixtureUtils
         return new Gson().fromJson(reader, cl);
 
     }
+   
+    
 }
