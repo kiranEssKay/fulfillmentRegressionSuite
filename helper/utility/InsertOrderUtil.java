@@ -27,7 +27,7 @@ public class InsertOrderUtil {
 
 		// pos-master//src//main//resources//PostStockIn.json
 		InsertOrderApiTestData apiTestData = (InsertOrderApiTestData) FixtureUtils
-				.getAsObject(InsertOrderApiTestData.class, "src/main/java/resources/insertorder.json");
+				.getAsObject(InsertOrderApiTestData.class, "testdata/resources/insertorder.json");
 
 		// System.out.println(orderNo);
 		Call<InsertOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
