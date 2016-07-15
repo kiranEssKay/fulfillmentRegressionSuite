@@ -28,7 +28,7 @@ public class GetQueuedOrders {
 		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		GetQueuedOrdersTestData apiTestData = (GetQueuedOrdersTestData) FixtureUtils
-				.getAsObject(GetQueuedOrdersTestData.class, "src/main/java/resources/getQueuedOrders.json");
+				.getAsObject(GetQueuedOrdersTestData.class, "testdata/resources/getQueuedOrders.json");
 
 		Call<GetQueuedOrdersResponse> call = service.GetQueuedOrders();
 		Response<GetQueuedOrdersResponse> response = call.execute();

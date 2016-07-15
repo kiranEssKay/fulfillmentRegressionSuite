@@ -22,7 +22,7 @@ public class PostUpdateMerchantThreshold extends BaseApiTest {
 	public void UpdateMerchantThresholdTest() throws IOException {
 
 		UpdateMerchantThresholdTestData apiTestData = (UpdateMerchantThresholdTestData) FixtureUtils.getAsObject(
-				UpdateMerchantThresholdTestData.class, "src/main/java/resources/updateMerchantThreshold.json");
+				UpdateMerchantThresholdTestData.class, "testdata/resources/updateMerchantThreshold.json");
 
 		Call<UpdateMerchantThresholdResponse> call = service.postOrder(apiTestData.getRequest());
 		Response<UpdateMerchantThresholdResponse> response = call.execute();

@@ -22,7 +22,7 @@ public class PostResetMerchantThreshold extends BaseApiTest {
 		
 
 		ResetMerchantThresholdTestData apiTestData = (ResetMerchantThresholdTestData) FixtureUtils.getAsObject(
-				ResetMerchantThresholdTestData.class, "src/main/java/resources/resetMerchantsThreshold.json");
+				ResetMerchantThresholdTestData.class, "testdata/resources/resetMerchantsThreshold.json");
 
 		Call<ResetMerchantThresholdResponse> call = service.postOrder();
 		Response<ResetMerchantThresholdResponse> response = call.execute();

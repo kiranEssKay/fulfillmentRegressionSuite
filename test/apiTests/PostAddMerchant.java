@@ -24,7 +24,7 @@ public class PostAddMerchant extends BaseApiTest {
 	{
 
 		PostAddMerchantFixtureModel respoAuthentication = (PostAddMerchantFixtureModel) FixtureUtils
-				.getAsObject(PostAddMerchantFixtureModel.class, "src/main/java/resources/AddMerchant.json");
+				.getAsObject(PostAddMerchantFixtureModel.class, "testdata/resources/AddMerchant.json");
 
 		PostAddMerchantRequest requestBody = respoAuthentication.getRequest();
 

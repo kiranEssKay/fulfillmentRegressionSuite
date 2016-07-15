@@ -40,7 +40,7 @@ public class PostFeAssignment extends BaseApiTest {
 		ArrayList<FeAssignmentApiTestData> dataList;
 		Type listType = new TypeToken<List<FeAssignmentApiTestData>>(){}.getType();
 		dataList = (ArrayList<FeAssignmentApiTestData>) FixtureUtils.getAsList(FeAssignmentApiTestData.class,
-				"src/main/java/resources/feAssignment.json",listType);
+				"testdata/resources/feAssignment.json",listType);
 
 		for (FeAssignmentApiTestData apiTestData : dataList) {
 			Call<FeAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());

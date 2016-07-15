@@ -27,7 +27,7 @@ public class PostMerchantBackupMapping extends BaseApiTest
 	{
 
 		PostBackupMerchantFixtureModel apiTestData = (PostBackupMerchantFixtureModel) FixtureUtils
-				.getAsObject(PostBackupMerchantFixtureModel.class, "src/main/java/resources/backupMerchant.json");
+				.getAsObject(PostBackupMerchantFixtureModel.class, "testdata/resources/backupMerchant.json");
 
 		Call<PostBackupResponse> call = service.merchantBackup(apiTestData.getRequest());
 		Response<PostBackupResponse> response = call.execute();

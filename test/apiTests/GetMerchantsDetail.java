@@ -23,7 +23,7 @@ public class GetMerchantsDetail extends BaseApiTest {
 		
 
 		GetMerchantsDetailTestData apiTestData = (GetMerchantsDetailTestData) FixtureUtils
-				.getAsObject(GetMerchantsDetailTestData.class, "src/main/java/resources/getMerchantsDetail.json");
+				.getAsObject(GetMerchantsDetailTestData.class, "testdata/resources/getMerchantsDetail.json");
 
 		Call<GetMerchantsDetailResponse> call = service.GetMerchantsDetail(1003);
 		Response<GetMerchantsDetailResponse> response = call.execute();

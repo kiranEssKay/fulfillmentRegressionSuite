@@ -1,14 +1,15 @@
-
 package apiTests;
+
+import java.io.IOException;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
+import postCancelOrderExchange.PostCanceOrderResponse;
+import postCancelOrderExchange.PostCancelOrderFixtureModel;
 import postCrmAssignmentExchange.CrmAssignmentApiTestData;
 import postCrmAssignmentExchange.CrmAssignmentResponse;
-import postInsertOrderExchange.InsertOrderApiTestData;
-import postInsertOrderExchange.InsertOrderResponse;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
@@ -16,43 +17,40 @@ import retrofit2.Response;
 import utility.ApiEndPoints;
 import utility.FixtureUtils;
 import utility.InsertOrderUtil;
-import utility.Utilator;
 
-import java.io.IOException;
+public class PostCancelOrder extends BaseApiTest
 
-/**
- * Created by Kiran SK on 4/5/2016.
- */
+{
 
-public class PostCrmAssignment extends BaseApiTest{
+	@Test(priority = 11)
+	public void CancelOrderTest()
 
-	@Test(priority = 13)
+			throws IOException
 
-	// Insert Order
-	public void CrmAssignmentTest() throws IOException {
-
+	{
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
-		
 
-		CrmAssignmentApiTestData apiTestData = (CrmAssignmentApiTestData) FixtureUtils
-				.getAsObject(CrmAssignmentApiTestData.class, "src/main/java/resources/crmAssignment.json");
+		// Assign CRM Test Suite
 
-		Call<CrmAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
-		Response<CrmAssignmentResponse> response = call.execute();
+		PostCancelOrderFixtureModel apiTestData = (PostCancelOrderFixtureModel) FixtureUtils
+				.getAsObject(PostCancelOrderFixtureModel.class, "testdata/resources/canceOrder.json");
 
-		CrmAssignmentResponse expected1 = apiTestData.getResponse();
-		CrmAssignmentResponse expected = response.body();
+		Call<PostCanceOrderResponse> call = service.cancelOrder("Auto" + utils.ordid, apiTestData.getRequest());
+		Response<PostCanceOrderResponse> response = call.execute();
+
+		PostCanceOrderResponse expected1 = apiTestData.getResponse();
+		PostCanceOrderResponse expected = response.body();
 
 		if (response.code() == 200) {
 
 			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
-			
+
 			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);
 
 		} else {
-			
+
 			Reporter.log("Test Status of CrmAssignment Api :  FAIL  ", true);
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 		}

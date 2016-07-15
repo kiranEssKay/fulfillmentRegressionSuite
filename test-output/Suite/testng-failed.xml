@@ -21,12 +21,6 @@
           <include name="Createonnection"/>
         </methods>
       </class> <!-- apiTests.PostAddMerchant -->
-      <class name="apiTests.PostRescheduleOrder">
-        <methods>
-          <include name="terminateConnection"/>
-          <include name="Createonnection"/>
-        </methods>
-      </class> <!-- apiTests.PostRescheduleOrder -->
       <class name="apiTests.PostUpdateMerchantThreshold">
         <methods>
           <include name="terminateConnection"/>
@@ -40,12 +34,12 @@
           <include name="Createonnection"/>
         </methods>
       </class> <!-- apiTests.PostFeAssignment -->
-      <class name="apiTests.PostInsertChildOrder">
+      <class name="apiTests.PostRescheduleOrder">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.PostInsertChildOrder -->
+      </class> <!-- apiTests.PostRescheduleOrder -->
       <class name="apiTests.PostOrderEnroute">
         <methods>
           <include name="terminateConnection"/>

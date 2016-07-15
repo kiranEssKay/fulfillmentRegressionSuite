@@ -29,7 +29,7 @@ public class GetForceUpdateConfig  extends BaseApiTest{
 	
 
 		GetForceUpdateFixtureModel apiTestData = (GetForceUpdateFixtureModel) FixtureUtils.getAsObject(GetForceUpdateFixtureModel.class,
-				"src/main/java/resources/getForceUpdate.json");
+				"testdata/resources/getForceUpdate.json");
 		Call<GetForceUpadateResponse> call = service.getForceUpdate();
 		Response<GetForceUpadateResponse> response = call.execute();
 

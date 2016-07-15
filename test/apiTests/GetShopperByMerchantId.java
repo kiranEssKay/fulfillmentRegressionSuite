@@ -25,7 +25,7 @@ public class GetShopperByMerchantId extends BaseApiTest {
 	public void GetShopperByMerchantIdTest() throws IOException {
 
 		ShopperByMerchantIdTestData apiTestData = (ShopperByMerchantIdTestData) FixtureUtils
-				.getAsObject(ShopperByMerchantIdTestData.class, "src/main/java/resources/getShopperByMerchantId.json");
+				.getAsObject(ShopperByMerchantIdTestData.class, "testdata/resources/getShopperByMerchantId.json");
 		Call<ShopperByMerchantIdResponse> call = service.GetShopperByMerchantId("1003");
 		Response<ShopperByMerchantIdResponse> response = call.execute();
 

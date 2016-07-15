@@ -26,7 +26,7 @@ public class GetShopperBuCityId extends BaseApiTest {
 	public void GetShopperBuCityIdTest() throws IOException {
 
 		ShopperByCityIdTestData apiTestData = (ShopperByCityIdTestData) FixtureUtils
-				.getAsObject(ShopperByCityIdTestData.class, "src/main/java/resources/getShopperByCityId.json");
+				.getAsObject(ShopperByCityIdTestData.class, "testdata/resources/getShopperByCityId.json");
 		Call<ShopperByCityIdResponse> call = service.GetShopperByCityId("jaipur");
 		Response<ShopperByCityIdResponse> response = call.execute();
 

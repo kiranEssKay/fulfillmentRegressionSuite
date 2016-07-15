@@ -21,7 +21,7 @@ public class PostInsertOrder extends BaseApiTest {
 	public void InsertOrderTest() throws IOException {
 
 		InsertOrderApiTestData apiTestData = (InsertOrderApiTestData) FixtureUtils
-				.getAsObject(InsertOrderApiTestData.class, "src/main/java/resources/insertorder.json");
+				.getAsObject(InsertOrderApiTestData.class, "testdata/resources/insertorder.json");
 
 		// System.out.println(orderNo);
 		Call<InsertOrderResponse> call = service.postOrder("Auto" + con.orderID, apiTestData.getRequest());

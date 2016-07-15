@@ -21,7 +21,7 @@ public class PostUpdateMerchantType extends BaseApiTest {
 	public void UpdateMerchantTypeTest() throws IOException {
 
 		UpdateMerchantTypeTestData apiTestData = (UpdateMerchantTypeTestData) FixtureUtils
-				.getAsObject(UpdateMerchantTypeTestData.class, "src/main/java/resources/updateMerchantType.json");
+				.getAsObject(UpdateMerchantTypeTestData.class, "testdata/resources/updateMerchantType.json");
 
 		Call<UpdateMerchantTypeResponse> call = service.UpdateMerchantType(apiTestData.getRequest());
 		Response<UpdateMerchantTypeResponse> response = call.execute();

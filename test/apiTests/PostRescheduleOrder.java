@@ -23,7 +23,7 @@ public class PostRescheduleOrder extends BaseApiTest
 	public void OrderRescheduleTest() throws IOException {
 
 		ShopperByIdTestData apiTestData = (ShopperByIdTestData) FixtureUtils.getAsObject(ShopperByIdTestData.class,
-				"src/main/java/resources/getShopperById.json");
+				"testdata/resources/getShopperById.json");
 		Call<ShopperByIdResponse> call = service.GetShopperById("4904445116678144");
 		Response<ShopperByIdResponse> response = call.execute();
 

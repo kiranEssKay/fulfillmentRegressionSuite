@@ -33,7 +33,7 @@ public class PostAddMerchantShopperMappingTest extends BaseApiTest
 		Reporter.log("Base URL is " + ApiEndPoints.BaseURL, true);
 
 		PostShopperMerchantFixtureModel apiTestData = (PostShopperMerchantFixtureModel) FixtureUtils.getAsObject(
-				PostShopperMerchantFixtureModel.class, "src/main/java/resources/merchantShopperMapping.json");
+				PostShopperMerchantFixtureModel.class, "testdata/resources/merchantShopperMapping.json");
 
 		Call<PostShopperMerchantResponse> call = service.shopperMerchant(apiTestData.getRequest());
 		retrofit2.Response<PostShopperMerchantResponse> response = call.execute();

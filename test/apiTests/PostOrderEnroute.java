@@ -26,7 +26,7 @@ public class PostOrderEnroute extends BaseApiTest
 		utils.InsertOrderTest();
 
 		PostOrderEnrouteFixtureModel apiTestData = (PostOrderEnrouteFixtureModel) FixtureUtils
-				.getAsObject(PostOrderEnrouteFixtureModel.class, "src/main/java/resources/canceOrder.json");
+				.getAsObject(PostOrderEnrouteFixtureModel.class, "testdata/resources/canceOrder.json");
 
 		Call<PostOrderEnrouteResponse> call = service.orderEnroute("Auto" + utils.ordid, apiTestData.getRequest());
 		Response<PostOrderEnrouteResponse> response = call.execute();
