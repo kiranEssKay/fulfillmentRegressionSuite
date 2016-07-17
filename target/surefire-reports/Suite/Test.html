@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 17 22:25:39 IST 2016</td>
+<td>Started on:</td><td>Sun Jul 17 23:03:35 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19871 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20745 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,67 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='apiTests.PostInsertOrder.InsertOrderTest()'><b>InsertOrderTest</b><br>Test class: apiTests.PostInsertOrder</td>
+<td><div><pre>junit.framework.AssertionFailedError: 
+Expected: null
+  Actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;
+
+--- Found following differences ---
+expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;
+
+	at junit.framework.Assert.fail(Assert.java:50)
+	at apiTests.PostInsertOrder.InsertOrderTest(PostInsertOrder.java:41)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace172032696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace172032696'><pre>junit.framework.AssertionFailedError: 
+Expected: null
+  Actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;
+
+--- Found following differences ---
+expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;
+
+	at junit.framework.Assert.fail(Assert.java:50)
+	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:136)
+	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
+	at apiTests.PostInsertOrder.InsertOrderTest(PostInsertOrder.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>apiTests.PostInsertOrder@3b6eb2ec</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,7 +138,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='apiTests.PostAddMerchant.AddMerchantTest()'><b>AddMerchantTest</b><br>Test class: apiTests.PostAddMerchant</td>
 <td></td>
-<td>0</td>
+<td>2</td>
 <td>apiTests.PostAddMerchant@96532d6</td></tr>
 <tr>
 <td title='apiTests.PostCancelOrder.CancelOrderTest()'><b>CancelOrderTest</b><br>Test class: apiTests.PostCancelOrder<br/>
@@ -89,12 +150,12 @@ Test Status of CrmAssignment Api :  PASS  <br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
+<td>2</td>
 <td>apiTests.PostCancelOrder@3d24753a</td></tr>
 <tr>
 <td title='apiTests.PostOrderEnroute.CancelOrderTest()'><b>CancelOrderTest</b><br>Test class: apiTests.PostOrderEnroute</td>
 <td></td>
-<td>3</td>
+<td>1</td>
 <td>apiTests.PostOrderEnroute@6fadae5d</td></tr>
 <tr>
 <td title='apiTests.PostCrmAssignment.CrmAssignmentTest()'><b>CrmAssignmentTest</b><br>Test class: apiTests.PostCrmAssignment<br/>
@@ -139,10 +200,10 @@ Test Status of FeAssignment Api :  PASS  <br/>
 <td>apiTests.GetShopperBuCityId@7e0ea639</td></tr>
 <tr>
 <td title='apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest()'><b>GetShopperByMerchantIdTest</b><br>Test class: apiTests.GetShopperByMerchantId<br/>
-<a href="#Output-1616974404" onClick='toggleBox("Output-1616974404", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-260840925" onClick='toggleBox("Output-260840925", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1616974404" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1616974404">
+<a href="#Output-260840925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-260840925">
 Expected and Actual response are same.  <br/>
 Test Status of ShopperByMerchantId Api :  PASS  <br/>
 </div>
@@ -155,11 +216,6 @@ Test Status of ShopperByMerchantId Api :  PASS  <br/>
 <td></td>
 <td>0</td>
 <td>apiTests.GetForceUpdateConfig@2acf57e3</td></tr>
-<tr>
-<td title='apiTests.PostInsertOrder.InsertOrderTest()'><b>InsertOrderTest</b><br>Test class: apiTests.PostInsertOrder</td>
-<td></td>
-<td>1</td>
-<td>apiTests.PostInsertOrder@3b6eb2ec</td></tr>
 <tr>
 <td title='apiTests.PostRescheduleOrder.OrderRescheduleTest()'><b>OrderRescheduleTest</b><br>Test class: apiTests.PostRescheduleOrder</td>
 <td></td>
