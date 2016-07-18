@@ -5,7 +5,7 @@
       <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Starting Execution of Test: FeAssignmentTest]]>
+      <![CDATA[Starting Execution of Test: CrmAssignmentTest]]>
     </line>
     <line>
       <![CDATA[------------------------------------------------------------------------------------]]>
@@ -14,37 +14,37 @@
       <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+      <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+      <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+      <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
     </line>
     <line>
-      <![CDATA[API Test Passed FeAssignmentTest]]>
+      <![CDATA[API Test Passed CrmAssignmentTest]]>
     </line>
     <line>
       <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[Completed Execution of Test: FeAssignmentTest]]>
+      <![CDATA[Completed Execution of Test: CrmAssignmentTest]]>
     </line>
     <line>
       <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10931" started-at="2016-07-15T13:45:14Z" finished-at="2016-07-15T13:45:25Z">
+  <suite name="Default suite" duration-ms="3673" started-at="2016-07-18T10:46:38Z" finished-at="2016-07-18T10:46:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10931" started-at="2016-07-15T13:45:14Z" finished-at="2016-07-15T13:45:25Z">
-      <class name="apiTests.PostFeAssignment">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@1b40d5f0]" name="Createonnection" is-config="true" duration-ms="594" started-at="2016-07-15T19:15:14Z" finished-at="2016-07-15T19:15:15Z">
+    <test name="Default test" duration-ms="3673" started-at="2016-07-18T10:46:38Z" finished-at="2016-07-18T10:46:42Z">
+      <class name="apiTests.PostCrmAssignment">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@1b40d5f0]" name="Createonnection" is-config="true" duration-ms="527" started-at="2016-07-18T16:16:38Z" finished-at="2016-07-18T16:16:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException]]>
+                <![CDATA[public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException]]>
               </value>
             </param>
           </params>
@@ -53,7 +53,7 @@
               <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Starting Execution of Test: FeAssignmentTest]]>
+              <![CDATA[Starting Execution of Test: CrmAssignmentTest]]>
             </line>
             <line>
               <![CDATA[------------------------------------------------------------------------------------]]>
@@ -63,43 +63,43 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@1b40d5f0]" name="FeAssignmentTest" duration-ms="10300" started-at="2016-07-15T19:15:15Z" finished-at="2016-07-15T19:15:25Z">
+        <test-method status="PASS" signature="CrmAssignmentTest()[pri:0, instance:apiTests.PostCrmAssignment@1b40d5f0]" name="CrmAssignmentTest" duration-ms="3108" started-at="2016-07-18T16:16:39Z" finished-at="2016-07-18T16:16:42Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+              <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
             <line>
-              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+              <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
             <line>
-              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+              <![CDATA[Test Status of CrmAssignment Api :  PASS  ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FeAssignmentTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@1b40d5f0]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-15T19:15:25Z" finished-at="2016-07-15T19:15:25Z">
+        </test-method> <!-- CrmAssignmentTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostCrmAssignment@1b40d5f0]" name="terminateConnection" is-config="true" duration-ms="0" started-at="2016-07-18T16:16:42Z" finished-at="2016-07-18T16:16:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException]]>
+                <![CDATA[public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[API Test Passed FeAssignmentTest]]>
+              <![CDATA[API Test Passed CrmAssignmentTest]]>
             </line>
             <line>
               <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[Completed Execution of Test: FeAssignmentTest]]>
+              <![CDATA[Completed Execution of Test: CrmAssignmentTest]]>
             </line>
             <line>
               <![CDATA[------------------------------------------------------------------------------------]]>
             </line>
           </reporter-output>
         </test-method> <!-- terminateConnection -->
-      </class> <!-- apiTests.PostFeAssignment -->
+      </class> <!-- apiTests.PostCrmAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

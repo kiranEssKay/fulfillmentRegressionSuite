@@ -26,6 +26,9 @@ import utility.InsertOrderUtil;
 public class PostFeAssignment extends BaseApiTest {
 
 	// Assign FE Test Suite
+	
+	
+	
 
 	@Test
 	public void FeAssignmentTest() throws IOException {

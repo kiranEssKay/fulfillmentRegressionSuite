@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="apiTests.PostCancelOrder">
+      <class name="apiTests.PostCrmAssignment">
         <methods>
+          <include name="CrmAssignmentTest"/>
           <include name="terminateConnection"/>
-          <include name="CancelOrderTest"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.PostCancelOrder -->
+      </class> <!-- apiTests.PostCrmAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

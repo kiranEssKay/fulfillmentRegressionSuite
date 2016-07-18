@@ -5,8 +5,11 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
+import com.google.gson.reflect.TypeToken;
+
 import postCrmAssignmentExchange.CrmAssignmentApiTestData;
 import postCrmAssignmentExchange.CrmAssignmentResponse;
+import postFeAssignmentExchange.FeAssignmentApiTestData;
 import postInsertOrderExchange.InsertOrderApiTestData;
 import postInsertOrderExchange.InsertOrderResponse;
 import retrofit.RetrofitService;
@@ -19,6 +22,9 @@ import utility.InsertOrderUtil;
 import utility.Utilator;
 
 import java.io.IOException;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Kiran SK on 4/5/2016.
@@ -34,9 +40,26 @@ public class PostCrmAssignment extends BaseApiTest{
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
 		
-
+		
+		
+		
+		
+		
+		
+/*
 		CrmAssignmentApiTestData apiTestData = (CrmAssignmentApiTestData) FixtureUtils
-				.getAsObject(CrmAssignmentApiTestData.class, "testdata/resources/crmAssignment.json");
+				.getAsObject(CrmAssignmentApiTestData.class, "testdata/resources/crmAssignment.json");*/
+		
+		
+	
+		
+		
+	ArrayList<CrmAssignmentApiTestData> dataList;
+		Type listType = new TypeToken<List<CrmAssignmentApiTestData>>(){}.getType();
+		dataList = (ArrayList<CrmAssignmentApiTestData>) FixtureUtils.getAsList(CrmAssignmentApiTestData.class,
+				"testdata/resources/crmAssignment.json",listType);
+
+		for (CrmAssignmentApiTestData apiTestData : dataList) {
 
 		Call<CrmAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
 		Response<CrmAssignmentResponse> response = call.execute();
@@ -58,5 +81,5 @@ public class PostCrmAssignment extends BaseApiTest{
 		}
 
 	}
+	}}
 
-}
