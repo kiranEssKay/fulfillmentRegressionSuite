@@ -3,18 +3,19 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="apiTests.GetShopperByMerchantId">
+      <class name="apiTests.PostUpdateMerchantType">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.GetShopperByMerchantId -->
-      <class name="apiTests.GetForceUpdateConfig">
+      </class> <!-- apiTests.PostUpdateMerchantType -->
+      <class name="apiTests.PostMerchantBackupMapping">
         <methods>
+          <include name="CancelOrderTest"/>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.GetForceUpdateConfig -->
+      </class> <!-- apiTests.PostMerchantBackupMapping -->
       <class name="apiTests.PostAddMerchant">
         <methods>
           <include name="terminateConnection"/>
@@ -27,70 +28,103 @@
           <include name="Createonnection"/>
         </methods>
       </class> <!-- apiTests.PostUpdateMerchantThreshold -->
-      <class name="apiTests.PostFeAssignment">
-        <methods>
-          <include name="FeAssignmentTest"/>
-          <include name="terminateConnection"/>
-          <include name="Createonnection"/>
-        </methods>
-      </class> <!-- apiTests.PostFeAssignment -->
-      <class name="apiTests.PostRescheduleOrder">
+      <class name="apiTests.PostAddMerchantShopperMappingTest">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
+          <include name="AddMerchantShopperMapping"/>
         </methods>
-      </class> <!-- apiTests.PostRescheduleOrder -->
+      </class> <!-- apiTests.PostAddMerchantShopperMappingTest -->
       <class name="apiTests.PostOrderEnroute">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
-          <include name="CancelOrderTest"/>
         </methods>
       </class> <!-- apiTests.PostOrderEnroute -->
-      <class name="apiTests.PostCancelOrder">
-        <methods>
-          <include name="terminateConnection"/>
-          <include name="CancelOrderTest"/>
-          <include name="Createonnection"/>
-        </methods>
-      </class> <!-- apiTests.PostCancelOrder -->
-      <class name="apiTests.GetShoppersById">
+      <class name="apiTests.PostInsert90MinOrder">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.GetShoppersById -->
-      <class name="apiTests.GetMerchantsDetail">
-        <methods>
-          <include name="terminateConnection"/>
-          <include name="Createonnection"/>
-        </methods>
-      </class> <!-- apiTests.GetMerchantsDetail -->
+      </class> <!-- apiTests.PostInsert90MinOrder -->
       <class name="apiTests.GetShopperBuCityId">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
       </class> <!-- apiTests.GetShopperBuCityId -->
+      <class name="apiTests.GetMerchantsDetail">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.GetMerchantsDetail -->
+      <class name="apiTests.GetShopperByMerchantId">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.GetShopperByMerchantId -->
       <class name="apiTests.PostCrmAssignment">
         <methods>
-          <include name="CrmAssignmentTest"/>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
       </class> <!-- apiTests.PostCrmAssignment -->
-      <class name="apiTests.PostUpdateMerchantType">
+      <class name="apiTests.PostResetMerchantThreshold">
+        <methods>
+          <include name="ResetMerchantThresholdTest"/>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.PostResetMerchantThreshold -->
+      <class name="apiTests.PostInsertChildOrder">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.PostUpdateMerchantType -->
-      <class name="apiTests.PostInsertOrder">
+      </class> <!-- apiTests.PostInsertChildOrder -->
+      <class name="apiTests.PostRescheduleOrder">
         <methods>
           <include name="terminateConnection"/>
           <include name="Createonnection"/>
         </methods>
-      </class> <!-- apiTests.PostInsertOrder -->
+      </class> <!-- apiTests.PostRescheduleOrder -->
+      <class name="apiTests.GetShoppersById">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.GetShoppersById -->
+      <class name="apiTests.PostFeAssignment">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.PostFeAssignment -->
+      <class name="apiTests.PostInsertMarketPlaceOrder">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.PostInsertMarketPlaceOrder -->
+      <class name="apiTests.GetQueuedOrders">
+        <methods>
+          <include name="GetQueuedOrdersTest"/>
+        </methods>
+      </class> <!-- apiTests.GetQueuedOrders -->
+      <class name="apiTests.PostCancelOrder">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.PostCancelOrder -->
+      <class name="apiTests.GetForceUpdateConfig">
+        <methods>
+          <include name="terminateConnection"/>
+          <include name="Createonnection"/>
+        </methods>
+      </class> <!-- apiTests.GetForceUpdateConfig -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

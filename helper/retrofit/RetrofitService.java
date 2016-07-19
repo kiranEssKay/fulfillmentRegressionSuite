@@ -22,6 +22,8 @@ import postInsertOrderExchange.InsertOrderRequest;
 import postInsertOrderExchange.InsertOrderResponse;
 import postOrderEnrouteExchange.PostEnrouteRequest;
 import postOrderEnrouteExchange.PostOrderEnrouteResponse;
+import postOrderExchange.PostOrderRequest;
+import postOrderExchange.PostOrderResponse;
 import postResetMerchantThresholdExchange.ResetMerchantThresholdResponse;
 import postShopperMerchantExchange.PostShopperMerchantRequest;
 import postShopperMerchantExchange.PostShopperMerchantResponse;
@@ -103,6 +105,11 @@ public interface RetrofitService {
 	
 	@GET("/forceupdateconfig")
 	Call<GetForceUpadateResponse> getForceUpdate();
+	
+	//Insert Market Place Orders 
+	
+	@POST("/orders/{order_id}")
+	Call<PostOrderResponse> postOrder(@Path("order_id") String order_id, @Body PostOrderRequest body);
 	
 	
 

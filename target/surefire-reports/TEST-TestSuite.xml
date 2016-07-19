@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="20.115" tests="14" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="35.452" tests="20" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib"/>
@@ -7,7 +7,7 @@
     <property name="user.country.format" value="IN"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/kiransk/git/fulfillmentRegressionSuite"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kiransk/Documents/SDET/FF_regra/fulfillmentRegressionSuite"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/kiransk/git/fulfillmentRegressionSuite"/>
+    <property name="user.dir" value="/Users/kiransk/Documents/SDET/FF_regra/fulfillmentRegressionSuite"/>
     <property name="java.runtime.version" value="1.8.0_73-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -62,40 +62,123 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="CrmAssignmentTest" classname="apiTests.PostCrmAssignment" time="3.99"/>
-  <testcase name="FeAssignmentTest" classname="apiTests.PostFeAssignment" time="3.76"/>
-  <testcase name="GetForceUpdateConfig" classname="apiTests.GetShoppersById" time="0.309"/>
-  <testcase name="GetMerchantsDetailTest" classname="apiTests.GetMerchantsDetail" time="0.402"/>
-  <testcase name="CancelOrderTest" classname="apiTests.PostCancelOrder" time="2.245"/>
-  <testcase name="InsertOrderTest" classname="apiTests.PostInsertOrder" time="0.589">
-    <failure message="&#10;Expected: null&#10;  Actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;&#10;&#10;--- Found following differences ---&#10;expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;&#10;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: 
+  <testcase name="GetQueuedOrdersTest" classname="apiTests.GetQueuedOrders" time="1.095">
+    <failure message="&#10;Expected: null&#10;  Actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;&#10;&#10;--- Found following differences ---&#10;expected: null, actual: GetQueuedOrdersResponse&lt;message=&quot;orders Task Added to Queue &quot;, success=true&gt;&#10;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: 
 Expected: null
-  Actual: InsertOrderResponse<message="order Auto%d is submitted!", success=true>
+  Actual: GetQueuedOrdersResponse<message="orders Task Added to Queue ", success=true>
 
 --- Found following differences ---
-expected: null, actual: InsertOrderResponse<message="order Auto%d is submitted!", success=true>
+expected: null, actual: GetQueuedOrdersResponse<message="orders Task Added to Queue ", success=true>
 
 	at junit.framework.Assert.fail(Assert.java:50)
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:136)
 	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
-	at apiTests.PostInsertOrder.InsertOrderTest(PostInsertOrder.java:41)
+	at apiTests.GetQueuedOrders.GetQueuedOrdersTest(GetQueuedOrders.java:50)
 ]]></failure>
+    <system-out><![CDATA[Verify the response of GetQueuedOrders Api.
+Base URL is http://test-grofers-hp.appspot.com
+400
+http response code is not 200. 
+Test Status of GetQueuedOrders Api :  FAIL  
+]]></system-out>
+  </testcase>
+  <testcase name="CrmAssignmentTest" classname="apiTests.PostCrmAssignment" time="2.618"/>
+  <testcase name="FeAssignmentTest" classname="apiTests.PostFeAssignment" time="4.839"/>
+  <testcase name="GetForceUpdateConfig" classname="apiTests.GetShoppersById" time="0.308"/>
+  <testcase name="OrderRescheduleTest" classname="apiTests.PostRescheduleOrder" time="0.302"/>
+  <testcase name="GetShoppersByIdTest" classname="apiTests.GetForceUpdateConfig" time="0.302"/>
+  <testcase name="InsertMarketPlaceOrderTest" classname="apiTests.PostInsertMarketPlaceOrder" time="1.005"/>
+  <testcase name="AddMerchantShopperMapping" classname="apiTests.PostAddMerchantShopperMappingTest" time="0.522">
+    <failure message="&#10;Expected: null&#10;  Actual: PostShopperMerchantResponse&lt;message=&quot;mapping for this merchant and shopper already exists!&quot;, success=false&gt;&#10;&#10;--- Found following differences ---&#10; expected: null&#10;   actual: PostShopperMerchantResponse&lt;message=&quot;mapping for this merchant and shopper already exists!&quot;, success=false&gt;&#10;&#10;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: 
+Expected: null
+  Actual: PostShopperMerchantResponse<message="mapping for this merchant and shopper already exists!", success=false>
+
+--- Found following differences ---
+ expected: null
+   actual: PostShopperMerchantResponse<message="mapping for this merchant and shopper already exists!", success=false>
+
+
+	at junit.framework.Assert.fail(Assert.java:50)
+	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:136)
+	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:99)
+	at apiTests.PostAddMerchantShopperMappingTest.AddMerchantShopperMapping(PostAddMerchantShopperMappingTest.java:53)
+]]></failure>
+    <system-out><![CDATA[API Test Passed InsertMarketPlaceOrderTest
+------------------------------------------------------------------------------------
+Completed Execution of Test: InsertMarketPlaceOrderTest
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Starting Execution of Test: AddMerchantShopperMapping
+------------------------------------------------------------------------------------
+
+Base URL is http://test-grofers-hp.appspot.com
+Test Status of CrmAssignment Api :  FAIL  
+]]></system-out>
+  </testcase>
+  <testcase name="GetMerchantsDetailTest" classname="apiTests.GetMerchantsDetail" time="0.508"/>
+  <testcase name="CancelOrderTest" classname="apiTests.PostCancelOrder" time="2.292"/>
+  <testcase name="InsertOrderTest" classname="apiTests.PostInsert90MinOrder" time="1.41"/>
+  <testcase name="InsertChildOrderTest" classname="apiTests.PostInsertChildOrder" time="1.297"/>
+  <testcase name="CancelOrderTest" classname="apiTests.PostOrderEnroute" time="3.804"/>
+  <testcase name="ResetMerchantThresholdTest" classname="apiTests.PostResetMerchantThreshold" time="10.08">
+    <failure message="Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80" type="java.net.ConnectException">java.net.ConnectException: Failed to connect to test-grofers-hp.appspot.com/2404:6800:4007:800:0:0:0:2011:80
+	at okhttp3.internal.io.RealConnection.connectSocket(RealConnection.java:142)
+	at okhttp3.internal.io.RealConnection.connect(RealConnection.java:111)
+	at okhttp3.internal.http.StreamAllocation.findConnection(StreamAllocation.java:188)
+	at okhttp3.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:127)
+	at okhttp3.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at okhttp3.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at okhttp3.internal.http.HttpEngine.sendRequest(HttpEngine.java:241)
+	at okhttp3.RealCall.getResponse(RealCall.java:240)
+	at okhttp3.RealCall$ApplicationInterceptorChain.proceed(RealCall.java:198)
+	at retrofit.ServiceGenerator$1.intercept(ServiceGenerator.java:26)
+	at okhttp3.RealCall$ApplicationInterceptorChain.proceed(RealCall.java:187)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:160)
+	at okhttp3.RealCall.execute(RealCall.java:57)
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:174)
+	at apiTests.PostResetMerchantThreshold.ResetMerchantThresholdTest(PostResetMerchantThreshold.java:28)
+</failure>
     <system-out><![CDATA[API Test Passed CancelOrderTest
 ------------------------------------------------------------------------------------
 Completed Execution of Test: CancelOrderTest
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-Starting Execution of Test: InsertOrderTest
+Starting Execution of Test: ResetMerchantThresholdTest
 ------------------------------------------------------------------------------------
 
 ]]></system-out>
   </testcase>
-  <testcase name="GetShopperBuCityIdTest" classname="apiTests.GetShopperBuCityId" time="1.279"/>
-  <testcase name="GetShopperByMerchantIdTest" classname="apiTests.GetShopperByMerchantId" time="0.885"/>
-  <testcase name="UpdateMerchantThresholdTest" classname="apiTests.PostUpdateMerchantThreshold" time="0.439"/>
-  <testcase name="UpdateMerchantTypeTest" classname="apiTests.PostUpdateMerchantType" time="0.677"/>
-  <testcase name="AddMerchantTest" classname="apiTests.PostAddMerchant" time="2.558"/>
-  <testcase name="CancelOrderTest" classname="apiTests.PostOrderEnroute" time="1.941"/>
-  <testcase name="GetShoppersByIdTest" classname="apiTests.GetForceUpdateConfig" time="0.303"/>
-  <testcase name="OrderRescheduleTest" classname="apiTests.PostRescheduleOrder" time="0.738"/>
+  <testcase name="GetShopperBuCityIdTest" classname="apiTests.GetShopperBuCityId" time="1.019"/>
+  <testcase name="GetShopperByMerchantIdTest" classname="apiTests.GetShopperByMerchantId" time="1.829"/>
+  <testcase name="UpdateMerchantThresholdTest" classname="apiTests.PostUpdateMerchantThreshold" time="0.704"/>
+  <testcase name="UpdateMerchantTypeTest" classname="apiTests.PostUpdateMerchantType" time="0.554"/>
+  <testcase name="CancelOrderTest" classname="apiTests.PostMerchantBackupMapping" time="0.033">
+    <failure message="java.lang.NumberFormatException: Expected an int but was 4934026896867328 at line 34 column 29 path $.response.data[0].id" type="com.google.gson.JsonSyntaxException">com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: Expected an int but was 4934026896867328 at line 34 column 29 path $.response.data[0].id
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1172)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:247)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:239)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:116)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:216)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:82)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:116)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:216)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:116)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:216)
+	at com.google.gson.Gson.fromJson(Gson.java:879)
+	at utility.FixtureUtils.getAsObject(FixtureUtils.java:36)
+	at apiTests.PostMerchantBackupMapping.CancelOrderTest(PostMerchantBackupMapping.java:30)
+</failure>
+    <system-out><![CDATA[API Test Passed UpdateMerchantTypeTest
+------------------------------------------------------------------------------------
+Completed Execution of Test: UpdateMerchantTypeTest
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Starting Execution of Test: CancelOrderTest
+------------------------------------------------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="AddMerchantTest" classname="apiTests.PostAddMerchant" time="0.931"/>
 </testsuite>

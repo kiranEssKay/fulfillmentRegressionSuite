@@ -1,0 +1,60 @@
+{
+	"request": {
+		
+  	 "data":{  
+      "customerName":"",
+      "items":[  
+         {  
+            "product_id":111643,
+            "img":"app/images/products/normal/pro_111643.jpg?1456388273",
+            "price":20.0,
+            "mrp":123,
+            "qty":12,
+            "mapping_id":10600647,
+            "freebee_id":null,
+            "id":27002509,
+            "unit":"100 gm",
+            "name":"Kissan Mixed Fruit (Tub) - Jam"
+         },
+         {  
+            "product_id":92343,
+            "img":"app/images/products/normal/pro_92343.jpg?1464697499",
+            "price":45.0,
+            "mrp":null,
+            "qty":1,
+            "mapping_id":11719937,
+            "freebee_id":null,
+            "id":27002500,
+            "unit":"170 gm",
+            "name":"MTR Upma - Vermicelli"
+         }
+      ],
+      "scheduledTime":"2016-07-19T10:00:00",
+      "ancestorOrderId":null,
+      "originalMerchantId":21390,
+      "stationId":165,
+      "fe":null,
+      "deliverySlotStart":"2016-07-11T10:30:00",
+      "crm":{  
+         "phone":"9599188141",
+         "name":"aditya gupta1"
+      },
+      "deliverySlotEnd":"2016-07-11T11:30:00",
+      "id":7534335,
+      "addr":{  
+         "landmark":"Regent Estate",
+         "city":"Kolkata",
+         "id":3801497,
+         "line1":"136",
+         "line2":"lalka"
+      }
+   },
+   "actionType":"newOrder"
+
+	},
+	"response": {
+		"message": "order Auto%d is submitted!",
+		"success": true
+	}
+}
+

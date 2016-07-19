@@ -13,11 +13,16 @@ import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import utility.ApiEndPoints;
 import utility.FixtureUtils;
+import utility.InsertOrderUtil;
+import utility.Utilator;
 
 public class PostInsertChildOrder extends BaseApiTest {
 
 	ApiEndPoints con = new ApiEndPoints();
 	public int ordid = con.orderID;
+	
+	
+	InsertOrderUtil utils = new InsertOrderUtil();
 
 	// Insert Order API Test Script
 	@Test(priority = 1)
@@ -28,6 +33,10 @@ public class PostInsertChildOrder extends BaseApiTest {
 				.getAsObject(InsertOrderApiTestData.class, "testdata/resources/insertChildorder.json");
 
 		// System.out.println(orderNo);
+		
+		//System.out.println(utils.currentDate());
+		
+		apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
 		Call<InsertOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
 
 		retrofit2.Response<InsertOrderResponse> response = call.execute();
