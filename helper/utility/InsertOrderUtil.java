@@ -21,6 +21,7 @@ public class InsertOrderUtil {
 
 	public void InsertOrderTest() throws IOException {
 
+		
 		RetrofitService service = ServiceGenerator.createService(RetrofitService.class, ApiEndPoints.BaseURL);
 
 		// pos-master//src//main//resources//PostStockIn.json
@@ -28,6 +29,8 @@ public class InsertOrderUtil {
 				.getAsObject(PostOrderApiTestData.class, "testdata/resources/marketPlaceOrder.json");
 
 		// System.out.println(orderNo);
+		
+		apiTestData.getRequest().getData().setScheduledTime(currentDate());
 		Call<PostOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
 
 		retrofit2.Response<PostOrderResponse> response = call.execute();
