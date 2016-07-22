@@ -3,8 +3,8 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-      <class name="apiTests.GetQueuedOrders"/>
-      <class name="apiTests.PostCrmAssignment"/>
+      <class name="test.apiTests.GetQueuedOrders"/>
+      <class name="test.apiTests.PostCrmAssignment"/>
       <class name="apiTests.PostFeAssignment"/>
       <class name="apiTests.GetShoppersById"/>
       <class name="apiTests.PostRescheduleOrder"/>
