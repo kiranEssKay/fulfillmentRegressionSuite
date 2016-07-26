@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostInsertOrder" hash-for-method="InsertOrderTest">InsertOrderTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">14 methods,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -165,6 +151,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostInsertOrder" hash-for-method="InsertOrderTest">InsertOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostRescheduleOrder" hash-for-method="OrderRescheduleTest">OrderRescheduleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -190,9 +181,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">apiTests.PostInsertOrder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -201,21 +192,10 @@
                   <a name="InsertOrderTest">
                   </a> <!-- InsertOrderTest -->
                   <span class="method-name">InsertOrderTest</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: 
-Expected: null
-  Actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;
-
---- Found following differences ---
-expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is submitted!&quot;, success=true&gt;
-
-	at junit.framework.Assert.fail(Assert.java:50)
-	at apiTests.PostInsertOrder.InsertOrderTest(PostInsertOrder.java:41)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -294,21 +274,6 @@ expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is sub
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.PostOrderEnroute</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CancelOrderTest">
-                  </a> <!-- CancelOrderTest -->
-                  <span class="method-name">CancelOrderTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">apiTests.PostUpdateMerchantThreshold</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -317,6 +282,21 @@ expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is sub
                   <a name="UpdateMerchantThresholdTest">
                   </a> <!-- UpdateMerchantThresholdTest -->
                   <span class="method-name">UpdateMerchantThresholdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostOrderEnroute</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelOrderTest">
+                  </a> <!-- CancelOrderTest -->
+                  <span class="method-name">CancelOrderTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -414,7 +394,7 @@ expected: null, actual: InsertOrderResponse&lt;message=&quot;order Auto%d is sub
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/kiransk/git/fulfillmentRegressionSuite/testng.xml</span>
+            <span class="header-content">/Users/kiransk/Documents/SDET/ShoppRegra/fulfillmentRegressionSuite/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -480,64 +460,64 @@ data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CrmAssignmentTest')
 data.setCell(0, 2, 'apiTests.PostCrmAssignment')
-data.setCell(0, 3, 3988);
+data.setCell(0, 3, 2849);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'FeAssignmentTest')
 data.setCell(1, 2, 'apiTests.PostFeAssignment')
-data.setCell(1, 3, 3760);
+data.setCell(1, 3, 2186);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'AddMerchantTest')
-data.setCell(2, 2, 'apiTests.PostAddMerchant')
-data.setCell(2, 3, 2558);
+data.setCell(2, 1, 'CancelOrderTest')
+data.setCell(2, 2, 'apiTests.PostCancelOrder')
+data.setCell(2, 3, 2125);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CancelOrderTest')
-data.setCell(3, 2, 'apiTests.PostCancelOrder')
-data.setCell(3, 3, 2246);
+data.setCell(3, 1, 'InsertOrderTest')
+data.setCell(3, 2, 'apiTests.PostInsertOrder')
+data.setCell(3, 3, 1121);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'CancelOrderTest')
 data.setCell(4, 2, 'apiTests.PostOrderEnroute')
-data.setCell(4, 3, 1940);
+data.setCell(4, 3, 956);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'GetShopperBuCityIdTest')
 data.setCell(5, 2, 'apiTests.GetShopperBuCityId')
-data.setCell(5, 3, 1279);
+data.setCell(5, 3, 512);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'GetShopperByMerchantIdTest')
 data.setCell(6, 2, 'apiTests.GetShopperByMerchantId')
-data.setCell(6, 3, 885);
+data.setCell(6, 3, 505);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'OrderRescheduleTest')
-data.setCell(7, 2, 'apiTests.PostRescheduleOrder')
-data.setCell(7, 3, 738);
+data.setCell(7, 1, 'UpdateMerchantTypeTest')
+data.setCell(7, 2, 'apiTests.PostUpdateMerchantType')
+data.setCell(7, 3, 391);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'UpdateMerchantTypeTest')
-data.setCell(8, 2, 'apiTests.PostUpdateMerchantType')
-data.setCell(8, 3, 678);
+data.setCell(8, 1, 'AddMerchantTest')
+data.setCell(8, 2, 'apiTests.PostAddMerchant')
+data.setCell(8, 3, 368);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'InsertOrderTest')
-data.setCell(9, 2, 'apiTests.PostInsertOrder')
-data.setCell(9, 3, 575);
+data.setCell(9, 1, 'GetShoppersByIdTest')
+data.setCell(9, 2, 'apiTests.GetForceUpdateConfig')
+data.setCell(9, 3, 323);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'UpdateMerchantThresholdTest')
-data.setCell(10, 2, 'apiTests.PostUpdateMerchantThreshold')
-data.setCell(10, 3, 440);
+data.setCell(10, 1, 'GetMerchantsDetailTest')
+data.setCell(10, 2, 'apiTests.GetMerchantsDetail')
+data.setCell(10, 3, 305);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'GetMerchantsDetailTest')
-data.setCell(11, 2, 'apiTests.GetMerchantsDetail')
-data.setCell(11, 3, 401);
+data.setCell(11, 1, 'OrderRescheduleTest')
+data.setCell(11, 2, 'apiTests.PostRescheduleOrder')
+data.setCell(11, 3, 304);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'GetForceUpdateConfig')
 data.setCell(12, 2, 'apiTests.GetShoppersById')
-data.setCell(12, 3, 308);
+data.setCell(12, 3, 303);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'GetShoppersByIdTest')
-data.setCell(13, 2, 'apiTests.GetForceUpdateConfig')
-data.setCell(13, 3, 304);
+data.setCell(13, 1, 'UpdateMerchantThresholdTest')
+data.setCell(13, 2, 'apiTests.PostUpdateMerchantThreshold')
+data.setCell(13, 3, 291);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -597,220 +577,206 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CrmAssignmentTest</span>
-                <span class="method-start">530 ms</span>
+                <span class="method-start">923 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException)</span>
-                <span class="method-start">4518 ms</span>
+                <span class="method-start">3773 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostFeAssignment</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException)</span>
-                <span class="method-start">4521 ms</span>
+                <span class="method-start">3782 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FeAssignmentTest</span>
-                <span class="method-start">4526 ms</span>
+                <span class="method-start">3787 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException)</span>
-                <span class="method-start">8287 ms</span>
+                <span class="method-start">5973 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetShoppersById</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.GetShoppersById.GetForceUpdateConfig() throws java.io.IOException)</span>
-                <span class="method-start">8288 ms</span>
+                <span class="method-start">5975 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GetForceUpdateConfig</span>
-                <span class="method-start">8302 ms</span>
+                <span class="method-start">5993 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.GetShoppersById.GetForceUpdateConfig() throws java.io.IOException)</span>
-                <span class="method-start">8611 ms</span>
+                <span class="method-start">6297 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetMerchantsDetail</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.GetMerchantsDetail.GetMerchantsDetailTest() throws java.io.IOException)</span>
-                <span class="method-start">8612 ms</span>
+                <span class="method-start">6298 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GetMerchantsDetailTest</span>
-                <span class="method-start">8618 ms</span>
+                <span class="method-start">6303 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.GetMerchantsDetail.GetMerchantsDetailTest() throws java.io.IOException)</span>
-                <span class="method-start">9020 ms</span>
+                <span class="method-start">6608 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostCancelOrder</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostCancelOrder.CancelOrderTest() throws java.io.IOException)</span>
-                <span class="method-start">9021 ms</span>
+                <span class="method-start">6609 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CancelOrderTest</span>
-                <span class="method-start">9025 ms</span>
+                <span class="method-start">6613 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostCancelOrder.CancelOrderTest() throws java.io.IOException)</span>
-                <span class="method-start">11271 ms</span>
+                <span class="method-start">8738 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostInsertOrder</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostInsertOrder.InsertOrderTest() throws java.io.IOException)</span>
-                <span class="method-start">11272 ms</span>
+                <span class="method-start">8739 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">InsertOrderTest</span>
-                <span class="method-start">11277 ms</span>
+                <span class="method-start">8742 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostInsertOrder.InsertOrderTest() throws java.io.IOException)</span>
-                <span class="method-start">11864 ms</span>
+                <span class="method-start">9864 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetShopperBuCityId</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.GetShopperBuCityId.GetShopperBuCityIdTest() throws java.io.IOException)</span>
-                <span class="method-start">11865 ms</span>
+                <span class="method-start">9867 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GetShopperBuCityIdTest</span>
-                <span class="method-start">11869 ms</span>
+                <span class="method-start">9869 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.GetShopperBuCityId.GetShopperBuCityIdTest() throws java.io.IOException)</span>
-                <span class="method-start">13148 ms</span>
+                <span class="method-start">10381 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetShopperByMerchantId</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest() throws java.io.IOException)</span>
-                <span class="method-start">13149 ms</span>
+                <span class="method-start">10382 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GetShopperByMerchantIdTest</span>
-                <span class="method-start">13152 ms</span>
+                <span class="method-start">10385 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest() throws java.io.IOException)</span>
-                <span class="method-start">14037 ms</span>
+                <span class="method-start">10890 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostUpdateMerchantThreshold</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOExce...)</span>
-                <span class="method-start">14038 ms</span>
+                <span class="method-start">10891 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantThresholdTest</span>
-                <span class="method-start">14041 ms</span>
+                <span class="method-start">10894 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOExce...)</span>
+                <span class="method-start">11185 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostUpdateMerchantType</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest() throws java.io.IOException)</span>
-                <span class="method-start">14481 ms</span>
+                <span class="method-start">11186 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.PostUpdateMerchantThreshold</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">terminateConnection(public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOExce...)</span>
-                <span class="method-start">14481 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.PostUpdateMerchantType</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateMerchantTypeTest</span>
-                <span class="method-start">14484 ms</span>
+                <span class="method-start">11189 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest() throws java.io.IOException)</span>
-                <span class="method-start">15162 ms</span>
+                <span class="method-start">11580 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostAddMerchant</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostAddMerchant.AddMerchantTest() throws java.lang.Exception)</span>
-                <span class="method-start">15163 ms</span>
+                <span class="method-start">11581 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddMerchantTest</span>
-                <span class="method-start">15165 ms</span>
+                <span class="method-start">11585 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostAddMerchant.AddMerchantTest() throws java.lang.Exception)</span>
-                <span class="method-start">17723 ms</span>
+                <span class="method-start">11953 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostOrderEnroute</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostOrderEnroute.CancelOrderTest() throws java.io.IOException)</span>
-                <span class="method-start">17724 ms</span>
+                <span class="method-start">11954 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CancelOrderTest</span>
-                <span class="method-start">17728 ms</span>
+                <span class="method-start">11959 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostOrderEnroute.CancelOrderTest() throws java.io.IOException)</span>
+                <span class="method-start">12916 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.GetForceUpdateConfig</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.GetForceUpdateConfig.GetShoppersByIdTest() throws java.io.IOException)</span>
-                <span class="method-start">19669 ms</span>
+                <span class="method-start">12917 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.PostOrderEnroute</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">terminateConnection(public void apiTests.PostOrderEnroute.CancelOrderTest() throws java.io.IOException)</span>
-                <span class="method-start">19669 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.GetForceUpdateConfig</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetShoppersByIdTest</span>
-                <span class="method-start">19672 ms</span>
+                <span class="method-start">12920 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.GetForceUpdateConfig.GetShoppersByIdTest() throws java.io.IOException)</span>
-                <span class="method-start">19976 ms</span>
+                <span class="method-start">13243 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apiTests.PostRescheduleOrder</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Createonnection(public void apiTests.PostRescheduleOrder.OrderRescheduleTest() throws java.io.IOException)</span>
-                <span class="method-start">19977 ms</span>
+                <span class="method-start">13244 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">OrderRescheduleTest</span>
-                <span class="method-start">19979 ms</span>
+                <span class="method-start">13247 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostRescheduleOrder.OrderRescheduleTest() throws java.io.IOException)</span>
-                <span class="method-start">20718 ms</span>
+                <span class="method-start">13551 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
