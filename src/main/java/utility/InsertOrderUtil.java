@@ -1,6 +1,10 @@
 package utility;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.TimeZone;
 
 import org.testng.Reporter;
 import org.unitils.reflectionassert.ReflectionAssert;
@@ -35,13 +39,20 @@ public class InsertOrderUtil {
 		retrofit2.Response<InsertOrderResponse> response = call.execute();
 		
 		
-		
+		}
+	
+	
+	public String currentDate() {
 
-		
+		SimpleDateFormat isoFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US);
+		isoFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+		Date date = new Date();
+		String dateToday = isoFormat.format(date);
 
-		
-		
+		System.out.println(dateToday);
+		return dateToday;
+	}
 
-		}}
+}
 
 	
