@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 15 19:12:58 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24964 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='apiTests.PostAddMerchant.AddMerchantTest()'><b>AddMerchantTest</b><br>Test class: apiTests.PostAddMerchant</td>
+<td></td>
+<td>1</td>
+<td>apiTests.PostAddMerchant@d041cf</td></tr>
+<tr>
+<td title='apiTests.PostCancelOrder.CancelOrderTest()'><b>CancelOrderTest</b><br>Test class: apiTests.PostCancelOrder<br/>
+<a href="#Output-339099861" onClick='toggleBox("Output-339099861", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-339099861" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-339099861">
+Test Status of CrmAssignment Api :  PASS  <br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>apiTests.PostCancelOrder@6bdf28bb</td></tr>
+<tr>
+<td title='apiTests.PostOrderEnroute.CancelOrderTest()'><b>CancelOrderTest</b><br>Test class: apiTests.PostOrderEnroute</td>
+<td></td>
+<td>2</td>
+<td>apiTests.PostOrderEnroute@2d209079</td></tr>
+<tr>
+<td title='apiTests.PostCrmAssignment.CrmAssignmentTest()'><b>CrmAssignmentTest</b><br>Test class: apiTests.PostCrmAssignment<br/>
+<a href="#Output-1226204845" onClick='toggleBox("Output-1226204845", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1226204845" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1226204845">
+Test Status of CrmAssignment Api :  PASS  <br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>apiTests.PostCrmAssignment@1cd072a9</td></tr>
+<tr>
+<td title='apiTests.PostFeAssignment.FeAssignmentTest()'><b>FeAssignmentTest</b><br>Test class: apiTests.PostFeAssignment<br/>
+<a href="#Output-592959754" onClick='toggleBox("Output-592959754", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-592959754" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592959754">
+Test Status of FeAssignment Api :  PASS  <br/>
+Test Status of FeAssignment Api :  PASS  <br/>
+Test Status of FeAssignment Api :  PASS  <br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>apiTests.PostFeAssignment@1b0375b3</td></tr>
+<tr>
+<td title='apiTests.GetShoppersById.GetForceUpdateConfig()'><b>GetForceUpdateConfig</b><br>Test class: apiTests.GetShoppersById</td>
+<td></td>
+<td>0</td>
+<td>apiTests.GetShoppersById@6b71769e</td></tr>
+<tr>
+<td title='apiTests.GetMerchantsDetail.GetMerchantsDetailTest()'><b>GetMerchantsDetailTest</b><br>Test class: apiTests.GetMerchantsDetail</td>
+<td></td>
+<td>0</td>
+<td>apiTests.GetMerchantsDetail@2752f6e2</td></tr>
+<tr>
+<td title='apiTests.GetShopperBuCityId.GetShopperBuCityIdTest()'><b>GetShopperBuCityIdTest</b><br>Test class: apiTests.GetShopperBuCityId</td>
+<td></td>
+<td>1</td>
+<td>apiTests.GetShopperBuCityId@e580929</td></tr>
+<tr>
+<td title='apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest()'><b>GetShopperByMerchantIdTest</b><br>Test class: apiTests.GetShopperByMerchantId<br/>
+<a href="#Output-2039810346" onClick='toggleBox("Output-2039810346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2039810346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2039810346">
+Expected and Actual response are same.  <br/>
+Test Status of ShopperByMerchantId Api :  PASS  <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>apiTests.GetShopperByMerchantId@66d33a</td></tr>
+<tr>
+<td title='apiTests.GetForceUpdateConfig.GetShoppersByIdTest()'><b>GetShoppersByIdTest</b><br>Test class: apiTests.GetForceUpdateConfig</td>
+<td></td>
+<td>0</td>
+<td>apiTests.GetForceUpdateConfig@1134affc</td></tr>
+<tr>
+<td title='apiTests.PostInsertOrder.InsertOrderTest()'><b>InsertOrderTest</b><br>Test class: apiTests.PostInsertOrder</td>
+<td></td>
+<td>2</td>
+<td>apiTests.PostInsertOrder@4c203ea1</td></tr>
+<tr>
+<td title='apiTests.PostRescheduleOrder.OrderRescheduleTest()'><b>OrderRescheduleTest</b><br>Test class: apiTests.PostRescheduleOrder</td>
+<td></td>
+<td>1</td>
+<td>apiTests.PostRescheduleOrder@2f7c7260</td></tr>
+<tr>
+<td title='apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest()'><b>UpdateMerchantThresholdTest</b><br>Test class: apiTests.PostUpdateMerchantThreshold</td>
+<td></td>
+<td>0</td>
+<td>apiTests.PostUpdateMerchantThreshold@129a8472</td></tr>
+<tr>
+<td title='apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest()'><b>UpdateMerchantTypeTest</b><br>Test class: apiTests.PostUpdateMerchantType</td>
+<td></td>
+<td>0</td>
+<td>apiTests.PostUpdateMerchantType@7c75222b</td></tr>
+</table><p>
+</body>
+</html>

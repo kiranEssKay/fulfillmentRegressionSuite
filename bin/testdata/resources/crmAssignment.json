@@ -1,0 +1,16 @@
+{
+  "request": {
+
+    "actionType" : "crmAssignment",
+    "data" : {
+      "crm" : {
+        "name" : "9999999",
+        "phone" : "95832135791"
+      }
+    }
+  },
+  "response": {
+    "message": "crm updated successfully for order Auto%d",
+    "success": true
+  }
+}

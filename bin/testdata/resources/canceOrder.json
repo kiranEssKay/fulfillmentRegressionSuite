@@ -1,0 +1,18 @@
+{"request":
+
+{
+
+  "actionType" : "orderCancel",
+    "data" : {
+    }
+
+}
+,
+"response":
+{
+"message": "order with id Auto%d cancelled successfully",
+  "success": true
+  
+
+}
+}

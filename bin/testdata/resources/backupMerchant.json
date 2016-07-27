@@ -1,0 +1,40 @@
+{"request":
+
+{
+
+   "merchantId" : "102",
+    "stationId" : 123,
+    "backupMerchantId" : "13",
+    "cityId" : "hhhh"
+
+}
+,
+"response":
+{
+
+
+"message": "Mapping already exists!",
+  "data": [
+    {
+      "backupMerchant": {
+        "cityId": "delhi",
+        "merchantThresholdTime": 18000,
+        "merchantType": 2,
+        "name": "Daily Needs - Malviya Nagar",
+        "id": "13"
+      },
+      "merchant": {
+        "cityId": "mumbai",
+        "merchantThresholdTime": 18000,
+        "merchantType": 2,
+        "name": "G Mart - Marol",
+        "id": "102"
+      },
+      "stationId": 123,
+      "id": 4934026896867328
+    }
+  ],
+  "success": false
+
+}
+}

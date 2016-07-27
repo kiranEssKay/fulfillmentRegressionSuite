@@ -1,0 +1,13 @@
+{
+  "request": {
+
+  "actionType" : "orderReschedule",
+  "data" : {
+    "scheduledTime" :  "2016-04-2T20:50:00"
+       }
+  },
+  "response": {
+    "message": "scheduled time updated successfully for order Saurabh%d",
+    "success": true
+  }
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Starting Execution of Test: FeAssignmentTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+    </line>
+    <line>
+      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+    </line>
+    <line>
+      <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+    </line>
+    <line>
+      <![CDATA[API Test Passed FeAssignmentTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Completed Execution of Test: FeAssignmentTest]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10931" started-at="2016-07-15T13:45:14Z" finished-at="2016-07-15T13:45:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10931" started-at="2016-07-15T13:45:14Z" finished-at="2016-07-15T13:45:25Z">
+      <class name="apiTests.PostFeAssignment">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@1b40d5f0]" name="Createonnection" is-config="true" duration-ms="594" started-at="2016-07-15T19:15:14Z" finished-at="2016-07-15T19:15:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Starting Execution of Test: FeAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createonnection -->
+        <test-method status="PASS" signature="FeAssignmentTest()[pri:0, instance:apiTests.PostFeAssignment@1b40d5f0]" name="FeAssignmentTest" duration-ms="10300" started-at="2016-07-15T19:15:15Z" finished-at="2016-07-15T19:15:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+            </line>
+            <line>
+              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+            </line>
+            <line>
+              <![CDATA[Test Status of FeAssignment Api :  PASS  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FeAssignmentTest -->
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostFeAssignment@1b40d5f0]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-15T19:15:25Z" finished-at="2016-07-15T19:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[API Test Passed FeAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Completed Execution of Test: FeAssignmentTest]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateConnection -->
+      </class> <!-- apiTests.PostFeAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
