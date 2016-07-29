@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="apiTests.PostInsertMarketPlaceOrder" hash-for-method="InsertMarketPlaceOrderTest">InsertMarketPlaceOrderTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regressionSuite.LoginToAppProdSauceLabs" hash-for-method="LoginwithValidEmail">LoginwithValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regressionSuite.LoginToAppProdSauceLabs" hash-for-method="pendingOrderScreen">pendingOrderScreen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +124,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">apiTests.PostInsertMarketPlaceOrder</span>
+              <span class="class-name">regressionSuite.LoginToAppProdSauceLabs</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="InsertMarketPlaceOrderTest">
-                  </a> <!-- InsertMarketPlaceOrderTest -->
-                  <span class="method-name">InsertMarketPlaceOrderTest</span>
+                  <a name="LoginwithValidEmail">
+                  </a> <!-- LoginwithValidEmail -->
+                  <span class="method-name">LoginwithValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pendingOrderScreen">
+                  </a> <!-- pendingOrderScreen -->
+                  <span class="method-name">pendingOrderScreen</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +146,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/h7/3sqy71355vsgnshmp2rvrk000000gn/T/testng-eclipse--1933196744/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/h7/3sqy71355vsgnshmp2rvrk000000gn/T/testng-eclipse-1550056693/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +155,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;apiTests.PostInsertMarketPlaceOrder&quot;/&gt;
+      &lt;class name=&quot;regressionSuite.LoginToAppProdSauceLabs&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,16 +195,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'InsertMarketPlaceOrderTest')
-data.setCell(0, 2, 'apiTests.PostInsertMarketPlaceOrder')
-data.setCell(0, 3, 1379);
+data.setCell(0, 1, 'pendingOrderScreen')
+data.setCell(0, 2, 'regressionSuite.LoginToAppProdSauceLabs')
+data.setCell(0, 3, 48861);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginwithValidEmail')
+data.setCell(1, 2, 'regressionSuite.LoginToAppProdSauceLabs')
+data.setCell(1, 3, 23314);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -203,13 +219,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">InsertMarketPlaceOrderTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Order Id for the Test: Auto5731</span>
-                <span class="reporter-method-output">Test Status of Merchant Place Api :  PASS  </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -225,19 +234,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.PostInsertMarketPlaceOrder</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">Createonnection(public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOExcept...)</span>
+              <div class="chronological-class-name">regressionSuite.LoginToAppProdSauceLabs</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">InsertMarketPlaceOrderTest</span>
-                <span class="method-start">558 ms</span>
+                <span class="method-name">LoginwithValidEmail</span>
+                <span class="method-start">55901 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">terminateConnection(public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOExcept...)</span>
-                <span class="method-start">1938 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">pendingOrderScreen</span>
+                <span class="method-start">79216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">128080 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

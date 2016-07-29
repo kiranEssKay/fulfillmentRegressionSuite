@@ -53,7 +53,7 @@
 
 	},
 	"response": {
-		"message": "order Auto%d is submitted!",
+		"message": "order %d is submitted!",
 		"success": true
 	}
 }

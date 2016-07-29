@@ -1,99 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[------------------------------------------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[Starting Execution of Test: InsertMarketPlaceOrderTest]]>
-    </line>
-    <line>
-      <![CDATA[------------------------------------------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[]]>
-    </line>
-    <line>
-      <![CDATA[Order Id for the Test: Auto5731]]>
-    </line>
-    <line>
-      <![CDATA[Test Status of Merchant Place Api :  PASS  ]]>
-    </line>
-    <line>
-      <![CDATA[API Test Passed InsertMarketPlaceOrderTest]]>
-    </line>
-    <line>
-      <![CDATA[------------------------------------------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[Completed Execution of Test: InsertMarketPlaceOrderTest]]>
-    </line>
-    <line>
-      <![CDATA[------------------------------------------------------------------------------------]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1970" started-at="2016-07-27T13:45:14Z" finished-at="2016-07-27T13:45:16Z">
+  <suite name="Default suite" duration-ms="128797" started-at="2016-07-29T10:00:07Z" finished-at="2016-07-29T10:02:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1970" started-at="2016-07-27T13:45:14Z" finished-at="2016-07-27T13:45:16Z">
-      <class name="apiTests.PostInsertMarketPlaceOrder">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@1b40d5f0]" name="Createonnection" is-config="true" duration-ms="558" started-at="2016-07-27T19:15:14Z" finished-at="2016-07-27T19:15:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="128797" started-at="2016-07-29T10:00:07Z" finished-at="2016-07-29T10:02:16Z">
+      <class name="regressionSuite.LoginToAppProdSauceLabs">
+        <test-method status="PASS" signature="setup()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="setup" is-config="true" duration-ms="55875" started-at="2016-07-29T15:30:07Z" finished-at="2016-07-29T15:31:03Z">
           <reporter-output>
-            <line>
-              <![CDATA[------------------------------------------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[Starting Execution of Test: InsertMarketPlaceOrderTest]]>
-            </line>
-            <line>
-              <![CDATA[------------------------------------------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="InsertMarketPlaceOrderTest()[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@1b40d5f0]" name="InsertMarketPlaceOrderTest" duration-ms="1379" started-at="2016-07-27T19:15:14Z" finished-at="2016-07-27T19:15:16Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginwithValidEmail()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="LoginwithValidEmail" duration-ms="23314" started-at="2016-07-29T15:31:03Z" finished-at="2016-07-29T15:31:27Z">
           <reporter-output>
-            <line>
-              <![CDATA[Order Id for the Test: Auto5731]]>
-            </line>
-            <line>
-              <![CDATA[Test Status of Merchant Place Api :  PASS  ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- InsertMarketPlaceOrderTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@1b40d5f0]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-07-27T19:15:16Z" finished-at="2016-07-27T19:15:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- LoginwithValidEmail -->
+        <test-method status="PASS" signature="pendingOrderScreen()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="pendingOrderScreen" duration-ms="48861" started-at="2016-07-29T15:31:27Z" finished-at="2016-07-29T15:32:16Z">
           <reporter-output>
-            <line>
-              <![CDATA[API Test Passed InsertMarketPlaceOrderTest]]>
-            </line>
-            <line>
-              <![CDATA[------------------------------------------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[Completed Execution of Test: InsertMarketPlaceOrderTest]]>
-            </line>
-            <line>
-              <![CDATA[------------------------------------------------------------------------------------]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- terminateConnection -->
-      </class> <!-- apiTests.PostInsertMarketPlaceOrder -->
+        </test-method> <!-- pendingOrderScreen -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="teardown" is-config="true" duration-ms="706" started-at="2016-07-29T15:32:16Z" finished-at="2016-07-29T15:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- regressionSuite.LoginToAppProdSauceLabs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

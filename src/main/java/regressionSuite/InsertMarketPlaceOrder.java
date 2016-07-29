@@ -1,4 +1,7 @@
-package apiTests;
+package regressionSuite;
+
+
+
 
 import java.io.IOException;
 
@@ -6,19 +9,15 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
-import postInsertOrderExchange.InsertOrderApiTestData;
-import postInsertOrderExchange.InsertOrderResponse;
+import apiTests.BaseApiTest;
 import postOrderExchange.PostOrderApiTestData;
 import postOrderExchange.PostOrderResponse;
-import retrofit.RetrofitService;
-import retrofit.ServiceGenerator;
 import retrofit2.Call;
 import utility.ApiEndPoints;
 import utility.FixtureUtils;
 import utility.InsertOrderUtil;
-import utility.Utilator;
 
-public class PostInsertMarketPlaceOrder extends BaseApiTest {
+public class InsertMarketPlaceOrder extends BaseApiTest {
 
 	ApiEndPoints con = new ApiEndPoints();
 	public int ordid = con.orderID;
@@ -38,8 +37,8 @@ public class PostInsertMarketPlaceOrder extends BaseApiTest {
 		// System.out.println(utils.currentDate());
 
 		apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
-		Call<PostOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
-		Reporter.log("Order Id for the Test: " + "Auto" + ordid, true);
+		Call<PostOrderResponse> call = service.postOrder("" + ordid, apiTestData.getRequest());
+		Reporter.log("Order Id for the Test: " + "" + ordid, true);
 		retrofit2.Response<PostOrderResponse> response = call.execute();
 
 		PostOrderResponse actual = apiTestData.getResponse();
