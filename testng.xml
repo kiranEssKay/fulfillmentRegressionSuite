@@ -3,26 +3,7 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-      <class name="fulfillmentRegressionSuite.test.apiTests.GetQueuedOrders"/>
-      <class name="test.apiTests.PostCrmAssignment"/>
-      <class name="apiTests.PostFeAssignment"/>
-      <class name="apiTests.GetShoppersById"/>
-      <class name="apiTests.PostRescheduleOrder"/>
-      <class name="apiTests.GetForceUpdateConfig"/>
-      <class name="apiTests.PostInsertMarketPlaceOrder"/>
-      <class name="apiTests.PostAddMerchantShopperMappingTest"/>
-      <class name="apiTests.GetMerchantsDetail"/>
-      <class name="apiTests.PostCancelOrder"/>
-      <class name="apiTests.PostInsert90MinOrder"/>
-      <class name="apiTests.PostInsertChildOrder"/>
-      <class name="apiTests.PostOrderEnroute"/>
-      <class name="apiTests.PostResetMerchantThreshold"/>
-      <class name="apiTests.GetShopperBuCityId"/>
       <class name="apiTests.GetShopperByMerchantId"/>
-      <class name="apiTests.PostUpdateMerchantThreshold"/>
-      <class name="apiTests.PostUpdateMerchantType"/>
-      <class name="apiTests.PostMerchantBackupMapping"/>
-      <class name="apiTests.PostAddMerchant"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
