@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="128797" started-at="2016-07-29T10:00:07Z" finished-at="2016-07-29T10:02:16Z">
+  <suite name="Default suite" duration-ms="99281" started-at="2016-07-29T13:04:20Z" finished-at="2016-07-29T13:06:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="128797" started-at="2016-07-29T10:00:07Z" finished-at="2016-07-29T10:02:16Z">
+    <test name="Default test" duration-ms="99281" started-at="2016-07-29T13:04:20Z" finished-at="2016-07-29T13:06:00Z">
       <class name="regressionSuite.LoginToAppProdSauceLabs">
-        <test-method status="PASS" signature="setup()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="setup" is-config="true" duration-ms="55875" started-at="2016-07-29T15:30:07Z" finished-at="2016-07-29T15:31:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="setup" is-config="true" duration-ms="56004" started-at="2016-07-29T18:34:20Z" finished-at="2016-07-29T18:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginwithValidEmail()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="LoginwithValidEmail" duration-ms="23314" started-at="2016-07-29T15:31:03Z" finished-at="2016-07-29T15:31:27Z">
+        <test-method status="PASS" signature="LoginwithValidEmail()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="LoginwithValidEmail" duration-ms="24182" started-at="2016-07-29T18:35:16Z" finished-at="2016-07-29T18:35:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithValidEmail -->
-        <test-method status="PASS" signature="pendingOrderScreen()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="pendingOrderScreen" duration-ms="48861" started-at="2016-07-29T15:31:27Z" finished-at="2016-07-29T15:32:16Z">
+        <test-method status="PASS" signature="pendingOrderScreen()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="pendingOrderScreen" duration-ms="18357" started-at="2016-07-29T18:35:40Z" finished-at="2016-07-29T18:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pendingOrderScreen -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="teardown" is-config="true" duration-ms="706" started-at="2016-07-29T15:32:16Z" finished-at="2016-07-29T15:32:16Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:regressionSuite.LoginToAppProdSauceLabs@26ba2a48]" name="teardown" is-config="true" duration-ms="702" started-at="2016-07-29T18:35:59Z" finished-at="2016-07-29T18:36:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

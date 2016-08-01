@@ -1,6 +1,7 @@
 package regressionSuite;
 
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -14,6 +15,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
+import utility.InsertOrderUtil;
+import utility.Utilator;
 
 public class LoginToAppProdSauceLabs
 
@@ -54,11 +57,16 @@ public class LoginToAppProdSauceLabs
 		driver.quit();
 
 	}
+	
+	public LoginToAppProdSauceLabs() {
+		// TODO Auto-generated constructor stub
+	}
+	
 
 	
 	@Test
 
-	public void LoginwithValidEmail() throws InterruptedException {
+	public void LoginwithValidEmail() throws InterruptedException, IOException {
 
 		
 		
@@ -70,9 +78,14 @@ public class LoginToAppProdSauceLabs
 		driver.findElement(By.id("com.grofers.handpick:id/verify_button")).click();
 
 		
+		InsertOrderUtil utils = new InsertOrderUtil();
+		utils.InsertOrderTest();
+		
 		
 	}
 	
+	
+
 	@Test
 	public void pendingOrderScreen()
 	

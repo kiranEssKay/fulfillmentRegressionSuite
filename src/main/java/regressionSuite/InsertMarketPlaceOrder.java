@@ -9,7 +9,6 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.unitils.reflectionassert.ReflectionAssert;
 
-import apiTests.BaseApiTest;
 import postOrderExchange.PostOrderApiTestData;
 import postOrderExchange.PostOrderResponse;
 import retrofit2.Call;
@@ -17,8 +16,10 @@ import utility.ApiEndPoints;
 import utility.FixtureUtils;
 import utility.InsertOrderUtil;
 
-public class InsertMarketPlaceOrder extends BaseApiTest {
+public class InsertMarketPlaceOrder extends BaseRegrassion {
 
+	
+	
 	ApiEndPoints con = new ApiEndPoints();
 	public int ordid = con.orderID;
 
