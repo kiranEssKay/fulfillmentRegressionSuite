@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 import utility.InsertOrderUtil;
-import utility.Utilator;
 
 public class LoginToAppProdSauceLabs
 

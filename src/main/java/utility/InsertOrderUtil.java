@@ -6,6 +6,8 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import org.testng.Reporter;
+
 import postOrderExchange.PostOrderApiTestData;
 import postOrderExchange.PostOrderResponse;
 import retrofit.RetrofitService;
@@ -32,7 +34,7 @@ public class InsertOrderUtil {
 		
 		apiTestData.getRequest().getData().setScheduledTime(currentDate());
 		Call<PostOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
-
+		Reporter.log("Inserted Order ID "+ordid, true);
 		retrofit2.Response<PostOrderResponse> response = call.execute();
 
 	}

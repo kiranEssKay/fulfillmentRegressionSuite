@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="regressionSuite.LoginToShopper">
+      <class name="apiTests.PostCancelOrder">
         <methods>
-          <include name="LoginwithValidEmail"/>
-          <include name="setup"/>
+          <include name="terminateConnection"/>
+          <include name="CancelOrderTest"/>
+          <include name="Createonnection"/>
         </methods>
-      </class> <!-- regressionSuite.LoginToShopper -->
+      </class> <!-- apiTests.PostCancelOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
