@@ -9,17 +9,8 @@ public class Utilator
 {
 	
 	
-	
-	public int getrandomnumber()
-    {
-		Random randomno = new Random();
-		
-		int random = randomno.nextInt(10000);
-	
-		return random;
-    }
-	
-	
+	static Random random = new Random();
+	public static final int orderId = random.nextInt(100000);
 	
 	
 }

@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import utility.ApiEndPoints;
+import utility.Utilator;
 
 public class BaseApiTest
 
@@ -35,14 +36,14 @@ public class BaseApiTest
 
 		
 		Reporter.log("API Test Passed " + method.getName(), true);
-		
+		 
 		Reporter.log("------------------------------------------------------------------------------------", true);
 		Reporter.log("Completed Execution of Test: " + method.getName(), true);
 		
 		
 		Reporter.log("------------------------------------------------------------------------------------", true);
 	}
-
+	public final int orderID=Utilator.orderId;
 	
 
 }

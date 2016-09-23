@@ -19,7 +19,7 @@ import utility.Utilator;
 public class PostInsertChildOrder extends BaseApiTest {
 
 	ApiEndPoints con = new ApiEndPoints();
-	public int ordid = con.orderID;
+	//public int ordid = con.orderID;
 	
 	
 	InsertOrderUtil utils = new InsertOrderUtil();
@@ -36,7 +36,7 @@ public class PostInsertChildOrder extends BaseApiTest {
 		
 		//System.out.println(utils.currentDate());
 		
-		apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
+		//apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
 		Call<InsertOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
 
 		retrofit2.Response<InsertOrderResponse> response = call.execute();
@@ -46,7 +46,7 @@ public class PostInsertChildOrder extends BaseApiTest {
 
 		if (response.code() == 200) {
 
-			expected1.setMessage(String.format(expected1.getMessage(), ordid));
+			expected1.setMessage(String.format(expected1.getMessage(), o));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 			Reporter.log("Test Status of insertOrder Api :  PASS  ", true);

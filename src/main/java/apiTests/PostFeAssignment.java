@@ -46,7 +46,7 @@ public class PostFeAssignment extends BaseApiTest {
 				"testdata/resources/feAssignment.json",listType);
 
 		for (FeAssignmentApiTestData apiTestData : dataList) {
-			Call<FeAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
+			Call<FeAssignmentResponse> call = service.postOrder("Auto" + orderID, apiTestData.getRequest());
 			Response<FeAssignmentResponse> response = call.execute();
 
 			FeAssignmentResponse expected1 = apiTestData.getResponse();
@@ -54,7 +54,7 @@ public class PostFeAssignment extends BaseApiTest {
 
 			if (response.code() == 200) {
 
-				expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
+				expected1.setMessage(String.format(expected1.getMessage(), orderID));
 				ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 				Reporter.log("Test Status of FeAssignment Api :  PASS  ", true);

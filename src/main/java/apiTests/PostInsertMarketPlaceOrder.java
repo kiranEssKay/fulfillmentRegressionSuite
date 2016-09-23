@@ -15,9 +15,9 @@ import utility.InsertOrderUtil;
 
 public class PostInsertMarketPlaceOrder extends BaseApiTest {
 
-	ApiEndPoints con = new ApiEndPoints();
-	public int ordid = con.orderID;
-
+	
+	
+	
 	InsertOrderUtil utils = new InsertOrderUtil();
 
 	// Insert Order API Test Script
@@ -25,22 +25,26 @@ public class PostInsertMarketPlaceOrder extends BaseApiTest {
 
 	public void InsertMarketPlaceOrderTest() throws IOException {
 
-		PostOrderApiTestData apiTestData = (PostOrderApiTestData) FixtureUtils.getAsObject(PostOrderApiTestData.class,
-				"testdata/resources/marketPlaceOrder.json");
+		PostOrderApiTestData apiTestData = (PostOrderApiTestData) FixtureUtils
+				.getAsObject(PostOrderApiTestData.class, "testdata/resources/marketPlaceOrder.json");
 
+		// System.out.println(orderNo);
+		
+		//System.out.println(utils.currentDate());
+		
 		apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
-		Call<PostOrderResponse> call = service.postOrder("" + ordid, apiTestData.getRequest());
-		Reporter.log("Order Id for the Test: " + "" + ordid, true);
+		Call<PostOrderResponse> call = service.postOrder(orderID, apiTestData.getRequest());
+		Reporter.log("Order Id for the Test: "+ orderID,true);
 		retrofit2.Response<PostOrderResponse> response = call.execute();
 
 		PostOrderResponse actual = apiTestData.getResponse();
 		PostOrderResponse expected = response.body();
-
+		
 		System.out.println(apiTestData.getResponse());
 
 		if (response.code() == 200) {
 
-			actual.setMessage(String.format(actual.getMessage(), ordid));
+			actual.setMessage(String.format(actual.getMessage(), orderID));
 			ReflectionAssert.assertReflectionEquals(expected, actual);
 
 			Reporter.log("Test Status of Merchant Place Api :  PASS  ", true);

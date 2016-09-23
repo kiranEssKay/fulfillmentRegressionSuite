@@ -41,12 +41,12 @@ public class PostInsert90MinOrder extends BaseApiTest {
 		for (InsertOrderApiTestData apiTestData : dataList) {
 
 			ApiEndPoints con = new ApiEndPoints();
-			int ordid = con.orderID;
+			//int ordid = con.orderID;
 
 			apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
-			Call<InsertOrderResponse> call = service.postOrder("Auto" + con.orderID, apiTestData.getRequest());
+			Call<InsertOrderResponse> call = service.postOrder("Auto" + orderID, apiTestData.getRequest());
 			
-		Reporter.log("Order Id :"+ "Auto"+con.orderID, true);
+		Reporter.log("Order Id :"+ "Auto"+orderID, true);
 
 			retrofit2.Response<InsertOrderResponse> response = call.execute();
 
@@ -55,7 +55,7 @@ public class PostInsert90MinOrder extends BaseApiTest {
 
 			if (response.code() == 200) {
 
-				expected1.setMessage(String.format(expected1.getMessage(), ordid));
+				expected1.setMessage(String.format(expected1.getMessage(), orderID));
 				ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 			} else {

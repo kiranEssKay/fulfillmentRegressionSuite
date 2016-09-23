@@ -5,19 +5,19 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
-
 import org.testng.Reporter;
 
+import apiTests.BaseApiTest;
 import postOrderExchange.PostOrderApiTestData;
 import postOrderExchange.PostOrderResponse;
 import retrofit.RetrofitService;
 import retrofit.ServiceGenerator;
 import retrofit2.Call;
 
-public class InsertOrderUtil {
+public class InsertOrderUtil extends BaseApiTest {
 
 	ApiEndPoints con = new ApiEndPoints();
-	public int ordid = con.orderID;
+//	public int ordid = con.orderID;
 
 	// Insert Order API Test Script
 
@@ -33,8 +33,8 @@ public class InsertOrderUtil {
 		// System.out.println(orderNo);
 		
 		apiTestData.getRequest().getData().setScheduledTime(currentDate());
-		Call<PostOrderResponse> call = service.postOrder("Auto" + ordid, apiTestData.getRequest());
-		Reporter.log("Inserted Order ID "+ordid, true);
+		Call<PostOrderResponse> call = service.postOrder( orderID, apiTestData.getRequest());
+		Reporter.log("Inserted Order ID "+orderID, true);
 		retrofit2.Response<PostOrderResponse> response = call.execute();
 
 	}

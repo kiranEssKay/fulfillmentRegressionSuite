@@ -21,7 +21,7 @@ public class InsertMarketPlaceOrder extends BaseRegrassion {
 	
 	
 	ApiEndPoints con = new ApiEndPoints();
-	public int ordid = con.orderID;
+//	public int ordid = con.orderID;
 
 	InsertOrderUtil utils = new InsertOrderUtil();
 

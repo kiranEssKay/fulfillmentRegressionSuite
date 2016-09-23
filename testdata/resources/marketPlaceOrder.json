@@ -5,7 +5,7 @@
       "customerName":"",
       "items":[  
          {  
-            "product_id":111643,
+            "product_id":23452,
             "img":"app/images/products/normal/pro_111643.jpg?1456388273",
             "price":20.0,
             "mrp":123,
@@ -15,23 +15,11 @@
             "id":27002509,
             "unit":"100 gm",
             "name":"Kissan Mixed Fruit (Tub) - Jam"
-         },
-         {  
-            "product_id":92343,
-            "img":"app/images/products/normal/pro_92343.jpg?1464697499",
-            "price":45.0,
-            "mrp":null,
-            "qty":1,
-            "mapping_id":11719937,
-            "freebee_id":null,
-            "id":27002500,
-            "unit":"170 gm",
-            "name":"MTR Upma - Vermicelli"
          }
       ],
       "scheduledTime":"2016-07-19T10:00:00",
       "ancestorOrderId":null,
-      "originalMerchantId":019283,
+      "originalMerchantId":4900,
       "stationId":165,
       "fe":null,
       "deliverySlotStart":"2016-07-11T10:30:00",

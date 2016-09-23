@@ -36,7 +36,7 @@ public class PostCancelOrder extends BaseApiTest
 		PostCancelOrderFixtureModel apiTestData = (PostCancelOrderFixtureModel) FixtureUtils
 				.getAsObject(PostCancelOrderFixtureModel.class, "testdata/resources/canceOrder.json");
 
-		Call<PostCanceOrderResponse> call = service.cancelOrder("Auto" + utils.ordid, apiTestData.getRequest());
+		Call<PostCanceOrderResponse> call = service.cancelOrder("Auto" + orderID, apiTestData.getRequest());
 		Response<PostCanceOrderResponse> response = call.execute();
 
 		PostCanceOrderResponse expected1 = apiTestData.getResponse();
@@ -44,7 +44,7 @@ public class PostCancelOrder extends BaseApiTest
 
 		if (response.code() == 200) {
 
-			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
+			expected1.setMessage(String.format(expected1.getMessage(), orderID));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 			Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);

@@ -47,7 +47,7 @@ public class PostCrmAssignment extends BaseApiTest {
 
 		for (CrmAssignmentApiTestData apiTestData : dataList) {
 
-			Call<CrmAssignmentResponse> call = service.postOrder("Auto" + utils.ordid, apiTestData.getRequest());
+			Call<CrmAssignmentResponse> call = service.postOrder("Auto" + orderID, apiTestData.getRequest());
 			Response<CrmAssignmentResponse> response = call.execute();
 
 			CrmAssignmentResponse expected1 = apiTestData.getResponse();
@@ -55,7 +55,7 @@ public class PostCrmAssignment extends BaseApiTest {
 
 			if (response.code() == 200) {
 
-				expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
+				expected1.setMessage(String.format(expected1.getMessage(), orderID));
 				ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 				Reporter.log("Test Status of CrmAssignment Api :  PASS  ", true);

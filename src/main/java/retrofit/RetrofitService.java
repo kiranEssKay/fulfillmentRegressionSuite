@@ -109,7 +109,7 @@ public interface RetrofitService {
 	//Insert Market Place Orders 
 	
 	@POST("/orders/{order_id}")
-	Call<PostOrderResponse> postOrder(@Path("order_id") String order_id, @Body PostOrderRequest body);
+	Call<PostOrderResponse> postOrder(@Path("order_id") int order_id, @Body PostOrderRequest body);
 	
 	
 

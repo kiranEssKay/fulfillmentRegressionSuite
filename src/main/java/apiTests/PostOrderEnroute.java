@@ -28,7 +28,7 @@ public class PostOrderEnroute extends BaseApiTest
 		PostOrderEnrouteFixtureModel apiTestData = (PostOrderEnrouteFixtureModel) FixtureUtils
 				.getAsObject(PostOrderEnrouteFixtureModel.class, "testdata/resources/canceOrder.json");
 
-		Call<PostOrderEnrouteResponse> call = service.orderEnroute("Auto" + utils.ordid, apiTestData.getRequest());
+		Call<PostOrderEnrouteResponse> call = service.orderEnroute("Auto" + orderID, apiTestData.getRequest());
 		Response<PostOrderEnrouteResponse> response = call.execute();
 
 		PostOrderEnrouteResponse expected1 = apiTestData.getResponse();
@@ -36,7 +36,7 @@ public class PostOrderEnroute extends BaseApiTest
 
 		if (response.code() == 200) {
 
-			expected1.setMessage(String.format(expected1.getMessage(), utils.ordid));
+			expected1.setMessage(String.format(expected1.getMessage(), orderID));
 			ReflectionAssert.assertReflectionEquals(expected, expected1);
 
 		} else {
