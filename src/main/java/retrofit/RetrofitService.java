@@ -41,7 +41,7 @@ import retrofit2.http.Query;
 
 public interface RetrofitService {
 	@POST("/orders/{order_id}")
-	Call<InsertOrderResponse> postOrder(@Path("order_id") String order_id, @Body InsertOrderRequest body);
+	Call<InsertOrderResponse> postOrderChild(@Path("order_id") int order_id, @Body InsertOrderRequest body);
 
 	/*
 	 * @POST("/orders/{order_id}/") Call<OrderRescheduleResponse>
@@ -49,10 +49,10 @@ public interface RetrofitService {
 	 * body);
 	 */
 	@POST("/orders/{order_id}/")
-	Call<FeAssignmentResponse> postOrder(@Path("order_id") String order_id, @Body FeAssignmentRequest body);
+	Call<FeAssignmentResponse> postOrder(@Path("order_id") int order_id, @Body FeAssignmentRequest body);
 
 	@POST("/orders/{order_id}/")
-	Call<CrmAssignmentResponse> postOrder(@Path("order_id") String order_id, @Body CrmAssignmentRequest body);
+	Call<CrmAssignmentResponse> postOrder(@Path("order_id") int order_id, @Body CrmAssignmentRequest body);
 
 	@POST("/merchants/updates?action=update")
 	Call<UpdateMerchantThresholdResponse> postOrder(@Body UpdateMerchantThresholdRequest body);
@@ -87,7 +87,7 @@ public interface RetrofitService {
 	// Cancel Order API 
 	
 	@POST("/orders/{order_id}/")
-    Call<PostCanceOrderResponse> cancelOrder(@Path("order_id") String order_id,@Body PostCanceOrderRequest bodyAuth);
+    Call<PostCanceOrderResponse> cancelOrder(@Path("order_id") int order_id,@Body PostCanceOrderRequest bodyAuth);
 	
 	// Order Enroute
 	

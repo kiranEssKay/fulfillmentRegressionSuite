@@ -30,15 +30,11 @@ public class PostFeAssignment extends BaseApiTest {
 	
 	
 
-	@Test
+	@Test(priority =3)
 	public void FeAssignmentTest() throws IOException {
 		InsertOrderUtil utils = new InsertOrderUtil();
 		utils.InsertOrderTest();
 
-		// FeAssignmentApiTestData apiTestData = (FeAssignmentApiTestData)
-		// FixtureUtils
-		// .getAsObject(FeAssignmentApiTestData.class,
-		// "src/main/java/resources/feAssignment.json");
 
 		ArrayList<FeAssignmentApiTestData> dataList;
 		Type listType = new TypeToken<List<FeAssignmentApiTestData>>(){}.getType();
@@ -46,7 +42,7 @@ public class PostFeAssignment extends BaseApiTest {
 				"testdata/resources/feAssignment.json",listType);
 
 		for (FeAssignmentApiTestData apiTestData : dataList) {
-			Call<FeAssignmentResponse> call = service.postOrder("Auto" + orderID, apiTestData.getRequest());
+			Call<FeAssignmentResponse> call = service.postOrder(orderID, apiTestData.getRequest());
 			Response<FeAssignmentResponse> response = call.execute();
 
 			FeAssignmentResponse expected1 = apiTestData.getResponse();

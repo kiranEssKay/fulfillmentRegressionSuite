@@ -10,7 +10,7 @@
     }
   },
   "response": {
-    "message": "fe updated successfully for order Auto%d",
+    "message": "fe updated successfully for order %d",
     "success": true
   }
 },
@@ -26,7 +26,7 @@
     }
   },
   "response": {
-    "message": "fe updated successfully for order Auto%d",
+    "message": "fe updated successfully for order %d",
     "success": true
   }
 },
@@ -42,7 +42,7 @@
     }
   },
   "response": {
-    "message": "fe updated successfully for order Auto%d",
+    "message": "fe updated successfully for order %d",
     "success": true
   }
 }]

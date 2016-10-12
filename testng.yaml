@@ -1,0 +1,7 @@
+name: Suite
+tests:
+  - name: Test
+    classes:
+      - apiTests.PostInsertMarketPlaceOrder
+      - apiTests.PostCancelOrder
+

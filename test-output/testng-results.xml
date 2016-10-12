@@ -14,7 +14,7 @@
       <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[Order Id for the Test: 30436]]>
+      <![CDATA[Order Id for the Test: 69948]]>
     </line>
     <line>
       <![CDATA[Test Status of Merchant Place Api :  PASS  ]]>
@@ -32,12 +32,12 @@
       <![CDATA[------------------------------------------------------------------------------------]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2143" started-at="2016-09-23T07:17:55Z" finished-at="2016-09-23T07:17:57Z">
+  <suite name="Default suite" duration-ms="3467" started-at="2016-10-12T09:42:52Z" finished-at="2016-10-12T09:42:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2143" started-at="2016-09-23T07:17:55Z" finished-at="2016-09-23T07:17:57Z">
+    <test name="Default test" duration-ms="3467" started-at="2016-10-12T09:42:52Z" finished-at="2016-10-12T09:42:55Z">
       <class name="apiTests.PostInsertMarketPlaceOrder">
-        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@dfd3711]" name="Createonnection" is-config="true" duration-ms="425" started-at="2016-09-23T12:47:55Z" finished-at="2016-09-23T12:47:56Z">
+        <test-method status="PASS" signature="Createonnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@dfd3711]" name="Createonnection" is-config="true" duration-ms="600" started-at="2016-10-12T15:12:52Z" finished-at="2016-10-12T15:12:52Z">
           <params>
             <param index="0">
               <value>
@@ -60,17 +60,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- Createonnection -->
-        <test-method status="PASS" signature="InsertMarketPlaceOrderTest()[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@dfd3711]" name="InsertMarketPlaceOrderTest" duration-ms="1700" started-at="2016-09-23T12:47:56Z" finished-at="2016-09-23T12:47:57Z">
+        <test-method status="PASS" signature="InsertMarketPlaceOrderTest()[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@dfd3711]" name="InsertMarketPlaceOrderTest" duration-ms="2825" started-at="2016-10-12T15:12:52Z" finished-at="2016-10-12T15:12:55Z">
           <reporter-output>
             <line>
-              <![CDATA[Order Id for the Test: 30436]]>
+              <![CDATA[Order Id for the Test: 69948]]>
             </line>
             <line>
               <![CDATA[Test Status of Merchant Place Api :  PASS  ]]>
             </line>
           </reporter-output>
         </test-method> <!-- InsertMarketPlaceOrderTest -->
-        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@dfd3711]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-09-23T12:47:57Z" finished-at="2016-09-23T12:47:57Z">
+        <test-method status="PASS" signature="terminateConnection(java.lang.reflect.Method)[pri:0, instance:apiTests.PostInsertMarketPlaceOrder@dfd3711]" name="terminateConnection" is-config="true" duration-ms="1" started-at="2016-10-12T15:12:55Z" finished-at="2016-10-12T15:12:55Z">
           <params>
             <param index="0">
               <value>

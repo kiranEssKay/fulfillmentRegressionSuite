@@ -47,7 +47,7 @@ public class PostCrmAssignment extends BaseApiTest {
 
 		for (CrmAssignmentApiTestData apiTestData : dataList) {
 
-			Call<CrmAssignmentResponse> call = service.postOrder("Auto" + orderID, apiTestData.getRequest());
+			Call<CrmAssignmentResponse> call = service.postOrder( orderID, apiTestData.getRequest());
 			Response<CrmAssignmentResponse> response = call.execute();
 
 			CrmAssignmentResponse expected1 = apiTestData.getResponse();

@@ -22,21 +22,20 @@ public class PostCancelOrder extends BaseApiTest
 
 {
 
-	@Test(priority = 11)
+	@Test(priority = 5)
 	public void CancelOrderTest()
 
 			throws IOException
 
 	{
-		InsertOrderUtil utils = new InsertOrderUtil();
-		utils.InsertOrderTest();
+		
 
 		// Assign CRM Test Suite
 
 		PostCancelOrderFixtureModel apiTestData = (PostCancelOrderFixtureModel) FixtureUtils
 				.getAsObject(PostCancelOrderFixtureModel.class, "testdata/resources/canceOrder.json");
 
-		Call<PostCanceOrderResponse> call = service.cancelOrder("Auto" + orderID, apiTestData.getRequest());
+		Call<PostCanceOrderResponse> call = service.cancelOrder(orderID, apiTestData.getRequest());
 		Response<PostCanceOrderResponse> response = call.execute();
 
 		PostCanceOrderResponse expected1 = apiTestData.getResponse();

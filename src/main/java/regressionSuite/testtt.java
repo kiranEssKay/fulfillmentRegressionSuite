@@ -24,7 +24,7 @@ public class testtt
 	
 		
 		
-		System.out.println(dbcon1.getVerificationCode());
+		System.out.println(dbcon1.getVerificationData());
 		
 	/*System.out.println(OrderGenerator.getInstance().getrandomnumber());
 		

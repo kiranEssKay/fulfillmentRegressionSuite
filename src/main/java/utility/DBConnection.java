@@ -56,7 +56,7 @@ import java.sql.Connection;
 		}
 		
 	
-			public String getVerificationData() {
+			public  String getVerificationData() {
 		
 		
 			String verificationCode = null;
@@ -66,12 +66,12 @@ import java.sql.Connection;
 				//Creating Statement Object
 				con = getDBConnection();
 				stmt = con.createStatement();
-				String query = "select * from shopper where mobile_no = '9686642940'";
+				String query = "select * from shopper where mobile_no = '9876543210'";
 				ResultSet rs = stmt.executeQuery(query);
 				//Send SQL query to DB
 				while(rs.next())
 				{
-					verificationCode = rs.getString(9); 
+					verificationCode = rs.getString(1); 
 					System.out.println("Verification Code :"+verificationCode);
 					
 				}

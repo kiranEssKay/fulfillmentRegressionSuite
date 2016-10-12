@@ -12,7 +12,7 @@
     }
   },
   "response": {
-    "message": "crm updated successfully for order Auto%d",
+    "message": "crm updated successfully for order %d",
     "success": true
   }
 },
@@ -28,7 +28,7 @@
     }
   },
   "response": {
-    "message": "crm updated successfully for order Auto%d",
+    "message": "crm updated successfully for order %d",
     "success": true
   }
 }
@@ -46,7 +46,7 @@
     }
   },
   "response": {
-    "message": "crm updated successfully for order Auto%d",
+    "message": "crm updated successfully for order %d",
     "success": true
   }
 }

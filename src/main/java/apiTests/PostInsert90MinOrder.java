@@ -41,10 +41,10 @@ public class PostInsert90MinOrder extends BaseApiTest {
 		for (InsertOrderApiTestData apiTestData : dataList) {
 
 			ApiEndPoints con = new ApiEndPoints();
-			//int ordid = con.orderID;
+			int ordid = con.orderIdData;
 
 			apiTestData.getRequest().getData().setScheduledTime(utils.currentDate());
-			Call<InsertOrderResponse> call = service.postOrder("Auto" + orderID, apiTestData.getRequest());
+			Call<InsertOrderResponse> call = service.postOrderChild(ordid, apiTestData.getRequest());
 			
 		Reporter.log("Order Id :"+ "Auto"+orderID, true);
 

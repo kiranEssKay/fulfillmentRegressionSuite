@@ -33,7 +33,7 @@ public class InsertOrderUtil extends BaseApiTest {
 		// System.out.println(orderNo);
 		
 		apiTestData.getRequest().getData().setScheduledTime(currentDate());
-		Call<PostOrderResponse> call = service.postOrder( orderID, apiTestData.getRequest());
+		Call<PostOrderResponse> call = service.postOrder(orderID, apiTestData.getRequest());
 		Reporter.log("Inserted Order ID "+orderID, true);
 		retrofit2.Response<PostOrderResponse> response = call.execute();
 
