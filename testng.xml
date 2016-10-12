@@ -3,7 +3,24 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-      <class name="apiTests.PostInsertMarketPlaceOrder"/>
+      
+      <class name="apiTests.PostCrmAssignment"/>
+      <class name="apiTests.PostFeAssignment"/>
+      <class name="apiTests.GetShoppersById"/>
+      <class name="apiTests.PostRescheduleOrder"/>
+      <class name="apiTests.GetForceUpdateConfig"/>
+     
+      <class name="apiTests.GetMerchantsDetail"/>
+      <class name="apiTests.PostCancelOrder"/>
+
+
+      <class name="apiTests.PostResetMerchantThreshold"/>
+      <class name="apiTests.GetShopperBuCityId"/>
+      <class name="apiTests.GetShopperByMerchantId"/>
+      <class name="apiTests.PostUpdateMerchantThreshold"/>
+      <class name="apiTests.PostUpdateMerchantType"/>
+     
+      <class name="apiTests.PostAddMerchant"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

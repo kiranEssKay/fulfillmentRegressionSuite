@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostInsertMarketPlaceOrder" hash-for-method="InsertMarketPlaceOrderTest">InsertMarketPlaceOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +115,67 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostInsertMarketPlaceOrder" hash-for-method="InsertMarketPlaceOrderTest">InsertMarketPlaceOrderTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostAddMerchant" hash-for-method="AddMerchantTest">AddMerchantTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostCancelOrder" hash-for-method="CancelOrderTest">CancelOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostCrmAssignment" hash-for-method="CrmAssignmentTest">CrmAssignmentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostFeAssignment" hash-for-method="FeAssignmentTest">FeAssignmentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetShoppersById" hash-for-method="GetForceUpdateConfig">GetForceUpdateConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetMerchantsDetail" hash-for-method="GetMerchantsDetailTest">GetMerchantsDetailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetShopperBuCityId" hash-for-method="GetShopperBuCityIdTest">GetShopperBuCityIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetShopperByMerchantId" hash-for-method="GetShopperByMerchantIdTest">GetShopperByMerchantIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.GetForceUpdateConfig" hash-for-method="GetShoppersByIdTest">GetShoppersByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostRescheduleOrder" hash-for-method="OrderRescheduleTest">OrderRescheduleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostResetMerchantThreshold" hash-for-method="ResetMerchantThresholdTest">ResetMerchantThresholdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostUpdateMerchantThreshold" hash-for-method="UpdateMerchantThresholdTest">UpdateMerchantThresholdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="apiTests.PostUpdateMerchantType" hash-for-method="UpdateMerchantTypeTest">UpdateMerchantTypeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -116,9 +190,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">apiTests.PostInsertMarketPlaceOrder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -127,6 +201,212 @@
                   <a name="InsertMarketPlaceOrderTest">
                   </a> <!-- InsertMarketPlaceOrderTest -->
                   <span class="method-name">InsertMarketPlaceOrderTest</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: 
+Expected: null
+  Actual: PostOrderResponse&lt;message=&quot;order %d is submitted!&quot;, success=true&gt;
+
+--- Found following differences ---
+expected: null, actual: PostOrderResponse&lt;message=&quot;order %d is submitted!&quot;, success=true&gt;
+
+	at junit.framework.Assert.fail(Assert.java:50)
+	at apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest(PostInsertMarketPlaceOrder.java:55)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostResetMerchantThreshold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResetMerchantThresholdTest">
+                  </a> <!-- ResetMerchantThresholdTest -->
+                  <span class="method-name">ResetMerchantThresholdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetShoppersById</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetForceUpdateConfig">
+                  </a> <!-- GetForceUpdateConfig -->
+                  <span class="method-name">GetForceUpdateConfig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostRescheduleOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderRescheduleTest">
+                  </a> <!-- OrderRescheduleTest -->
+                  <span class="method-name">OrderRescheduleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetForceUpdateConfig</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetShoppersByIdTest">
+                  </a> <!-- GetShoppersByIdTest -->
+                  <span class="method-name">GetShoppersByIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostUpdateMerchantThreshold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateMerchantThresholdTest">
+                  </a> <!-- UpdateMerchantThresholdTest -->
+                  <span class="method-name">UpdateMerchantThresholdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostAddMerchant</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMerchantTest">
+                  </a> <!-- AddMerchantTest -->
+                  <span class="method-name">AddMerchantTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetShopperBuCityId</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetShopperBuCityIdTest">
+                  </a> <!-- GetShopperBuCityIdTest -->
+                  <span class="method-name">GetShopperBuCityIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetShopperByMerchantId</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetShopperByMerchantIdTest">
+                  </a> <!-- GetShopperByMerchantIdTest -->
+                  <span class="method-name">GetShopperByMerchantIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.GetMerchantsDetail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetMerchantsDetailTest">
+                  </a> <!-- GetMerchantsDetailTest -->
+                  <span class="method-name">GetMerchantsDetailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostFeAssignment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FeAssignmentTest">
+                  </a> <!-- FeAssignmentTest -->
+                  <span class="method-name">FeAssignmentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostCrmAssignment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CrmAssignmentTest">
+                  </a> <!-- CrmAssignmentTest -->
+                  <span class="method-name">CrmAssignmentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostUpdateMerchantType</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateMerchantTypeTest">
+                  </a> <!-- UpdateMerchantTypeTest -->
+                  <span class="method-name">UpdateMerchantTypeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.PostCancelOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelOrderTest">
+                  </a> <!-- CancelOrderTest -->
+                  <span class="method-name">CancelOrderTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -143,7 +423,20 @@
 &lt;suite name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;apiTests.PostCrmAssignment&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostFeAssignment&quot;/&gt;
+      &lt;class name=&quot;apiTests.GetShoppersById&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostRescheduleOrder&quot;/&gt;
+      &lt;class name=&quot;apiTests.GetForceUpdateConfig&quot;/&gt;
       &lt;class name=&quot;apiTests.PostInsertMarketPlaceOrder&quot;/&gt;
+      &lt;class name=&quot;apiTests.GetMerchantsDetail&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostCancelOrder&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostResetMerchantThreshold&quot;/&gt;
+      &lt;class name=&quot;apiTests.GetShopperBuCityId&quot;/&gt;
+      &lt;class name=&quot;apiTests.GetShopperByMerchantId&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostUpdateMerchantThreshold&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostUpdateMerchantType&quot;/&gt;
+      &lt;class name=&quot;apiTests.PostAddMerchant&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -157,7 +450,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (14 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +476,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'InsertMarketPlaceOrderTest')
-data.setCell(0, 2, 'apiTests.PostInsertMarketPlaceOrder')
-data.setCell(0, 3, 1142);
+data.setCell(0, 1, 'ResetMerchantThresholdTest')
+data.setCell(0, 2, 'apiTests.PostResetMerchantThreshold')
+data.setCell(0, 3, 8330);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CrmAssignmentTest')
+data.setCell(1, 2, 'apiTests.PostCrmAssignment')
+data.setCell(1, 3, 2781);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FeAssignmentTest')
+data.setCell(2, 2, 'apiTests.PostFeAssignment')
+data.setCell(2, 3, 1628);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CancelOrderTest')
+data.setCell(3, 2, 'apiTests.PostCancelOrder')
+data.setCell(3, 3, 672);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GetShopperBuCityIdTest')
+data.setCell(4, 2, 'apiTests.GetShopperBuCityId')
+data.setCell(4, 3, 435);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'AddMerchantTest')
+data.setCell(5, 2, 'apiTests.PostAddMerchant')
+data.setCell(5, 3, 372);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UpdateMerchantTypeTest')
+data.setCell(6, 2, 'apiTests.PostUpdateMerchantType')
+data.setCell(6, 3, 342);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'InsertMarketPlaceOrderTest')
+data.setCell(7, 2, 'apiTests.PostInsertMarketPlaceOrder')
+data.setCell(7, 3, 315);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UpdateMerchantThresholdTest')
+data.setCell(8, 2, 'apiTests.PostUpdateMerchantThreshold')
+data.setCell(8, 3, 314);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'GetForceUpdateConfig')
+data.setCell(9, 2, 'apiTests.GetShoppersById')
+data.setCell(9, 3, 300);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GetShopperByMerchantIdTest')
+data.setCell(10, 2, 'apiTests.GetShopperByMerchantId')
+data.setCell(10, 3, 293);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'GetMerchantsDetailTest')
+data.setCell(11, 2, 'apiTests.GetMerchantsDetail')
+data.setCell(11, 3, 292);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'GetShoppersByIdTest')
+data.setCell(12, 2, 'apiTests.GetForceUpdateConfig')
+data.setCell(12, 3, 272);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'OrderRescheduleTest')
+data.setCell(13, 2, 'apiTests.PostRescheduleOrder')
+data.setCell(13, 3, 265);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -204,10 +549,41 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">GetShopperByMerchantIdTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Expected and Actual response are same.  </span>
+                <span class="reporter-method-output">Test Status of ShopperByMerchantId Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CrmAssignmentTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inserted Order ID 39655</span>
+                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
+                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
+                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CancelOrderTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Status of CrmAssignment Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FeAssignmentTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inserted Order ID 39655</span>
+                <span class="reporter-method-output">Test Status of FeAssignment Api :  PASS  </span>
+                <span class="reporter-method-output">Test Status of FeAssignment Api :  PASS  </span>
+                <span class="reporter-method-output">Test Status of FeAssignment Api :  PASS  </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">InsertMarketPlaceOrderTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Order Id for the Test: 44886</span>
-                <span class="reporter-method-output">Test Status of Merchant Place Api :  PASS  </span>
+                <span class="reporter-method-output">Order Id for the Test: 39655</span>
+                <span class="reporter-method-output">Test Status of insertOrder Api :  FAIL  </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,18 +601,221 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">apiTests.PostInsertMarketPlaceOrder</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">apiTests.PostCrmAssignment</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Createonnection(public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOExcept...)</span>
+                <span class="method-name">Createonnection(public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">InsertMarketPlaceOrderTest</span>
+                <span class="method-name">CrmAssignmentTest</span>
                 <span class="method-start">560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostCrmAssignment.CrmAssignmentTest() throws java.io.IOException)</span>
+                <span class="method-start">3342 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostFeAssignment</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException)</span>
+                <span class="method-start">3346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FeAssignmentTest</span>
+                <span class="method-start">3352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostFeAssignment.FeAssignmentTest() throws java.io.IOException)</span>
+                <span class="method-start">4981 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.GetShoppersById</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.GetShoppersById.GetForceUpdateConfig() throws java.io.IOException)</span>
+                <span class="method-start">4982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetForceUpdateConfig</span>
+                <span class="method-start">4988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.GetShoppersById.GetForceUpdateConfig() throws java.io.IOException)</span>
+                <span class="method-start">5291 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostRescheduleOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostRescheduleOrder.OrderRescheduleTest() throws java.io.IOException)</span>
+                <span class="method-start">5292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderRescheduleTest</span>
+                <span class="method-start">5298 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.GetForceUpdateConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.GetForceUpdateConfig.GetShoppersByIdTest() throws java.io.IOException)</span>
+                <span class="method-start">5564 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostRescheduleOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostRescheduleOrder.OrderRescheduleTest() throws java.io.IOException)</span>
+                <span class="method-start">5564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.GetForceUpdateConfig</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GetShoppersByIdTest</span>
+                <span class="method-start">5568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.GetForceUpdateConfig.GetShoppersByIdTest() throws java.io.IOException)</span>
+                <span class="method-start">5841 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostInsertMarketPlaceOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOExcept...)</span>
+                <span class="method-start">5842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InsertMarketPlaceOrderTest</span>
+                <span class="method-start">5845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
                 <span class="method-name">terminateConnection(public void apiTests.PostInsertMarketPlaceOrder.InsertMarketPlaceOrderTest() throws java.io.IOExcept...)</span>
-                <span class="method-start">1704 ms</span>
+                <span class="method-start">6162 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.GetMerchantsDetail</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.GetMerchantsDetail.GetMerchantsDetailTest() throws java.io.IOException)</span>
+                <span class="method-start">6163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetMerchantsDetailTest</span>
+                <span class="method-start">6165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.GetMerchantsDetail.GetMerchantsDetailTest() throws java.io.IOException)</span>
+                <span class="method-start">6457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostCancelOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostCancelOrder.CancelOrderTest() throws java.io.IOException)</span>
+                <span class="method-start">6458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CancelOrderTest</span>
+                <span class="method-start">6471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostCancelOrder.CancelOrderTest() throws java.io.IOException)</span>
+                <span class="method-start">7143 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostResetMerchantThreshold</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostResetMerchantThreshold.ResetMerchantThresholdTest() throws java.io.IOExcept...)</span>
+                <span class="method-start">7144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ResetMerchantThresholdTest</span>
+                <span class="method-start">7147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostResetMerchantThreshold.ResetMerchantThresholdTest() throws java.io.IOExcept...)</span>
+                <span class="method-start">15478 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.GetShopperBuCityId</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.GetShopperBuCityId.GetShopperBuCityIdTest() throws java.io.IOException)</span>
+                <span class="method-start">15479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetShopperBuCityIdTest</span>
+                <span class="method-start">15487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.GetShopperBuCityId.GetShopperBuCityIdTest() throws java.io.IOException)</span>
+                <span class="method-start">15922 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.GetShopperByMerchantId</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest() throws java.io.IOException)</span>
+                <span class="method-start">15923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetShopperByMerchantIdTest</span>
+                <span class="method-start">15927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.GetShopperByMerchantId.GetShopperByMerchantIdTest() throws java.io.IOException)</span>
+                <span class="method-start">16221 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostUpdateMerchantThreshold</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOExce...)</span>
+                <span class="method-start">16223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateMerchantThresholdTest</span>
+                <span class="method-start">16231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostUpdateMerchantThreshold.UpdateMerchantThresholdTest() throws java.io.IOExce...)</span>
+                <span class="method-start">16546 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostUpdateMerchantType</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest() throws java.io.IOException)</span>
+                <span class="method-start">16548 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateMerchantTypeTest</span>
+                <span class="method-start">16554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostUpdateMerchantType.UpdateMerchantTypeTest() throws java.io.IOException)</span>
+                <span class="method-start">16896 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.PostAddMerchant</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Createonnection(public void apiTests.PostAddMerchant.AddMerchantTest() throws java.lang.Exception)</span>
+                <span class="method-start">16898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddMerchantTest</span>
+                <span class="method-start">16907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">terminateConnection(public void apiTests.PostAddMerchant.AddMerchantTest() throws java.lang.Exception)</span>
+                <span class="method-start">17279 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
